@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/uml2/2.2.0/GenModel"
+    copyrightText="Copyright (c) 2015 CEA LIST.&#xD;&#xA;&#xD;&#xA;All rights reserved. This program and the accompanying materials&#xD;&#xA;are made available under the terms of the Eclipse Public License v1.0&#xD;&#xA;which accompanies this distribution, and is available at&#xD;&#xA;http://www.eclipse.org/legal/epl-v10.html&#xD;&#xA;&#xD;&#xA;Contributors:&#xD;&#xA;    CEA LIST - Initial API and implementation"
+    modelDirectory="/org.eclipse.papyrus.training.library.profile/src-gen" editDirectory="/org.eclipse.papyrus.training.library.profile.edit/src-gen"
+    editorDirectory="/org.eclipse.papyrus.training.library.profile.editor/src-gen"
+    modelPluginID="org.eclipse.papyrus.training.library.profile" modelName="Extlibrary"
+    modelPluginClass="" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    testsDirectory="/org.eclipse.papyrus.training.library.profile.tests/src-gen" importerID="org.eclipse.uml2.uml.ecore.importer"
+    complianceLevel="6.0" copyrightFields="false" usedGenPackages="../../org.eclipse.emf.ecore/model/Ecore.genmodel#//ecore ../../org.eclipse.uml2.types/model/Types.genmodel#//types ../../org.eclipse.uml2.uml/model/UML.genmodel#//uml"
+    operationReflection="true" importOrganizing="true">
+  <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/importer/org.eclipse.uml2.uml.ecore.importer">
+    <details key="ECORE_TAGGED_VALUES" value="PROCESS"/>
+    <details key="UNION_PROPERTIES" value="REPORT"/>
+    <details key="UNTYPED_PROPERTIES" value="REPORT"/>
+    <details key="DUPLICATE_FEATURES" value="DISCARD"/>
+    <details key="SUBSETTING_PROPERTIES" value="REPORT"/>
+    <details key="VALIDATION_DELEGATES" value="IGNORE"/>
+    <details key="OPPOSITE_ROLE_NAMES" value="IGNORE"/>
+    <details key="COMMENTS" value="PROCESS"/>
+    <details key="DUPLICATE_FEATURE_INHERITANCE" value="DISCARD"/>
+    <details key="DUPLICATE_OPERATIONS" value="DISCARD"/>
+    <details key="PROPERTY_DEFAULT_EXPRESSIONS" value="IGNORE"/>
+    <details key="INVARIANT_CONSTRAINTS" value="PROCESS"/>
+    <details key="REDEFINING_PROPERTIES" value="REPORT"/>
+    <details key="ANNOTATION_DETAILS" value="PROCESS"/>
+    <details key="NON_API_INVARIANTS" value="IGNORE"/>
+    <details key="DUPLICATE_OPERATION_INHERITANCE" value="DISCARD"/>
+    <details key="REDEFINING_OPERATIONS" value="REPORT"/>
+    <details key="INVOCATION_DELEGATES" value="IGNORE"/>
+    <details key="DERIVED_FEATURES" value="PROCESS"/>
+    <details key="OPERATION_BODIES" value="IGNORE"/>
+    <details key="CAMEL_CASE_NAMES" value="IGNORE"/>
+    <details key="SUPER_CLASS_ORDER" value="PROCESS"/>
+  </genAnnotations>
+  <foreignModel>extlibrary.profile.uml</foreignModel>
+  <genPackages xsi:type="genmodel:GenPackage" prefix="ExtLibraryProfile" basePackage="org.eclipse.papyrus.training.library.profile"
+      disposableProviderFactory="true" ecorePackage="extlibraryprofile.ecore#/">
+    <genDataTypes xsi:type="genmodel:GenDataType" ecoreDataType="extlibraryprofile.ecore#//Date"/>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="extlibraryprofile.ecore#//Book">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute extlibraryprofile.ecore#//Book/pages"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute extlibraryprofile.ecore#//Book/category"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" image="false" ecoreClass="extlibraryprofile.ecore#//CirculatingItem"/>
+    <genClasses xsi:type="genmodel:GenClass" image="false" ecoreClass="extlibraryprofile.ecore#//Item">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute extlibraryprofile.ecore#//Item/title"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute extlibraryprofile.ecore#//Item/publicationDate"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference extlibraryprofile.ecore#//Item/base_Class"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" image="false" ecoreClass="extlibraryprofile.ecore#//Lendable">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute extlibraryprofile.ecore#//Lendable/copies"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="extlibraryprofile.ecore#//Library">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute extlibraryprofile.ecore#//Library/name"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference extlibraryprofile.ecore#//Library/base_Package"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" image="false" ecoreClass="extlibraryprofile.ecore#//Addressable">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute extlibraryprofile.ecore#//Addressable/address"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="extlibraryprofile.ecore#//Writer">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute extlibraryprofile.ecore#//Writer/name"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference extlibraryprofile.ecore#//Writer/bookOnTape"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" image="false" ecoreClass="extlibraryprofile.ecore#//Person">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute extlibraryprofile.ecore#//Person/firstName"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute extlibraryprofile.ecore#//Person/lastName"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference extlibraryprofile.ecore#//Person/videoCassete"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference extlibraryprofile.ecore#//Person/bookOnTape1"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference extlibraryprofile.ecore#//Person/base_Class"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="extlibraryprofile.ecore#//VideoCassete"/>
+    <genClasses xsi:type="genmodel:GenClass" image="false" ecoreClass="extlibraryprofile.ecore#//AudioVisualItem">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute extlibraryprofile.ecore#//AudioVisualItem/minutesLength"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute extlibraryprofile.ecore#//AudioVisualItem/damaged"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="extlibraryprofile.ecore#//BookOnTape"/>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="extlibraryprofile.ecore#//Periodical">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute extlibraryprofile.ecore#//Periodical/issuesPerYear"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="extlibraryprofile.ecore#//Borrower"/>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="extlibraryprofile.ecore#//Employee"/>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="extlibraryprofile.ecore#//Borrows">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference extlibraryprofile.ecore#//Borrows/base_Dependency"/>
+    </genClasses>
+    <nestedGenPackages xsi:type="genmodel:GenPackage" prefix="Library" basePackage="org.eclipse.papyrus.training.library.profile"
+        disposableProviderFactory="true" ecorePackage="extlibraryprofile.ecore#//library">
+      <genEnums xsi:type="genmodel:GenEnum" typeSafeEnumCompatible="false" ecoreEnum="extlibraryprofile.ecore#//library/BookCategory">
+        <genEnumLiterals xsi:type="genmodel:GenEnumLiteral" ecoreEnumLiteral="extlibraryprofile.ecore#//library/BookCategory/Mystery"/>
+        <genEnumLiterals xsi:type="genmodel:GenEnumLiteral" ecoreEnumLiteral="extlibraryprofile.ecore#//library/BookCategory/ScienceFiction"/>
+        <genEnumLiterals xsi:type="genmodel:GenEnumLiteral" ecoreEnumLiteral="extlibraryprofile.ecore#//library/BookCategory/Biography"/>
+      </genEnums>
+    </nestedGenPackages>
+  </genPackages>
+</genmodel:GenModel>

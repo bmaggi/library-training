@@ -1,0 +1,11 @@
+.scifi #layer1 *{
+	stroke: DarkGreen;
+}
+
+.mystery #layer1 *{
+	stroke: DimGray;
+}
+
+.bio #layer1 *{
+	stroke: DodgerBlue;
+}

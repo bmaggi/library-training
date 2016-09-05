@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.emf.common.ui.examples">
+      <example
+            id="org.eclipse.papyrus.training.library.samplemodel.librarymodel"
+            pageImage="icons/library.gif"
+            wizardID="org.eclipse.papyrus.training.library.samplemodel.librarymodelwizard">
+         <projectDescriptor
+               contentURI="sample/"
+               description="Project containing a model based on the library example"
+               name="LibraryExampleModel">
+         </projectDescriptor>
+         <fileToOpen
+               location="LibraryExampleModel/LibraryExampleModel.di">
+         </fileToOpen>
+      </example>
+   </extension>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <wizard
+            category="org.eclipse.ui.Examples/org.eclipse.papyrus.examples.toolsmith.wizard.category"
+            class="org.eclipse.emf.common.ui.wizard.ExampleInstallerWizard"
+            finalPerspective="org.eclipse.papyrus.infra.core.perspective"
+            icon="icons/library.gif"
+            id="org.eclipse.papyrus.training.library.samplemodel.librarymodelwizard"
+            name="Papyrus Library Example Model"
+            preferredPerspectives="org.eclipse.papyrus.infra.core.perspective"
+            project="true">
+         <description>
+            Create a new Project that contains an example of library model in Papyrus and open the model in Papyrus
+         </description>
+      </wizard>
+   </extension>
+
+</plugin>

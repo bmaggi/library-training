@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated extlibrary.profile -->
+      <package
+            uri="http://Papyrus/ExtLibraryProfile"
+            class="org.eclipse.papyrus.training.library.profile.extlibraryprofile.ExtLibraryProfilePackage"
+            genModel="model/extlibrary.profile.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated extlibrary.profile -->
+      <package
+            uri="http://Papyrus/ExtLibraryProfile/Library"
+            class="org.eclipse.papyrus.training.library.profile.library.LibraryPackage"
+            genModel="model/extlibrary.profile.genmodel"/>
+   </extension>
+
+  
+   <extension
+         point="org.eclipse.emf.ecore.uri_mapping">
+      <mapping
+            source="pathmap://EXTLIBRARY_PROFILE/"
+            target="platform:/plugin/org.eclipse.papyrus.training.library.profile/model/">
+      </mapping>
+      <mapping
+            source="pathmap://EXTLIBRARY_LIBRARY/"
+            target="platform:/plugin/org.eclipse.papyrus.training.library.profile/model/">
+      </mapping>
+   </extension>
+   <extension
+         point="org.eclipse.uml2.uml.generated_package">
+      <profile
+            location="pathmap://EXTLIBRARY_PROFILE/extlibrary.profile.uml#_LkNCUEomEeSz_ot9x6ZZgw"
+            uri="http://Papyrus/ExtLibraryProfile">
+      </profile>
+   </extension>
+   <extension
+         point="org.eclipse.uml2.uml.generated_package">
+      <profile
+            location="pathmap://EXTLIBRARY_LIBRARY/extlibrary.profile.uml#_L9uE0EpCEeSjMbiihTYzNw"
+            uri="http://Papyrus/ExtLibraryProfile/Library">
+      </profile>
+   </extension>
+
+
+ <extension
+         point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
+      <profile
+            description="LibraryProfile example"
+            iconpath="icons/library.gif"
+            name="LibraryProfile"
+            path="pathmap://EXTLIBRARY_PROFILE/extlibrary.profile.uml"
+            provider="CEA LIST">
+      </profile>
+   </extension>
+   <extension
+         point="org.eclipse.papyrus.uml.extensionpoints.UMLLibrary">
+      <library
+            description="Library for ExtLibrary example"
+            name="Library"
+            path="pathmap://EXTLIBRARY_LIBRARY/extlibrary.profile.uml"
+            provider="CEA LIST">
+      </library>
+   </extension>
+
+
+</plugin>

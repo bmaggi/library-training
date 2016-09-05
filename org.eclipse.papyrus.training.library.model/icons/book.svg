@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="349.36694"
+   height="323.90979"
+   id="svg3401"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="book.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0"
+   sodipodi:modified="true">
+  <defs
+     id="defs3403" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#ffffff"
+     borderopacity="0.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="0"
+     inkscape:zoom="0.35"
+     inkscape:cx="146.43525"
+     inkscape:cy="377.40148"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1920"
+     inkscape:window-height="1005"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     showgrid="false"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3406">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Book</dc:title>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Book</rdf:li>
+            <rdf:li>Perspective</rdf:li>
+            <rdf:li>LineArt</rdf:li>
+            <rdf:li>BW</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Michael Sloan</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:date>2007-04-16</dc:date>
+        <dc:language>EN</dc:language>
+        <dc:description>Simplistic book line art with no cover decoration.</dc:description>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(4.6834737,-656.44074)">
+    <g
+       id="g3209"
+       transform="matrix(0.878195,0,0,0.878195,-17.618266,141.42779)"
+       inkscape:export-filename="/media/KINGSTON/use4033.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         sodipodi:nodetypes="ccccccccc"
+         d="M 218.27014,591.66537 L 407.33223,647.35315 L 215.44781,908.51748 L 20.060178,769.61081 L 218.27014,591.66537 z M 19.949338,769.61812 L 20.042768,809.96335 L 218.05743,950.06021 L 407.31837,683.03234"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:10.44099903;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path3211" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4.17639923;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 29.478798,790.08043 L 216.45315,924.08559 L 401.89389,669.23355"
+         id="path3213"
+         sodipodi:nodetypes="ccc" />
+      <path
+         id="path3215"
+         d="M 29.478798,800.65031 L 216.45315,933.60081 L 401.89389,677.69402"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4.17639923;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="ccc" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0"
+       d="m 171.42857,-16.09021 200,60 L 360,92.481219 182.85714,341.05265 -14.285714,198.1955 l 0,-54.28571 z"
+       id="PapyrusPath"
+       inkscape:connector-curvature="0"
+       transform="translate(-4.6834737,656.44074)" />
+  </g>
+</svg>

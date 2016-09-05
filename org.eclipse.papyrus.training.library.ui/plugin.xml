@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<!--
+  Copyright (c) 2015 CEA LIST.
+ 
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License v1.0
+  which accompanies this distribution, and is available at
+  http://www.eclipse.org/legal/epl-v10.html
+ 
+  Contributors:
+  Benoit Maggi (CEA LIST) benoit.maggi@cea.fr - Initial API and implementation
+-->
+
+<plugin>
+ 
+ 	<!-- creation of a "library model" -->
+     <extension point="org.eclipse.papyrus.infra.ui.papyrusDiagram">
+	     <diagramCategory
+	            class="org.eclipse.papyrus.training.library.ui.TrainingLibraryModelCreationCommand"
+	            description="Training Library diagrams"
+	            icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/library.gif"
+	            id="TrainingLibrary"
+	            label="Training Library">
+	     </diagramCategory>
+    </extension>
+ 
+ 	<!-- add a "template" to the new model wizard -->
+    <extension
+         point="org.eclipse.papyrus.uml.diagram.wizards.templates">
+      <transformation
+            Transformation="org.eclipse.papyrus.training.library.ui.ImportLibraryExampleInModel"
+         	id="org.eclipse.papyrus.training.library.ui.templaterepository.ImportLibraryExampleInModel"
+            language="TrainingLibrary"
+            name="An example of Library Model">
+      </transformation>            
+  </extension>    
+ 
+ 
+ 	<!-- Register the viewpoint to the default papyrus viewpoint -->
+    <extension
+         point="org.eclipse.papyrus.infra.viewpoints.policy.custom">
+      <contribution
+            file="resources/library.configuration"
+            original="platform:/plugin/org.eclipse.papyrus.infra.viewpoints.policy/builtin/default.configuration">
+      </contribution>
+   </extension>
+ 
+    <extension point="org.eclipse.papyrus.infra.newchild">
+      <menuCreationModel model="resources/libraryNodes.creationmenumodel"></menuCreationModel>
+   </extension>    
+ 
+    <extension point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
+      <elementTypeSet
+            clientContextID="org.eclipse.papyrus.infra.services.edit.TypeContext"
+            path="resources/extlibrarydi.typesconfigurations">
+      </elementTypeSet>
+   </extension>
+ 
+ <!-- <extension point="org.eclipse.papyrus.emf.facet.util.emf.core.modeldeclaration">
+  	<modeldeclaration file="resources/custom/OperationalSysML.custom"/>
+</extension> 
+   
+   <extension
+        point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
+     <profile
+           description="UML profile for SysML (from OMG SysML V1.4)"
+           iconpath="resources/icons/SysMLProfile.gif"
+           name="SysML 1.4"
+           path="pathmap://SysML14_PROFILES/SysML.profile.uml"
+           provider="Eclipse Modeling Project">
+     </profile>
+  </extension>   
+   
+  <extension
+        point="org.eclipse.papyrus.uml.extensionpoints.UMLLibrary">
+     <library
+           description="SysML-Standard-Library (non stereotype part from OMG SysML V1.4 profile)"
+           iconpath="resources/icons/SysMLLibrary.gif"
+           name="SysML-Standard-Library"
+           path="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml"
+           provider="Eclipse Modeling Project">
+     </library>   
+  </extension> 
+
+  <extension
+        point="org.eclipse.papyrus.uml.extensionpoints.UMLLibrary">
+     <library
+           description="SysM QUDV Library (non stereotype part from OMG SysML V1.4 profile)"
+           iconpath="resources/icons/SysMLLibrary.gif"
+           name="SysML QUDV Library"
+           path="pathmap://SysML14_LIBRARIES/QUDV.uml"
+           provider="Eclipse Modeling Project">
+     </library>   
+  </extension> 
+     
+
+
+   
+
+   <extension point="org.eclipse.papyrus.infra.newchild">
+      <menuCreationModel model="resources/SysML14Edges.creationmenumodel"></menuCreationModel>
+   </extension>
+       
+   <extension point="org.eclipse.papyrus.infra.properties.contexts">
+      <context contextModel="resources/properties/SysML1.4.ctx"></context>
+   </extension>
+      
+   <extension point="org.eclipse.papyrus.infra.constraints.ConstraintEnvironment">
+      <environment environmentModel="resources/SysML1.4ConstraintEnvironment.xmi"></environment>
+   </extension>      
+-->
+</plugin>

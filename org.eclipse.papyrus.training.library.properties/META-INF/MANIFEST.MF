@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.papyrus.training.library.properties;singleton:=true
+Export-Package: org.eclipse.papyrus.training.library.properties
+Bundle-Version: 2.0.0.qualifier
+Bundle-Name: %Bundle-Name
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.papyrus.views.properties,
+ org.eclipse.papyrus.infra.constraints.edit,
+ org.eclipse.papyrus.infra.constraints.ui,
+ org.eclipse.papyrus.infra.properties.edit
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: org.eclipse.papyrus.training.library.properties.Activator
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: %Bundle-Vendor

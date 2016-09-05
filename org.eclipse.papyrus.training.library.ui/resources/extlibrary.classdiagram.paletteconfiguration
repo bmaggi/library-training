@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ASCII"?>
+<paletteconfiguration:PaletteConfiguration
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:paletteconfiguration="http://www.eclipse.org/papyrus/diagram/paletteconfiguration/0.7"
+    id="librarypalettemodel"
+    label="Library">
+  <drawerConfigurations
+      id="Library"
+      label="Library"
+      description="Library">
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="extlibrary.classdiagram.book"
+        label="Book"
+        description="Create a book">
+      <icon
+          pluginID="org.eclipse.papyrus.training.library.profile"
+          iconPath="icons/book.png"/>
+      <elementDescriptors
+          elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.Book_Class_MetaclassShape"/>
+      <elementDescriptors
+          elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.Book_Class_MetaclassShape_CN"/>
+      <elementDescriptors
+          elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.Book_Class_NestedClassifierLabel"/>
+      <elementDescriptors
+          elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.Book_Class_Shape"/>
+      <elementDescriptors
+          elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.Book_Class_Shape_CN"/>
+    </ownedConfigurations>
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:StackConfiguration"
+        id="extlibrary.classdiagram.stack.periodical"
+        label="periodical">
+      <ownedConfigurations
+          xsi:type="paletteconfiguration:ToolConfiguration"
+          id="extlibrary.classdiagram.periodical"
+          label="Periodical"
+          description="Create a Periodical">
+        <icon
+            pluginID="org.eclipse.papyrus.training.library.profile"
+            iconPath="icons/periodical.gif"/>
+        <elementDescriptors
+            elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.Periodical_Class_Shape"/>
+      </ownedConfigurations>
+      <ownedConfigurations
+          xsi:type="paletteconfiguration:ToolConfiguration"
+          id="extlibrary.classdiagram.monthlyperiodical"
+          label="Monthly Periodical"
+          description="Create a Monthly Periodical">
+        <icon
+            pluginID="org.eclipse.papyrus.training.library.profile"
+            iconPath="icons/periodical.gif"/>
+        <elementDescriptors
+            elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.PeriodicalMonthly_3010"/>
+      </ownedConfigurations>
+    </ownedConfigurations>
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="extlibrary.classdiagram.borrower"
+        label="Borrower"
+        description="Create a borrower">
+      <icon
+          pluginID="org.eclipse.papyrus.training.library.profile"
+          iconPath="icons/borrower.png"/>
+      <elementDescriptors
+          elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.Borrower_Class_Shape"/>
+    </ownedConfigurations>
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
+        id="extlibrary.classdiagram.borrows"
+        label="Borrows"
+        description="Create a borrow relationship"
+        kind="ConnectionTool">
+      <icon
+          pluginID="org.eclipse.papyrus.training.library.profile"
+          iconPath="icons/borrows.png"/>
+      <elementDescriptors
+          elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.Borrows_Dependency_Edge"/>
+    </ownedConfigurations>
+  </drawerConfigurations>
+  <requiredProfiles>extlibrary</requiredProfiles>
+</paletteconfiguration:PaletteConfiguration>

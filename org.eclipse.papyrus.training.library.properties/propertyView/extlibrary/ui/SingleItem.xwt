@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Composite
+	xmlns:ppe="clr-namespace:org.eclipse.papyrus.infra.properties.ui.widgets"
+	xmlns:x="http://www.eclipse.org/xwt"
+	xmlns:ppel="clr-namespace:org.eclipse.papyrus.infra.properties.ui.widgets.layout"
+	xmlns="http://www.eclipse.org/xwt/presentation" xmlns:j="clr-namespace:java.lang">
+	<Composite.layout>
+		<ppel:PropertiesLayout></ppel:PropertiesLayout>
+	</Composite.layout>
+	<Composite>
+		<Composite.layout>
+			<ppel:PropertiesLayout numColumns="1"></ppel:PropertiesLayout>
+		</Composite.layout>
+		<ppe:StringEditor input="{Binding}" property="extlibrary:Item:title"></ppe:StringEditor>
+		<ppe:StringEditor input="{Binding}"
+			property="extlibrary:Item:publicationDate"></ppe:StringEditor>
+	</Composite>
+</Composite>

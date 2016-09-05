@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ElementCreationMenuModel:Folder
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ElementCreationMenuModel="http://www.eclipse.org/papyrus/infra/newchild/elementcreationmenumodel"
+    xmi:id="_-5Z5sN90EeOzMY8AIRUeqQ"
+    label="Library Child"
+    icon="platform:/plugin/org.eclipse.papyrus.training.library.elementtypes/icons/library.gif">
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu"
+      label="Library"
+      icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/library.gif"
+      elementTypeIdRef="org.eclipse.papyrus.training.library.elementtypes.Library"/>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu"
+      xmi:id="_496okF3tEeSTX8qNvjL72Q"
+      label="Book"
+      icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/book.png"
+      elementTypeIdRef="org.eclipse.papyrus.training.library.elementtypes.Book"/>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu"
+      xmi:id="_jxZ_0F3zEeSTX8qNvjL72Q"
+      label="Periodical"
+      icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/periodical.gif"
+      elementTypeIdRef="org.eclipse.papyrus.training.library.elementtypes.Periodical"/>
+  <menu xsi:type="ElementCreationMenuModel:Folder"
+      xmi:id="_tPDmAF3zEeSTX8qNvjL72Q"
+      label="Periodical - Predefined">
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu"
+        xmi:id="_kK-9cF3zEeSTX8qNvjL72Q"
+        label="Periodical - Monthly "
+        icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/periodical.gif"
+        elementTypeIdRef="org.eclipse.papyrus.training.library.elementtypes.Periodical.monthly"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu"
+      label="Borrower"
+      icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/borrower.png"
+      elementTypeIdRef="org.eclipse.papyrus.training.library.elementtypes.Borrower"/>
+  <menu xsi:type="ElementCreationMenuModel:CreateRelationshipMenu"
+      label="Borrows"
+      icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/borrows.png"
+      elementTypeIdRef="org.eclipse.papyrus.uml.Dependency"/>
+</ElementCreationMenuModel:Folder>

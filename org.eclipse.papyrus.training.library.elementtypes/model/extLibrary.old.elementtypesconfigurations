@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ASCII" standalone="no"?><elementtypesconfigurations:ElementTypeSetConfiguration xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.1" xmlns:applystereotypeadvice="http://www.eclipse.org/papyrus/uml/types/applystereotypeadvice/1.1" xmlns:invariantcontainerrule="http://www.eclipse.org/papyrus/emf/types/invariantcontainerrule/1.1" xmlns:invariantstereotyperule="http://www.eclipse.org/papyrus/uml/types/invariantstereotyperule/1.1" xmlns:rulebased="http://www.eclipse.org/papyrus/infra/types/rulebased/1.1" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" description="Element Types for ExtLibrary profile" identifier="org.eclipse.papyrus.training.library.elementtypes.elementTypeSet" metamodelNsURI="http://www.eclipse.org/uml2/5.0.0/UML" name="extLibrary" xmi:id="_ubJcsKeUEeSUR5jX0TaAcA" xmi:version="2.0">
+  <elementTypeConfigurations identifier="org.eclipse.papyrus.training.library.elementtypes.Library" name="Library" xmi:id="_ubJctKeUEeSUR5jX0TaAcA" xsi:type="rulebased:RuleBasedTypeConfiguration">
+    <iconEntry bundleId="org.eclipse.papyrusrt.umlrt.tooling.ui" iconPath="/icons/capsule_part.png" xmi:id="_ubJctaeUEeSUR5jX0TaAcA"/>
+    <specializedTypesID>org.eclipse.papyrus.uml.Package</specializedTypesID>
+    <ruleConfiguration xmi:id="_AfRUIHCxEeWXnK1tKtvjWg" xsi:type="rulebased:AndInvariantRuleConfiguration">
+      <composedRules requiredProfile="extlibrary" stereotypeQualifiedName="extlibrary::Library" xmi:id="_ubJctqeUEeSUR5jX0TaAcA" xsi:type="invariantstereotyperule:InvariantStereotypeRuleConfiguration"/>
+      <composedRules xmi:id="_fsAKgH4mEeWs58UuSH9kyA" xsi:type="invariantcontainerrule:InvariantContainerRuleConfiguration">
+        <permissions containerType="org.eclipse.papyrus.uml.Package" permitted="true" xmi:id="_fsAKgn4mEeWs58UuSH9kyA"/>
+      </composedRules>
+    </ruleConfiguration>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations identifier="org.eclipse.papyrus.training.library.elementtypes.Book" name="Book" xmi:id="_PlJqoCjSEeWnbt9JeO78zA" xsi:type="rulebased:RuleBasedTypeConfiguration">
+    <iconEntry bundleId="org.eclipse.papyrus.training.library.profile" iconPath="/icons/book.png" xmi:id="_ZoA2sCjSEeWnbt9JeO78zA"/>
+    <specializedTypesID>org.eclipse.papyrus.uml.Class</specializedTypesID>
+    <ruleConfiguration xmi:id="_Nrf-gCncEeWft4RSJ1SvrQ" xsi:type="rulebased:AndInvariantRuleConfiguration">
+      <composedRules requiredProfile="extlibrary" stereotypeQualifiedName="extlibrary::Book" xmi:id="_TNaKwCjSEeWnbt9JeO78zA" xsi:type="invariantstereotyperule:InvariantStereotypeRuleConfiguration"/>
+      <composedRules xmi:id="_OzdsICncEeWft4RSJ1SvrQ" xsi:type="invariantcontainerrule:InvariantContainerRuleConfiguration">
+        <permissions containerType="org.eclipse.papyrus.uml.Classsifier" xmi:id="_PyBmICncEeWft4RSJ1SvrQ"/>
+        <permissions containerType="org.eclipse.papyrus.uml.Package" permitted="true" xmi:id="_zqkr4CneEeWft4RSJ1SvrQ"/>
+      </composedRules>
+    </ruleConfiguration>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations identifier="org.eclipse.papyrus.training.library.elementtypes.Periodical" name="Periodical" xmi:id="_cKpcQH4pEeWs58UuSH9kyA" xsi:type="rulebased:RuleBasedTypeConfiguration">
+    <iconEntry bundleId="org.eclipse.papyrus.training.library.profile" iconPath="/icons/periodical.gif" xmi:id="_cKpcQX4pEeWs58UuSH9kyA"/>
+    <specializedTypesID>org.eclipse.papyrus.uml.Class</specializedTypesID>
+    <ruleConfiguration xmi:id="_cKpcQn4pEeWs58UuSH9kyA" xsi:type="rulebased:AndInvariantRuleConfiguration">
+      <composedRules requiredProfile="extlibrary" stereotypeQualifiedName="extlibrary::Periodical" xmi:id="_cKpcQ34pEeWs58UuSH9kyA" xsi:type="invariantstereotyperule:InvariantStereotypeRuleConfiguration"/>
+      <composedRules xmi:id="_cKpcRH4pEeWs58UuSH9kyA" xsi:type="invariantcontainerrule:InvariantContainerRuleConfiguration">
+        <permissions containerType="org.eclipse.papyrus.uml.Classsifier" xmi:id="_cKpcRX4pEeWs58UuSH9kyA"/>
+        <permissions containerType="org.eclipse.papyrus.uml.Package" permitted="true" xmi:id="_cKpcRn4pEeWs58UuSH9kyA"/>
+      </composedRules>
+    </ruleConfiguration>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations identifier="org.eclipse.papyrus.training.library.elementtypes.Periodical.monthly" name="Periodical - monthly" xmi:id="_wS8nQH4pEeWs58UuSH9kyA" xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration">
+    <specializedTypesID>org.eclipse.papyrus.training.library.elementtypes.Periodical</specializedTypesID>
+    <editHelperAdviceConfiguration editHelperAdviceClassName="org.eclipse.papyrus.training.library.elementtypes.types.advice.MonthlyPeriodicalEditHelperAdvice" xmi:id="_UI3mEH5IEeWs58UuSH9kyA" xsi:type="elementtypesconfigurations:EditHelperAdviceConfiguration"/>
+    <matcherConfiguration matcherClassName="org.eclipse.papyrus.training.library.elementtypes.types.matcher.MonthlyPeriodicalMatcher" xmi:id="_1u2BsH5JEeWs58UuSH9kyA" xsi:type="elementtypesconfigurations:MatcherConfiguration"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations identifier="org.eclipse.papyrus.training.library.elementtypes.Borrower" name="Borrower" xmi:id="_esbZ4H6UEeWajpuFvbAImw" xsi:type="rulebased:RuleBasedTypeConfiguration">
+    <iconEntry bundleId="org.eclipse.papyrus.training.library.profile" iconPath="/icons/borrower.png" xmi:id="_esbZ4X6UEeWajpuFvbAImw"/>
+    <specializedTypesID>org.eclipse.papyrus.uml.Class</specializedTypesID>
+    <ruleConfiguration xmi:id="_esbZ4n6UEeWajpuFvbAImw" xsi:type="rulebased:AndInvariantRuleConfiguration">
+      <composedRules requiredProfile="extlibrary" stereotypeQualifiedName="extlibrary::Borrower" xmi:id="_esbZ436UEeWajpuFvbAImw" xsi:type="invariantstereotyperule:InvariantStereotypeRuleConfiguration"/>
+      <composedRules xmi:id="_esbZ5H6UEeWajpuFvbAImw" xsi:type="invariantcontainerrule:InvariantContainerRuleConfiguration">
+        <permissions containerType="org.eclipse.papyrus.uml.Classsifier" xmi:id="_esbZ5X6UEeWajpuFvbAImw"/>
+        <permissions containerType="org.eclipse.papyrus.uml.Package" permitted="true" xmi:id="_esbZ5n6UEeWajpuFvbAImw"/>
+      </composedRules>
+    </ruleConfiguration>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations identifier="org.eclipse.papyrus.training.library.elementtypes.Borrows" name="Borrows" xmi:id="_Gwl5kH6ZEeWajpuFvbAImw" xsi:type="rulebased:RuleBasedTypeConfiguration">
+    <iconEntry bundleId="org.eclipse.papyrus.training.library.profile" iconPath="/icons/borrows.png" xmi:id="_Gwl5kX6ZEeWajpuFvbAImw"/>
+    <specializedTypesID>org.eclipse.papyrus.uml.Dependency</specializedTypesID>
+    <ruleConfiguration requiredProfile="extlibrary" stereotypeQualifiedName="extlibrary::Borrows" xmi:id="_f6i5MH6cEeWajpuFvbAImw" xsi:type="invariantstereotyperule:InvariantStereotypeRuleConfiguration"/>
+  </elementTypeConfigurations>
+  <adviceBindingsConfigurations identifier="org.eclipse.papyrus.training.library.elementtypes.book.apply" inheritance="all" target="_PlJqoCjSEeWnbt9JeO78zA" xmi:id="_ubJcyaeUEeSUR5jX0TaAcA" xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration">
+    <stereotypesToApply stereotypeQualifiedName="extlibrary::Book" updateName="true" xmi:id="_ubJcyqeUEeSUR5jX0TaAcA">
+      <requiredProfiles>extlibrary</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations identifier="org.eclipse.papyrus.training.library.elementtypes.library.apply" inheritance="all" target="_ubJctKeUEeSUR5jX0TaAcA" xmi:id="_7xSMcH4hEeWs58UuSH9kyA" xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration">
+    <stereotypesToApply stereotypeQualifiedName="extlibrary::Library" updateName="true" xmi:id="_7xSMcX4hEeWs58UuSH9kyA">
+      <requiredProfiles>extlibrary</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations description="Advice to check Library elements can be created or moved to Library models" editHelperAdviceClassName="org.eclipse.papyrus.training.library.elementtypes.types.advice.LibraryElementOwnerAdvice" identifier="org.eclipse.papyrus.training.library.elementtypes.types.advice.LibraryElementOwnerAdvice" inheritance="all" xmi:id="_dEFC0H4iEeWs58UuSH9kyA" xsi:type="elementtypesconfigurations:AdviceBindingConfiguration">
+    <target href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#_ScgUUFYCEeS0WsAAtVmToA" xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration"/>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations identifier="org.eclipse.papyrus.training.library.elementtypes.peridiocal.apply" target="_cKpcQH4pEeWs58UuSH9kyA" xmi:id="_jvFeEH4pEeWs58UuSH9kyA" xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration">
+    <stereotypesToApply stereotypeQualifiedName="extlibrary::Periodical" updateName="true" xmi:id="_jvFeEX4pEeWs58UuSH9kyA">
+      <requiredProfiles>extlibrary</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations identifier="org.eclipse.papyrus.training.library.elementtypes.borrower.apply" target="_esbZ4H6UEeWajpuFvbAImw" xmi:id="_-ba7MH6UEeWajpuFvbAImw" xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration">
+    <stereotypesToApply stereotypeQualifiedName="extlibrary::Borrower" updateName="true" xmi:id="_-ba7MX6UEeWajpuFvbAImw">
+      <requiredProfiles>extlibrary</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations identifier="org.eclipse.papyrus.training.library.elementtypes.borrows.apply" target="_Gwl5kH6ZEeWajpuFvbAImw" xmi:id="_7sfdgH6ZEeWajpuFvbAImw" xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration">
+    <stereotypesToApply stereotypeQualifiedName="extlibrary::Borrows" updateName="true" xmi:id="_7sfdgX6ZEeWajpuFvbAImw">
+      <requiredProfiles>extlibrary</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+</elementtypesconfigurations:ElementTypeSetConfiguration>

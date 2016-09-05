@@ -1,0 +1,68 @@
+# Handle line endings automatically for files detected as text
+# and leave all files detected as binary untouched.
+* text=auto
+
+#
+# The above will handle all files NOT found below
+#
+# These files are text and should be normalized (Convert crlf => lf)
+*.classpath                      text
+*.configuration                  text
+*.creationmenumodel              text
+*.css                            text
+*.ctx                            text
+*.df                             text
+*.di                             text
+*.ecore                          text
+*.elementtypesconfigurations     text
+*.expansionmodel                 text
+*.fml                            text
+*.genmodel                       text
+*.htm                            text
+*.html                           text
+*.ini                            text
+*.java                           text
+*.js                             text
+*.json                           text
+*.jsp                            text
+*.jspf                           text
+*.LICENSE                        text
+*.md                             text
+*.mediawiki                      text
+*.MF                             text
+*.nattableconfiguration          text
+*.notation                       text
+*.paletteconfiguration           text
+*.prefs                          text
+*.product                        text
+*.project                        text
+*.properties                     text
+*.sh                             text
+*.suite                          text
+*.svg                            text
+*.test                           text
+*.tld                            text
+*.tsv                            text
+*.txt                            text
+*.uml                            text
+*.xmi                            text
+*.xml                            text
+*.xwt                            text
+
+# These files are binary and should be left untouched
+# (binary is a macro for -text -diff)
+*.bmp           binary
+*.class         binary
+*.dll           binary
+*.ear           binary
+*.gif           binary
+*.ico           binary
+*.jar           binary
+*.jpg           binary
+*.jpeg          binary
+*.pdf           binary
+*.png           binary
+*.so            binary
+*.svg           binary
+*.war           binary
+

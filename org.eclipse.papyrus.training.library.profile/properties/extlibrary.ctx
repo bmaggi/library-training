@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="ASCII"?>
+<contexts:Context xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:constraints="http://www.eclipse.org/papyrus/constraints/0.9" xmlns:contexts="http://www.eclipse.org/papyrus/properties/contexts/0.9" xmi:id="_hbdCUHNwEeaFE6lsucEcCg" name="extlibrary">
+  <dependencies href="ppe:/context/org.eclipse.papyrus.uml.properties/Model/UML/UML.ctx#_69QJkKDJEeSZxfCXzZz3-w"/>
+  <tabs xmi:id="_t_2XAHNwEeaFE6lsucEcCg" label="extlibrary" id="extlibrary" priority="100">
+    <sections xmi:id="_uAJ5AHNwEeaFE6lsucEcCg" name="Single Addressable" sectionFile="ui/SingleAddressable.xwt">
+      <widget href="ui/SingleAddressable.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uAJ5AXNwEeaFE6lsucEcCg" name="Multiple Addressable" sectionFile="ui/MultipleAddressable.xwt">
+      <widget href="ui/MultipleAddressable.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uAKgEHNwEeaFE6lsucEcCg" name="Single BookOnTape" sectionFile="ui/SingleBookOnTape.xwt">
+      <widget href="ui/SingleBookOnTape.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uALHIHNwEeaFE6lsucEcCg" name="Multiple BookOnTape" sectionFile="ui/MultipleBookOnTape.xwt">
+      <widget href="ui/MultipleBookOnTape.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uALHIXNwEeaFE6lsucEcCg" name="Single AudioVisualItem" sectionFile="ui/SingleAudioVisualItem.xwt">
+      <widget href="ui/SingleAudioVisualItem.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uALuMHNwEeaFE6lsucEcCg" name="Multiple AudioVisualItem" sectionFile="ui/MultipleAudioVisualItem.xwt">
+      <widget href="ui/MultipleAudioVisualItem.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uAMVQHNwEeaFE6lsucEcCg" name="Single CirculatingItem" sectionFile="ui/SingleCirculatingItem.xwt">
+      <widget href="ui/SingleCirculatingItem.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uAMVQXNwEeaFE6lsucEcCg" name="Multiple CirculatingItem" sectionFile="ui/MultipleCirculatingItem.xwt">
+      <widget href="ui/MultipleCirculatingItem.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uAM8UHNwEeaFE6lsucEcCg" name="Single Lendable" sectionFile="ui/SingleLendable.xwt">
+      <widget href="ui/SingleLendable.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uANjYHNwEeaFE6lsucEcCg" name="Multiple Lendable" sectionFile="ui/MultipleLendable.xwt">
+      <widget href="ui/MultipleLendable.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uANjYXNwEeaFE6lsucEcCg" name="Single Item" sectionFile="ui/SingleItem.xwt">
+      <widget href="ui/SingleItem.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uAOKcHNwEeaFE6lsucEcCg" name="Multiple Item" sectionFile="ui/MultipleItem.xwt">
+      <widget href="ui/MultipleItem.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uAOKcXNwEeaFE6lsucEcCg" name="Single Periodical" sectionFile="ui/SinglePeriodical.xwt">
+      <widget href="ui/SinglePeriodical.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uAOKcnNwEeaFE6lsucEcCg" name="Multiple Periodical" sectionFile="ui/MultiplePeriodical.xwt">
+      <widget href="ui/MultiplePeriodical.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uAOxgHNwEeaFE6lsucEcCg" name="Single Employee" sectionFile="ui/SingleEmployee.xwt">
+      <widget href="ui/SingleEmployee.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uAOxgXNwEeaFE6lsucEcCg" name="Multiple Employee" sectionFile="ui/MultipleEmployee.xwt">
+      <widget href="ui/MultipleEmployee.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uAPYkHNwEeaFE6lsucEcCg" name="Single Person" sectionFile="ui/SinglePerson.xwt">
+      <widget href="ui/SinglePerson.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uAP_oHNwEeaFE6lsucEcCg" name="Multiple Person" sectionFile="ui/MultiplePerson.xwt">
+      <widget href="ui/MultiplePerson.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uAP_oXNwEeaFE6lsucEcCg" name="Single Borrows" sectionFile="ui/SingleBorrows.xwt">
+      <widget href="ui/SingleBorrows.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uAP_onNwEeaFE6lsucEcCg" name="Multiple Borrows" sectionFile="ui/MultipleBorrows.xwt">
+      <widget href="ui/MultipleBorrows.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uAP_o3NwEeaFE6lsucEcCg" name="Single Book" sectionFile="ui/SingleBook.xwt">
+      <widget href="ui/SingleBook.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uAQmsHNwEeaFE6lsucEcCg" name="Multiple Book" sectionFile="ui/MultipleBook.xwt">
+      <widget href="ui/MultipleBook.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uAQmsXNwEeaFE6lsucEcCg" name="Single Writer" sectionFile="ui/SingleWriter.xwt">
+      <widget href="ui/SingleWriter.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uARNwHNwEeaFE6lsucEcCg" name="Multiple Writer" sectionFile="ui/MultipleWriter.xwt">
+      <widget href="ui/MultipleWriter.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uARNwXNwEeaFE6lsucEcCg" name="Single Library" sectionFile="ui/SingleLibrary.xwt">
+      <widget href="ui/SingleLibrary.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uAR00HNwEeaFE6lsucEcCg" name="Multiple Library" sectionFile="ui/MultipleLibrary.xwt">
+      <widget href="ui/MultipleLibrary.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uAR00XNwEeaFE6lsucEcCg" name="Single VideoCassete" sectionFile="ui/SingleVideoCassete.xwt">
+      <widget href="ui/SingleVideoCassete.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uASb4HNwEeaFE6lsucEcCg" name="Multiple VideoCassete" sectionFile="ui/MultipleVideoCassete.xwt">
+      <widget href="ui/MultipleVideoCassete.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uASb4XNwEeaFE6lsucEcCg" name="Single Borrower" sectionFile="ui/SingleBorrower.xwt">
+      <widget href="ui/SingleBorrower.xwt#/"/>
+    </sections>
+    <sections xmi:id="_uATC8HNwEeaFE6lsucEcCg" name="Multiple Borrower" sectionFile="ui/MultipleBorrower.xwt">
+      <widget href="ui/MultipleBorrower.xwt#/"/>
+    </sections>
+  </tabs>
+  <views xmi:id="_hbdCUXNwEeaFE6lsucEcCg" name="Single Addressable" sections="_uAJ5AHNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCrnNwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCUnNwEeaFE6lsucEcCg" name="isSingleAddressable">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCU3NwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::Addressable"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCVHNwEeaFE6lsucEcCg" elementMultiplicity="-1" name="Multiple Addressable" sections="_uAJ5AXNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCrnNwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCVXNwEeaFE6lsucEcCg" name="isMultipleAddressable">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCVnNwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::Addressable"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCV3NwEeaFE6lsucEcCg" name="Single BookOnTape" sections="_uAKgEHNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCsHNwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCWHNwEeaFE6lsucEcCg" name="isSingleBookOnTape">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCWXNwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::BookOnTape"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCWnNwEeaFE6lsucEcCg" elementMultiplicity="-1" name="Multiple BookOnTape" sections="_uALHIHNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCsHNwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCW3NwEeaFE6lsucEcCg" name="isMultipleBookOnTape">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCXHNwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::BookOnTape"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCXXNwEeaFE6lsucEcCg" name="Single AudioVisualItem" sections="_uALHIXNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCw3NwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCXnNwEeaFE6lsucEcCg" name="isSingleAudioVisualItem">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCX3NwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::AudioVisualItem"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCYHNwEeaFE6lsucEcCg" elementMultiplicity="-1" name="Multiple AudioVisualItem" sections="_uALuMHNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCw3NwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCYXNwEeaFE6lsucEcCg" name="isMultipleAudioVisualItem">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCYnNwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::AudioVisualItem"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCY3NwEeaFE6lsucEcCg" name="Single CirculatingItem" sections="_uAMVQHNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCy3NwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCZHNwEeaFE6lsucEcCg" name="isSingleCirculatingItem">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCZXNwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::CirculatingItem"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCZnNwEeaFE6lsucEcCg" elementMultiplicity="-1" name="Multiple CirculatingItem" sections="_uAMVQXNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCy3NwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCZ3NwEeaFE6lsucEcCg" name="isMultipleCirculatingItem">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCaHNwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::CirculatingItem"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCaXNwEeaFE6lsucEcCg" name="Single Lendable" sections="_uAM8UHNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCu3NwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCanNwEeaFE6lsucEcCg" name="isSingleLendable">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCa3NwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::Lendable"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCbHNwEeaFE6lsucEcCg" elementMultiplicity="-1" name="Multiple Lendable" sections="_uANjYHNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCu3NwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCbXNwEeaFE6lsucEcCg" name="isMultipleLendable">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCbnNwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::Lendable"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCb3NwEeaFE6lsucEcCg" name="Single Item" sections="_uANjYXNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCuHNwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCcHNwEeaFE6lsucEcCg" name="isSingleItem">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCcXNwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::Item"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCcnNwEeaFE6lsucEcCg" elementMultiplicity="-1" name="Multiple Item" sections="_uAOKcHNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCuHNwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCc3NwEeaFE6lsucEcCg" name="isMultipleItem">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCdHNwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::Item"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCdXNwEeaFE6lsucEcCg" name="Single Periodical" sections="_uAOKcXNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCvnNwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCdnNwEeaFE6lsucEcCg" name="isSinglePeriodical">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCd3NwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::Periodical"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCeHNwEeaFE6lsucEcCg" elementMultiplicity="-1" name="Multiple Periodical" sections="_uAOKcnNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCvnNwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCeXNwEeaFE6lsucEcCg" name="isMultiplePeriodical">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCenNwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::Periodical"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCe3NwEeaFE6lsucEcCg" name="Single Employee" sections="_uAOxgHNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCrHNwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCfHNwEeaFE6lsucEcCg" name="isSingleEmployee">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCfXNwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::Employee"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCfnNwEeaFE6lsucEcCg" elementMultiplicity="-1" name="Multiple Employee" sections="_uAOxgXNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCrHNwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCf3NwEeaFE6lsucEcCg" name="isMultipleEmployee">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCgHNwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::Employee"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCgXNwEeaFE6lsucEcCg" name="Single Person" sections="_uAPYkHNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCs3NwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCgnNwEeaFE6lsucEcCg" name="isSinglePerson">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCg3NwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::Person"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdChHNwEeaFE6lsucEcCg" elementMultiplicity="-1" name="Multiple Person" sections="_uAP_oHNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCs3NwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdChXNwEeaFE6lsucEcCg" name="isMultiplePerson">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdChnNwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::Person"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCh3NwEeaFE6lsucEcCg" name="Single Borrows" sections="_uAP_oXNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCsXNwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCiHNwEeaFE6lsucEcCg" name="isSingleBorrows">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCiXNwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::Borrows"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCinNwEeaFE6lsucEcCg" elementMultiplicity="-1" name="Multiple Borrows" sections="_uAP_onNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCsXNwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCi3NwEeaFE6lsucEcCg" name="isMultipleBorrows">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCjHNwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::Borrows"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCjXNwEeaFE6lsucEcCg" name="Single Book" sections="_uAP_o3NwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCwHNwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCjnNwEeaFE6lsucEcCg" name="isSingleBook">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCj3NwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::Book"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCkHNwEeaFE6lsucEcCg" elementMultiplicity="-1" name="Multiple Book" sections="_uAQmsHNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCwHNwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCkXNwEeaFE6lsucEcCg" name="isMultipleBook">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCknNwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::Book"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCk3NwEeaFE6lsucEcCg" name="Single Writer" sections="_uAQmsXNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCyHNwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdClHNwEeaFE6lsucEcCg" name="isSingleWriter">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdClXNwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::Writer"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdClnNwEeaFE6lsucEcCg" elementMultiplicity="-1" name="Multiple Writer" sections="_uARNwHNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCyHNwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCl3NwEeaFE6lsucEcCg" name="isMultipleWriter">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCmHNwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::Writer"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCmXNwEeaFE6lsucEcCg" name="Single Library" sections="_uARNwXNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCxnNwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCmnNwEeaFE6lsucEcCg" name="isSingleLibrary">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCm3NwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::Library"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCnHNwEeaFE6lsucEcCg" elementMultiplicity="-1" name="Multiple Library" sections="_uAR00HNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCxnNwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCnXNwEeaFE6lsucEcCg" name="isMultipleLibrary">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCnnNwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::Library"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCn3NwEeaFE6lsucEcCg" name="Single VideoCassete" sections="_uAR00XNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCrXNwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCoHNwEeaFE6lsucEcCg" name="isSingleVideoCassete">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCoXNwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::VideoCassete"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdConNwEeaFE6lsucEcCg" elementMultiplicity="-1" name="Multiple VideoCassete" sections="_uASb4HNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCrXNwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCo3NwEeaFE6lsucEcCg" name="isMultipleVideoCassete">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCpHNwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::VideoCassete"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCpXNwEeaFE6lsucEcCg" name="Single Borrower" sections="_uASb4XNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCsnNwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCpnNwEeaFE6lsucEcCg" name="isSingleBorrower">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCp3NwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::Borrower"/>
+    </constraints>
+  </views>
+  <views xmi:id="_hbdCqHNwEeaFE6lsucEcCg" elementMultiplicity="-1" name="Multiple Borrower" sections="_uATC8HNwEeaFE6lsucEcCg" automaticContext="true" datacontexts="_hbdCsnNwEeaFE6lsucEcCg">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_hbdCqXNwEeaFE6lsucEcCg" name="isMultipleBorrower">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.1"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_hbdCqnNwEeaFE6lsucEcCg" name="stereotypeName" value="extlibrary::Borrower"/>
+    </constraints>
+  </views>
+  <dataContexts xmi:id="_hbdCq3NwEeaFE6lsucEcCg" name="extlibrary">
+    <elements xmi:id="_hbdCrHNwEeaFE6lsucEcCg" name="Employee" supertypes="_hbdCs3NwEeaFE6lsucEcCg"/>
+    <elements xmi:id="_hbdCrXNwEeaFE6lsucEcCg" name="VideoCassete" supertypes="_hbdCw3NwEeaFE6lsucEcCg"/>
+    <elements xmi:id="_hbdCrnNwEeaFE6lsucEcCg" name="Addressable">
+      <properties xmi:id="_hbdCr3NwEeaFE6lsucEcCg" name="address"/>
+    </elements>
+    <elements xmi:id="_hbdCsHNwEeaFE6lsucEcCg" name="BookOnTape" supertypes="_hbdCw3NwEeaFE6lsucEcCg"/>
+    <elements xmi:id="_hbdCsXNwEeaFE6lsucEcCg" name="Borrows">
+      <supertypes href="ppe:/context/org.eclipse.papyrus.uml.properties/Model/UML/UML.ctx#_690xmqDJEeSZxfCXzZz3-w"/>
+    </elements>
+    <elements xmi:id="_hbdCsnNwEeaFE6lsucEcCg" name="Borrower" supertypes="_hbdCs3NwEeaFE6lsucEcCg"/>
+    <elements xmi:id="_hbdCs3NwEeaFE6lsucEcCg" name="Person">
+      <properties xmi:id="_hbdCtHNwEeaFE6lsucEcCg" name="firstName"/>
+      <properties xmi:id="_hbdCtXNwEeaFE6lsucEcCg" name="lastName"/>
+      <properties xmi:id="_hbdCtnNwEeaFE6lsucEcCg" name="videoCassete" type="Reference" multiplicity="-1"/>
+      <properties xmi:id="_hbdCt3NwEeaFE6lsucEcCg" name="bookOnTape1" type="Reference"/>
+      <supertypes href="#_hbdCrnNwEeaFE6lsucEcCg"/>
+      <supertypes href="ppe:/context/org.eclipse.papyrus.uml.properties/Model/UML/UML.ctx#_690yXqDJEeSZxfCXzZz3-w"/>
+    </elements>
+    <elements xmi:id="_hbdCuHNwEeaFE6lsucEcCg" name="Item">
+      <properties xmi:id="_hbdCuXNwEeaFE6lsucEcCg" name="title"/>
+      <properties xmi:id="_hbdCunNwEeaFE6lsucEcCg" name="publicationDate"/>
+      <supertypes href="ppe:/context/org.eclipse.papyrus.uml.properties/Model/UML/UML.ctx#_690yXqDJEeSZxfCXzZz3-w"/>
+    </elements>
+    <elements xmi:id="_hbdCu3NwEeaFE6lsucEcCg" name="Lendable">
+      <properties xmi:id="_hbdCvHNwEeaFE6lsucEcCg" name="copies" type="Integer"/>
+    </elements>
+    <elements xsi:type="contexts:DataContextPackage" xmi:id="_hbdCvXNwEeaFE6lsucEcCg" name="Library"/>
+    <elements xmi:id="_hbdCvnNwEeaFE6lsucEcCg" name="Periodical" supertypes="_hbdCuHNwEeaFE6lsucEcCg">
+      <properties xmi:id="_hbdCv3NwEeaFE6lsucEcCg" name="issuesPerYear" type="Integer"/>
+    </elements>
+    <elements xmi:id="_hbdCwHNwEeaFE6lsucEcCg" name="Book" supertypes="_hbdCy3NwEeaFE6lsucEcCg">
+      <properties xmi:id="_hbdCwXNwEeaFE6lsucEcCg" name="pages" type="Integer"/>
+      <properties xmi:id="_hbdCwnNwEeaFE6lsucEcCg" name="category" type="Enumeration"/>
+    </elements>
+    <elements xmi:id="_hbdCw3NwEeaFE6lsucEcCg" name="AudioVisualItem" supertypes="_hbdCy3NwEeaFE6lsucEcCg">
+      <properties xmi:id="_hbdCxHNwEeaFE6lsucEcCg" name="minutesLength" type="Integer"/>
+      <properties xmi:id="_hbdCxXNwEeaFE6lsucEcCg" name="damaged" type="Boolean"/>
+    </elements>
+    <elements xmi:id="_hbdCxnNwEeaFE6lsucEcCg" name="Library">
+      <properties xmi:id="_hbdCx3NwEeaFE6lsucEcCg" name="name"/>
+      <supertypes href="ppe:/context/org.eclipse.papyrus.uml.properties/Model/UML/UML.ctx#_690xiaDJEeSZxfCXzZz3-w"/>
+      <supertypes href="#_hbdCrnNwEeaFE6lsucEcCg"/>
+    </elements>
+    <elements xmi:id="_hbdCyHNwEeaFE6lsucEcCg" name="Writer" supertypes="_hbdCs3NwEeaFE6lsucEcCg">
+      <properties xmi:id="_hbdCyXNwEeaFE6lsucEcCg" name="name"/>
+      <properties xmi:id="_hbdCynNwEeaFE6lsucEcCg" name="bookOnTape" type="Reference"/>
+    </elements>
+    <elements xmi:id="_hbdCy3NwEeaFE6lsucEcCg" name="CirculatingItem" supertypes="_hbdCu3NwEeaFE6lsucEcCg _hbdCuHNwEeaFE6lsucEcCg"/>
+    <modelElementFactory href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@modelElementFactories.2"/>
+  </dataContexts>
+</contexts:Context>

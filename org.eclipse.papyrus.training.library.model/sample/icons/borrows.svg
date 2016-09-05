@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.0" width="400" height="400" id="svgServizio" sodipodi:version="0.32" inkscape:version="0.44.1" sodipodi:docname="Feature ticket office.svg" sodipodi:docbase="E:\Profili\Raf\Documenti\Immagini\Wikipedia\Ferrovie">
+  <metadata id="metadataServizio">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+        <dc:title>Simbolo di biglietteria</dc:title>
+        <dc:date>2006-11-15</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Raffaello Di Napoli</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Raffaello Di Napoli</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Raffaello Di Napoli</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:language>it-IT</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>biglietteria</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>Indicazione di biglietteria</dc:description>
+      </cc:Work>
+      <cc:License rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+        <cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+        <cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview inkscape:window-height="977" inkscape:window-width="1280" inkscape:pageshadow="2" inkscape:pageopacity="0.0" guidetolerance="10.0" gridtolerance="10.0" objecttolerance="10.0" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" id="base" inkscape:zoom="1" inkscape:cx="234.81932" inkscape:cy="194.12122" inkscape:window-x="-4" inkscape:window-y="-4" inkscape:current-layer="svgServizio" width="400px" height="400px" inkscape:object-points="false"/>
+  <defs id="defsServizio"/>
+  <rect style="fill:white;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:12.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="rectBordo" width="387.5" height="387.5" x="6.3" y="6.3" rx="50" ry="50"/>
+  <use x="65" y="-45" xlink:href="#gBiglietto" id="useBiglietto2" transform="matrix(0.97,0.23,-0.23,0.97,0,0)" height="1" width="1"/>
+  <g id="gBiglietto">
+    <rect style="fill:white;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:9;stroke-miterlimit:4;stroke-opacity:1" id="rectBiglietto" width="120" height="163" x="55" y="60" rx="17.5" ry="17.5"/>
+    <rect y="80" x="85" height="50" width="60" id="rectBigliettoDettaglio1" style="fill:black;fill-opacity:1"/>
+    <rect style="fill:black;fill-opacity:1" id="rectBigliettoDettaglio2" width="60" height="25" x="85" y="180"/>
+  </g>
+  <use x="-350" y="140" xlink:href="#gMonetaEuro" id="useMonetaEuro2" transform="matrix(0.707107,-0.707107,0.707107,0.707107,0,0)" height="1" width="1"/>
+  <g id="gMonetaEuro">
+    <path sodipodi:nodetypes="cssss" id="pathMoneta" style="fill:white;fill-opacity:1;fill-rule:nonzero;stroke:black;stroke-width:9;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" d="M 365 240 A 60 60 0 1 1  245,240 A 60 60 0 1 1  365 240 z" sodipodi:type="arc" sodipodi:rx="60" sodipodi:ry="60" sodipodi:cx="305" sodipodi:cy="240"/>
+    <text xml:space="preserve" id="textEuro" style="font-size:100px;font-weight:normal;fill:black;fill-opacity:1;stroke:none;font-family:Arial" y="275" x="270">€</text>
+  </g>
+</svg>

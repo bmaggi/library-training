@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+  <!-- <extension
+         point="org.eclipse.papyrus.infra.newchild">
+      <menuCreationModel
+            model="model/extLibrary.creationmenumodel">
+      </menuCreationModel>
+   </extension>-->
+   
+   <extension point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
+      <elementTypeSet
+            clientContextID="org.eclipse.papyrus.infra.services.edit.TypeContext"
+            path="model/extLibrary.elementtypesconfigurations">
+      </elementTypeSet>
+   </extension>
+</plugin>

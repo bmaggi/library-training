@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="extlibraryprofile" nsURI="http://Papyrus/ExtLibraryProfile"
+    nsPrefix="ExtLibraryProfile">
+  <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <details key="originalName" value="extlibrary"/>
+  </eAnnotations>
+  <eClassifiers xsi:type="ecore:EClass" name="Book" eSuperTypes="#//CirculatingItem">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="pages" ordered="false"
+        lowerBound="1" eType="ecore:EDataType ../../org.eclipse.uml2.types/model/Types.ecore#//Integer"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="category" ordered="false"
+        lowerBound="1" eType="#//library/BookCategory"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CirculatingItem" abstract="true" eSuperTypes="#//Item #//Lendable"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Item" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="title" ordered="false"
+        lowerBound="1" eType="ecore:EDataType ../../org.eclipse.uml2.types/model/Types.ecore#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="publicationDate" ordered="false"
+        eType="ecore:EDataType ../../org.eclipse.uml2.types/model/Types.ecore#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="base_Class" ordered="false"
+        lowerBound="1" eType="ecore:EClass ../../org.eclipse.uml2.uml/model/UML.ecore#//Class"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Lendable" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="copies" ordered="false"
+        lowerBound="1" eType="ecore:EDataType ../../org.eclipse.uml2.types/model/Types.ecore#//Integer"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Library" eSuperTypes="#//Addressable">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false" lowerBound="1"
+        eType="ecore:EDataType ../../org.eclipse.uml2.types/model/Types.ecore#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="base_Package" ordered="false"
+        lowerBound="1" eType="ecore:EClass ../../org.eclipse.uml2.uml/model/UML.ecore#//Package"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Addressable" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="address" ordered="false"
+        lowerBound="1" eType="ecore:EDataType ../../org.eclipse.uml2.types/model/Types.ecore#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Writer" eSuperTypes="#//Person">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false" eType="ecore:EDataType ../../org.eclipse.uml2.types/model/Types.ecore#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bookOnTape" ordered="false"
+        lowerBound="1" eType="#//BookOnTape"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Person" abstract="true" eSuperTypes="#//Addressable">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="firstName" ordered="false"
+        lowerBound="1" eType="ecore:EDataType ../../org.eclipse.uml2.types/model/Types.ecore#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastName" ordered="false"
+        lowerBound="1" eType="ecore:EDataType ../../org.eclipse.uml2.types/model/Types.ecore#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="videoCassete" ordered="false"
+        upperBound="-1" eType="#//VideoCassete"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bookOnTape1" ordered="false"
+        lowerBound="1" eType="#//BookOnTape"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="base_Class" ordered="false"
+        lowerBound="1" eType="ecore:EClass ../../org.eclipse.uml2.uml/model/UML.ecore#//Class"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="VideoCassete" eSuperTypes="#//AudioVisualItem"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AudioVisualItem" abstract="true" eSuperTypes="#//CirculatingItem">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="minutesLength" ordered="false"
+        lowerBound="1" eType="ecore:EDataType ../../org.eclipse.uml2.types/model/Types.ecore#//Integer"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="damaged" ordered="false"
+        lowerBound="1" eType="ecore:EDataType ../../org.eclipse.uml2.types/model/Types.ecore#//Boolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BookOnTape" eSuperTypes="#//AudioVisualItem"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Periodical" eSuperTypes="#//Item">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="issuesPerYear" ordered="false"
+        lowerBound="1" eType="ecore:EDataType ../../org.eclipse.uml2.types/model/Types.ecore#//Integer"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="Date" instanceClassName="java.util.Date"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Borrower" eSuperTypes="#//Person"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Employee" eSuperTypes="#//Person"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Borrows">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="base_Dependency" ordered="false"
+        lowerBound="1" eType="ecore:EClass ../../org.eclipse.uml2.uml/model/UML.ecore#//Dependency"/>
+  </eClassifiers>
+  <eSubpackages name="library" nsURI="http://Papyrus/ExtLibraryProfile/Library" nsPrefix="Library">
+    <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details key="originalName" value="Library"/>
+    </eAnnotations>
+    <eClassifiers xsi:type="ecore:EEnum" name="BookCategory">
+      <eLiterals name="Mystery"/>
+      <eLiterals name="ScienceFiction" value="1"/>
+      <eLiterals name="Biography" value="2"/>
+    </eClassifiers>
+  </eSubpackages>
+</ecore:EPackage>
