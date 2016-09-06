@@ -13,6 +13,7 @@ package org.eclipse.papyrus.training.library.tests.elementtypes;
 
 
 import org.eclipse.papyrus.training.library.tests.AbstractEMFResourceTest;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -33,7 +34,7 @@ public class ElementTypesTest extends AbstractEMFResourceTest {
 	}
 
 	@Test
-	//@Ignore //Failing
+	@Ignore //Failing due to Instance Specification not having an owner
 	public void validateResource() {
 		doValidateResource();
 	}

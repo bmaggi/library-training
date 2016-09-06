@@ -15,7 +15,8 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.papyrus.uml.tools.utils,
  org.eclipse.papyrus.infra.types,
  org.eclipse.papyrus.infra.types.core,
- org.eclipse.papyrus.uml.service.types
+ org.eclipse.papyrus.uml.service.types,
+ org.eclipse.uml2.uml.resources;bundle-version="5.2.0"
 Bundle-ManifestVersion: 2
 Bundle-Activator: org.eclipse.papyrus.training.library.newchild.Activator
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
