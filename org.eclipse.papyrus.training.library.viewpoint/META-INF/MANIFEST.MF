@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %Bundle-Name
-Bundle-SymbolicName: org.eclipse.papyrus.training.library.ui;singleton:=true
+Bundle-SymbolicName: org.eclipse.papyrus.training.library.viewpoint;singleton:=true
 Bundle-Version: 2.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-Localization: plugin
@@ -9,6 +9,6 @@ Require-Bundle: org.eclipse.papyrus.uml.diagram.common,
  org.eclipse.papyrus.training.library.profile,
  org.eclipse.papyrus.uml.tools,
  org.eclipse.papyrus.uml.diagram.wizards;bundle-version="2.0.0",
- org.eclipse.papyrus.training.library.elementtypes;bundle-version="2.0.0",
- org.eclipse.papyrus.training.library.model;bundle-version="2.0.0",
+ org.eclipse.papyrus.training.library.newchild;bundle-version="2.0.0",
+ org.eclipse.papyrus.training.library.css;bundle-version="2.0.0",
  org.eclipse.papyrus.training.library.properties;bundle-version="2.0.0"

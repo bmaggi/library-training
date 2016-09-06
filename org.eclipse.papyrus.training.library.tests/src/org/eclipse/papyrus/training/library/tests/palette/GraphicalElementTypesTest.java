@@ -21,7 +21,7 @@ import org.junit.Test;
  */
 public class GraphicalElementTypesTest extends AbstractEMFResourceTest {
 
-	public static final String PATH = "org.eclipse.papyrus.training.library.ui/resources/extlibrarydi.typesconfigurations"; // $NON-NLS-0$
+	public static final String PATH = "org.eclipse.papyrus.training.library.viewpoint/resources/extlibrarydi.typesconfigurations"; // $NON-NLS-0$
 
 	/**
 	 * {@inheritDoc}

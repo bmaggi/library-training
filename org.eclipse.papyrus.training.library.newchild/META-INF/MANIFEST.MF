@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bundle-SymbolicName: org.eclipse.papyrus.training.library.elementtypes;singleton:=true
+Bundle-SymbolicName: org.eclipse.papyrus.training.library.newchild;singleton:=true
 Export-Package: org.eclipse.papyrus.training.library.elementtypes,
  org.eclipse.papyrus.training.library.elementtypes.types.advice,
  org.eclipse.papyrus.training.library.elementtypes.types.matcher

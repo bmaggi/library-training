@@ -23,8 +23,10 @@ http://www.eclipse.org/legal/epl-v10.html
       %license
    </license>
    <plugin id="org.eclipse.papyrus.training.library.profile" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
-   <plugin id="org.eclipse.papyrus.training.library.elementtypes" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
+   <plugin id="org.eclipse.papyrus.training.library.newchild" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
+   <plugin id="org.eclipse.papyrus.training.library.palette" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
    <plugin id="org.eclipse.papyrus.training.library.properties" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
-   <plugin id="org.eclipse.papyrus.training.library.model" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
-   <plugin id="org.eclipse.papyrus.training.library.ui" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
+   <plugin id="org.eclipse.papyrus.training.library.css" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
+   <plugin id="org.eclipse.papyrus.training.library.viewpoint" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
+   <plugin id="org.eclipse.papyrus.training.library.wizard" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
 </feature>

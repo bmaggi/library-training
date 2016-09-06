@@ -21,7 +21,7 @@ import org.junit.Test;
  */
 public class PaletteTest extends AbstractEMFResourceTest {
 
-	public static final String PALETTE_PATH = "org.eclipse.papyrus.training.library.ui/resources/extlibrary.classdiagram.paletteconfiguration"; // $NON-NLS-0$
+	public static final String PALETTE_PATH = "org.eclipse.papyrus.training.library.viewpoint/resources/extlibrary.classdiagram.paletteconfiguration"; // $NON-NLS-0$
 
 	/**
 	 * {@inheritDoc}
