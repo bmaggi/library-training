@@ -17,7 +17,7 @@
  	<!-- creation of a "library model" -->
      <extension point="org.eclipse.papyrus.infra.ui.papyrusDiagram">
 	     <diagramCategory
-	            class="org.eclipse.papyrus.training.library.ui.TrainingLibraryModelCreationCommand"
+	            class="org.eclipse.papyrus.training.library.viewpoint.TrainingLibraryModelCreationCommand"
 	            description="Training Library diagrams"
 	            icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/library.gif"
 	            id="TrainingLibrary"

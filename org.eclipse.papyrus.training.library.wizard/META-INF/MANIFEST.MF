@@ -9,3 +9,4 @@ Require-Bundle: org.eclipse.papyrus.uml.diagram.wizards,
  org.eclipse.papyrus.uml.tools
 Export-Package: org.eclipse.papyrus.training.library.wizard
 Bundle-Vendor: %Bundle-Vendor
+Bundle-Localization: plugin

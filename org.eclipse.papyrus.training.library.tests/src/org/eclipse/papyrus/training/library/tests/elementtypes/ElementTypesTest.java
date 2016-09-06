@@ -22,7 +22,7 @@ import org.junit.Test;
 @SuppressWarnings("nls")
 public class ElementTypesTest extends AbstractEMFResourceTest {
 
-	public static final String PATH = org.eclipse.papyrus.training.library.newchild.Activator.PLUGIN_ID + "/reources/extLibrary.elementtypesconfigurations";
+	public static final String PATH = org.eclipse.papyrus.training.library.newchild.Activator.PLUGIN_ID + "/resources/extLibrary.elementtypesconfigurations";
 
 	/**
 	 * {@inheritDoc}
