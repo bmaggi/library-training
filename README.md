@@ -5,6 +5,10 @@ org.eclipse.papyrus.training.library
 
 License [![License](https://img.shields.io/badge/license-EPL-blue.svg)](https://www.eclipse.org/legal/epl-v10.html)
 
+Codeship [ ![Codeship Status for bmaggi/library-training](https://codeship.com/projects/93c25b50-55af-0134-4ca0-1e6b697efd61/status?branch=master)](https://codeship.com/projects/172132)
+
+:warning: Built against Eclipse Neon
+
 This is a Papyrus DSML example based on eclipse [Neon.1]
 
 
