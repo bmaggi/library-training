@@ -30,7 +30,7 @@ import org.eclipse.uml2.uml.PackageImport;
  */
 public class ImportLibraryTemplateInModel implements IGenerator {
 
-	public static final String EXAMPLE_PATH = "platform:/plugin/org.eclipse.papyrus.training.library.model/sample/LibraryExampleModel.uml"; //$NON-NLS-1$	
+	public static final String EXAMPLE_PATH = "platform:/plugin/org.eclipse.papyrus.training.library.wizard/resources/LibraryTemplateModel.uml"; //$NON-NLS-1$	
 	
 	public static final String EXAMPLE_ROOT_ID = "_RCL_gFOeEeSxY9vSiiRRZQ";//$NON-NLS-1$
 	

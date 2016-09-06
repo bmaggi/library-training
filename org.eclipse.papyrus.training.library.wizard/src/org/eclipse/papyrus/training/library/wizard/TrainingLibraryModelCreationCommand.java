@@ -9,7 +9,7 @@
  * Contributors:
  *  Benoit Maggi (CEA LIST) benoit.maggi@cea.fr - Initial API and implementation
  *****************************************************************************/
-package org.eclipse.papyrus.training.library.viewpoint;
+package org.eclipse.papyrus.training.library.wizard;
 
 import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.ecore.EObject;

@@ -6,7 +6,9 @@ Bundle-Version: 2.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Require-Bundle: org.eclipse.papyrus.uml.diagram.wizards,
  org.eclipse.papyrus.infra.core,
- org.eclipse.papyrus.uml.tools
+ org.eclipse.papyrus.uml.tools,
+ org.eclipse.papyrus.uml.diagram.common,
+ org.eclipse.papyrus.training.library.profile
 Export-Package: org.eclipse.papyrus.training.library.wizard
 Bundle-Vendor: %Bundle-Vendor
 Bundle-Localization: plugin
