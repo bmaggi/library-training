@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ExtLibraryProfile="http://Papyrus/ExtLibraryProfile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_RCL_gFOeEeSxY9vSiiRRZQ" name="LibraryModel">
+    <packagedElement xmi:type="uml:Package" xmi:id="_dSI-IGwcEeSNesmHU6-x5A" name="Library1">
+      <packagedElement xmi:type="uml:Class" xmi:id="_1uPgoGwcEeSNesmHU6-x5A" name="Book3"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_2LtfwGwcEeSNesmHU6-x5A" name="Book4"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_5kDUkGwcEeSNesmHU6-x5A" name="Book5"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_4lzuMGwdEeSNesmHU6-x5A" name="Book8"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_n6bIYH5xEeW-c4iQ6kAcnw" name="Book9"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3Qxy4H5nEeWErv70DIP1Ig" name="Book12"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Zj3E8H6REeWN-OFz7P6NVg" name="Book13"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_PlhkoH5yEeWiWtjwB5Tz5w" name="Library2">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Q2AVEH5yEeWiWtjwB5Tz5w" name="Periodical1"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_i1LQYH5yEeWiWtjwB5Tz5w" name="Book1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_6rH8kH6YEeWJGqu9_-m3uw" name="Borrower1"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7gFOoH6YEeWJGqu9_-m3uw" name="Borrower2"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_YHVi8H6ZEeWJGqu9_-m3uw" client="_6rH8kH6YEeWJGqu9_-m3uw" supplier="_3Qxy4H5nEeWErv70DIP1Ig"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_VUSsMH6cEeWKQdQ1P1wyJg" client="_6rH8kH6YEeWJGqu9_-m3uw" supplier="_1uPgoGwcEeSNesmHU6-x5A"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_EMlhoFkmEeSgMObtS5AOXQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ENIUMFkmEeSgMObtS5AOXQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://Papyrus/ExtLibraryProfile#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://EXTLIBRARY_PROFILE/extlibrary.profile.uml#_LkNCUEomEeSz_ot9x6ZZgw"/>
+    </profileApplication>
+  </uml:Model>
+  <ExtLibraryProfile:Library xmi:id="_dSlDAGwcEeSNesmHU6-x5A" address="Rue Andre Chenier 69800&#xD;&#xA;" base_Package="_dSI-IGwcEeSNesmHU6-x5A"/>
+  <ExtLibraryProfile:Book xmi:id="_1uYqk2wcEeSNesmHU6-x5A" base_Class="_1uPgoGwcEeSNesmHU6-x5A"/>
+  <ExtLibraryProfile:Book xmi:id="_2L2pxWwcEeSNesmHU6-x5A" title="" base_Class="_2LtfwGwcEeSNesmHU6-x5A" category="ScienceFiction"/>
+  <ExtLibraryProfile:Book xmi:id="_5kNFk2wcEeSNesmHU6-x5A" title="" base_Class="_5kDUkGwcEeSNesmHU6-x5A" category="Biography"/>
+  <ExtLibraryProfile:Book xmi:id="_4l84I2wdEeSNesmHU6-x5A" base_Class="_4lzuMGwdEeSNesmHU6-x5A"/>
+  <ExtLibraryProfile:Book xmi:id="_3Q2EUH5nEeWErv70DIP1Ig" title="" base_Class="_3Qxy4H5nEeWErv70DIP1Ig"/>
+  <ExtLibraryProfile:Book xmi:id="_n6idIH5xEeW-c4iQ6kAcnw" base_Class="_n6bIYH5xEeW-c4iQ6kAcnw"/>
+  <ExtLibraryProfile:Library xmi:id="_Pl_esH5yEeWiWtjwB5Tz5w" base_Package="_PlhkoH5yEeWiWtjwB5Tz5w"/>
+  <ExtLibraryProfile:Periodical xmi:id="_Q2KGEH5yEeWiWtjwB5Tz5w" base_Class="_Q2AVEH5yEeWiWtjwB5Tz5w"/>
+  <ExtLibraryProfile:Book xmi:id="_i1XdoH5yEeWiWtjwB5Tz5w" base_Class="_i1LQYH5yEeWiWtjwB5Tz5w"/>
+  <ExtLibraryProfile:Book xmi:id="_ZkCEEH6REeWN-OFz7P6NVg" base_Class="_Zj3E8H6REeWN-OFz7P6NVg"/>
+  <ExtLibraryProfile:Borrower xmi:id="_6rRGgH6YEeWJGqu9_-m3uw" base_Class="_6rH8kH6YEeWJGqu9_-m3uw"/>
+  <ExtLibraryProfile:Borrower xmi:id="_7gFOoX6YEeWJGqu9_-m3uw" base_Class="_7gFOoH6YEeWJGqu9_-m3uw"/>
+  <ExtLibraryProfile:Borrows xmi:id="_PM3s4H6aEeWqdJ9WX0yfSQ" base_Dependency="_YHVi8H6ZEeWJGqu9_-m3uw"/>
+  <ExtLibraryProfile:Borrows xmi:id="_5fhIQH6cEeWlSdPSEG8vKg" base_Dependency="_VUSsMH6cEeWKQdQ1P1wyJg"/>
+</xmi:XMI>

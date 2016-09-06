@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+ 	<!-- add a "template" to the new model wizard -->
+    <extension
+         point="org.eclipse.papyrus.uml.diagram.wizards.templates">
+      <transformation
+            Transformation="org.eclipse.papyrus.training.library.wizard.ImportLibraryTemplateInModel"
+         	id="org.eclipse.papyrus.training.library.wizard.templaterepository.ImportLibraryExampleInModel"
+            language="TrainingLibrary" 
+            name="An example of Library Model"><!-- Language is an important key that should be matched by viewpoint category -->
+      </transformation>            
+  </extension>  
+</plugin>

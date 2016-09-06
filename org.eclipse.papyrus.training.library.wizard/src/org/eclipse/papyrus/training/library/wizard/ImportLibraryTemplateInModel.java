@@ -9,7 +9,7 @@
  * Contributors:
  * Benoit Maggi benoit.maggi@cea.fr - Initial API and implementation
  *****************************************************************************/
-package org.eclipse.papyrus.training.library.ui;
+package org.eclipse.papyrus.training.library.wizard;
 
 import java.io.IOException;
 import java.util.Collections;
@@ -26,9 +26,9 @@ import org.eclipse.uml2.uml.PackageImport;
 
 /**
  * 
- * Utility class to provide example in the new model wizard
+ * Utility class to provide template model in the new model wizard
  */
-public class ImportLibraryExampleInModel implements IGenerator {
+public class ImportLibraryTemplateInModel implements IGenerator {
 
 	public static final String EXAMPLE_PATH = "platform:/plugin/org.eclipse.papyrus.training.library.model/sample/LibraryExampleModel.uml"; //$NON-NLS-1$	
 	

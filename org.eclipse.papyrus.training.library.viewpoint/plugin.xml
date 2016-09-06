@@ -25,16 +25,7 @@
 	     </diagramCategory>
     </extension>
  
- 	<!-- add a "template" to the new model wizard -->
-    <extension
-         point="org.eclipse.papyrus.uml.diagram.wizards.templates">
-      <transformation
-            Transformation="org.eclipse.papyrus.training.library.ui.ImportLibraryExampleInModel"
-         	id="org.eclipse.papyrus.training.library.ui.templaterepository.ImportLibraryExampleInModel"
-            language="TrainingLibrary"
-            name="An example of Library Model">
-      </transformation>            
-  </extension>    
+  
  
  
  	<!-- Register the viewpoint to the default papyrus viewpoint -->
