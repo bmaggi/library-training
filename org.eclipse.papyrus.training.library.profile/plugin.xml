@@ -49,7 +49,7 @@
       </profile>
    </extension>
 
-
+ <!-- register the profile so it can be found by the Papyrus Apply profil property view -->
  <extension
          point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
       <profile
@@ -60,6 +60,8 @@
             provider="CEA LIST">
       </profile>
    </extension>
+   
+ <!-- register the profile so it can be found by the Papyrus Import Library menu in the model explorer -->   
    <extension
          point="org.eclipse.papyrus.uml.extensionpoints.UMLLibrary">
       <library

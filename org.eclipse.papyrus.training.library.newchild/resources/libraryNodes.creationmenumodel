@@ -17,6 +17,10 @@
       icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/book.png"
       elementTypeIdRef="org.eclipse.papyrus.training.library.profile.extlibrary.Book"/>
   <menu xsi:type="ElementCreationMenuModel:CreationMenu"
+      label="Book Restricted Access"
+      icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/book.png"
+      elementTypeIdRef="org.eclipse.papyrus.training.library.profile.extlibrary.Book.RestrictedAccess"/>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu"
       xmi:id="_jxZ_0F3zEeSTX8qNvjL72Q"
       label="Periodical"
       icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/periodical.gif"

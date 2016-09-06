@@ -29,6 +29,10 @@ import org.eclipse.uml2.uml.Stereotype;
  */
 public class MonthlyPeriodicalEditHelperAdvice extends AbstractEditHelperAdvice {
 
+	private static final String MONTHLY = "Monthly";
+	private static final String ISSUES_PER_YEAR = "issuesPerYear";
+	private static final String EXTLIBRARY_PERIODICAL = "extlibrary::Periodical";
+
 	/**
 	 * {@inheritDoc}
 	 */
@@ -45,14 +49,14 @@ public class MonthlyPeriodicalEditHelperAdvice extends AbstractEditHelperAdvice 
 				}
 				
 				// retrieve stereotype 
-				Stereotype st = ((Class)elementToConfigure).getAppliedStereotype("extlibrary::Periodical");
+				Stereotype st = ((Class)elementToConfigure).getAppliedStereotype(EXTLIBRARY_PERIODICAL);
 				if (st == null) {
 					return CommandResult.newErrorCommandResult("Element to configure did not have required stereotype");
 				}
-				((Class) elementToConfigure).setValue(st, "issuesPerYear", 12);
+				((Class) elementToConfigure).setValue(st, ISSUES_PER_YEAR, 12);
 
 				// change name
-				String name = NamedElementUtil.getDefaultNameWithIncrementFromBase("Monthly", elementToConfigure.eContainer().eContents());
+				String name = NamedElementUtil.getDefaultNameWithIncrementFromBase(MONTHLY, elementToConfigure.eContainer().eContents());
 				((Class) elementToConfigure).setName(name);
 
 				return CommandResult.newOKCommandResult(elementToConfigure);
