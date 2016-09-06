@@ -51,7 +51,7 @@
             pluginID="org.eclipse.papyrus.training.library.profile"
             iconPath="icons/periodical.gif"/>
         <elementDescriptors
-            elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.PeriodicalMonthly_3010"/>
+            elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.Periodical.Monthly_Class_Shape"/>
       </ownedConfigurations>
     </ownedConfigurations>
     <ownedConfigurations
