@@ -91,6 +91,11 @@
       <stereotypesQualifiedNames>extlibrary::Writer</stereotypesQualifiedNames>
     </matcherConfiguration>
   </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_I4gwkHQ3EeaJzcuPUIZkPw" identifier="org.eclipse.papyrus.training.library.profile.extlibrary.Periodical.Monthly" name="Periodical Monthly">
+    <specializedTypesID>org.eclipse.papyrus.training.library.profile.extlibrary.Periodical</specializedTypesID>
+    <editHelperAdviceConfiguration xsi:type="elementtypesconfigurations:EditHelperAdviceConfiguration" xmi:id="_RoRWAHQ3EeaJzcuPUIZkPw" editHelperAdviceClassName="org.eclipse.papyrus.training.library.newchild.elementtypes.advice.MonthlyPeriodicalEditHelperAdvice"/>
+    <matcherConfiguration xsi:type="elementtypesconfigurations:MatcherConfiguration" xmi:id="_WurPIHQ3EeaJzcuPUIZkPw" matcherClassName="org.eclipse.papyrus.training.library.newchild.elementtypes.matcher.MonthlyPeriodicalMatcher"/>
+  </elementTypeConfigurations>
   <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_m7dPZnM9EeaEb_X9ewiatg" identifier="org.eclipse.papyrus.training.library.profile.extlibrary.audioVisualItem" target="_m7coUXM9EeaEb_X9ewiatg">
     <stereotypesToApply xmi:id="_m7dPZ3M9EeaEb_X9ewiatg" stereotypeQualifiedName="extlibrary::AudioVisualItem" updateName="true">
       <requiredProfiles>extlibrary</requiredProfiles>

@@ -28,7 +28,7 @@
         xmi:id="_kK-9cF3zEeSTX8qNvjL72Q"
         label="Periodical - Monthly "
         icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/periodical.gif"
-        elementTypeIdRef="org.eclipse.papyrus.training.library.profile.extlibrary.Periodical.monthly"/>
+        elementTypeIdRef="org.eclipse.papyrus.training.library.profile.extlibrary.Periodical.Monthly"/>
   </menu>
   <menu xsi:type="ElementCreationMenuModel:CreationMenu"
       label="Borrower"
