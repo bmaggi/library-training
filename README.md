@@ -15,12 +15,12 @@ Codeship [ ![Codeship Status for bmaggi/library-training](https://codeship.com/p
 	- ui element should probably be grouped in the same plugin
  - Built against Eclipse Neon (This example is only tested against Eclipse Neon release train)
 
-1) How to create a profile 
-2) How to create a new child menu
-3) How to create a css theme
-4) How to contribute to new model wizard
-5) How to create a palette
-6) How to create a viewpoint
+1. How to create a profile 
+2. How to create a new child menu
+3. How to create a css theme
+4. How to contribute to new model wizard
+5. How to create a palette
+6. How to create a viewpoint
 
 
 profile

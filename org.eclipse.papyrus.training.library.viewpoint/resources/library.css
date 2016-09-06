@@ -1,27 +1,27 @@
 * {
-	svgCssFile: 'platform:/plugin/org.eclipse.papyrus.training.library.ui/resources/svg.css'; /* The stylesheet to apply to all SVG Images */
+	svgCssFile: 'platform:/plugin/org.eclipse.papyrus.training.library.viewpoint/resources/svg.css'; /* The stylesheet to apply to all SVG Images */
 }
 
 [appliedStereotypes~=Book] {
-	svgFile: 'platform:/plugin/org.eclipse.papyrus.training.library.model/icons/book.svg';
+	svgFile: 'platform:/plugin/org.eclipse.papyrus.training.library.css/icons/book.svg';
 }
 
 [appliedStereotypes~=Borrower] {
-	svgFile: 'platform:/plugin/org.eclipse.papyrus.training.library.model/icons/borrower.svg';
+	svgFile: 'platform:/plugin/org.eclipse.papyrus.training.library.css/icons/borrower.svg';
 }
 
 [appliedStereotypes~=Borrows] {
-	svgFile: 'platform:/plugin/org.eclipse.papyrus.training.library.model/icons/borrows.svg';
+	svgFile: 'platform:/plugin/org.eclipse.papyrus.training.library.css/icons/borrows.svg';
 }
 
 [appliedStereotypes~=Periodical] {
-	svgFile: 'platform:/plugin/org.eclipse.papyrus.training.library.model/icons/periodical.svg';
+	svgFile: 'platform:/plugin/org.eclipse.papyrus.training.library.css/icons/periodical.svg';
 }
 
 [appliedStereotypes~=Library] {
 	elementIcon: false;
 	shapeVisibility: true;
-	svgFile: 'platform:/plugin/org.eclipse.papyrus.training.library.model/icons/library.svg';
+	svgFile: 'platform:/plugin/org.eclipse.papyrus.training.library.css/icons/library.svg';
 	canonical:true;
 }
 
