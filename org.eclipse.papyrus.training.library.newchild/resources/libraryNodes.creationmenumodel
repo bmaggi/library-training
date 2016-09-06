@@ -37,5 +37,5 @@
   <menu xsi:type="ElementCreationMenuModel:CreateRelationshipMenu"
       label="Borrows"
       icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/borrows.png"
-      elementTypeIdRef="org.eclipse.papyrus.uml.Dependency"/>
+      elementTypeIdRef="org.eclipse.papyrus.training.library.profile.extlibrary.Borrows"/>
 </ElementCreationMenuModel:Folder>
