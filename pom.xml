@@ -107,11 +107,48 @@
 			</plugin>
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-surefire-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<configuration>
+					<failIfNoTests>false</failIfNoTests>
+					<useUIHarness>true</useUIHarness>
+					<useUIThread>true</useUIThread>
+					<!--<showEclipseLog>true</showEclipseLog> -->
+					<!--<testFailureIgnore>true</testFailureIgnore> -->
+					<jvmArgs>
+						<args>${ui.test.vmargs}</args>
+					</jvmArgs>
+					<bundleStartLevel>
+						<bundle>
+							<id>org.eclipse.papyrus.information.modeling.service.types</id>
+							<level>6</level>
+							<autoStart>true</autoStart>
+						</bundle>
+						<bundle>
+							<id>org.eclipse.equinox.launcher</id>
+							<level>4</level>
+							<autoStart>true</autoStart>
+						</bundle>
+					</bundleStartLevel>
+					<dependencies>
+						<dependency>
+							<type>p2-installable-unit</type>
+							<artifactId>org.eclipse.equinox.ds</artifactId>
+						</dependency>
+						<dependency>
+							<type>p2-installable-unit</type>
+							<artifactId>org.eclipse.equinox.event</artifactId>
+						</dependency>
+					</dependencies>
+				</configuration>
+			</plugin>			
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>target-platform-configuration</artifactId>
 				<version>${tycho-version}</version>
 				<configuration>
 					<environments>
-			<!--			<environment>
+						<environment>
 							<os>linux</os>
 							<ws>gtk</ws>
 							<arch>x86_64</arch>
@@ -120,7 +157,7 @@
 							<os>linux</os>
 							<ws>gtk</ws>
 							<arch>x86</arch>
-						</environment>-->
+						</environment>
 						<environment>
 							<os>win32</os>
 							<ws>win32</ws>
