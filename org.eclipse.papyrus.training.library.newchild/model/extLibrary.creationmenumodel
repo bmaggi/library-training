@@ -6,7 +6,7 @@
     xmlns:ElementCreationMenuModel="http://www.eclipse.org/papyrus/infra/newchild/elementcreationmenumodel"
     xmi:id="_-5Z5sN90EeOzMY8AIRUeqQ"
     label="Library Child"
-    icon="platform:/plugin/org.eclipse.papyrus.training.library.elementtypes/icons/library.gif">
+    icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/library.gif">
   <menu xsi:type="ElementCreationMenuModel:CreationMenu"
       label="Library"
       icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/library.gif"
