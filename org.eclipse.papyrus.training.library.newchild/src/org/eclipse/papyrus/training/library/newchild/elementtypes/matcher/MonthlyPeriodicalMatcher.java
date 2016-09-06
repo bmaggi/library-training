@@ -9,7 +9,7 @@
  * Contributors:
  *  CEA LIST - Initial API and implementation
  *****************************************************************************/
-package org.eclipse.papyrus.training.library.elementtypes.types.matcher;
+package org.eclipse.papyrus.training.library.newchild.elementtypes.matcher;
 
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.gmf.runtime.emf.type.core.IElementMatcher;

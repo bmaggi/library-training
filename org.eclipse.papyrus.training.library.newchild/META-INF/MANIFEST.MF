@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
 Bundle-SymbolicName: org.eclipse.papyrus.training.library.newchild;singleton:=true
-Export-Package: org.eclipse.papyrus.training.library.elementtypes,
- org.eclipse.papyrus.training.library.elementtypes.types.advice,
- org.eclipse.papyrus.training.library.elementtypes.types.matcher
+Export-Package: org.eclipse.papyrus.training.library.newchild,
+ org.eclipse.papyrus.training.library.newchild.elementtypes.advice,
+ org.eclipse.papyrus.training.library.newchild.elementtypes.matcher
 Bundle-Name: %Bundle-Name
 Bundle-Version: 2.0.0.qualifier
 Require-Bundle: org.eclipse.ui,
@@ -17,7 +17,7 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.papyrus.infra.types.core,
  org.eclipse.papyrus.uml.service.types
 Bundle-ManifestVersion: 2
-Bundle-Activator: org.eclipse.papyrus.training.library.elementtypes.Activator
+Bundle-Activator: org.eclipse.papyrus.training.library.newchild.Activator
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
 Bundle-Vendor: %Bundle-Vendor

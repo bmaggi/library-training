@@ -11,7 +11,7 @@
  *  Remi Schnekenburger (CEA LIST) remi.schnekenburger@cea.fr - Initial API and implementation
  *
  *****************************************************************************/
-package org.eclipse.papyrus.training.library.elementtypes.types.advice;
+package org.eclipse.papyrus.training.library.newchild.elementtypes.advice;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -32,22 +32,7 @@ import org.eclipse.gmf.runtime.emf.type.core.requests.MoveRequest;
 import org.eclipse.gmf.runtime.emf.type.core.requests.SetRequest;
 import org.eclipse.papyrus.infra.types.ElementTypeConfiguration;
 import org.eclipse.papyrus.infra.types.core.impl.ConfiguredHintedSpecializationElementType;
-
-// org.eclipse.papyrus.infra.types.rulebased.AndRuleConfiguration
-
-//Migration of the InvariantTypes
-//
-//InvariantTypeConfiguration metaclass is now RuleBasedTypeConfiguration
-//
-//import org.eclipse.papyrus.infra.elementtypesconfigurations.invarianttypeconfiguration.AndInvariantRuleConfiguration;
-//import org.eclipse.papyrus.infra.elementtypesconfigurations.invarianttypeconfiguration.CompositeInvariantRuleConfiguration;
-//import org.eclipse.papyrus.infra.elementtypesconfigurations.invarianttypeconfiguration.InvariantRuleConfiguration;
-//import org.eclipse.papyrus.infra.elementtypesconfigurations.invarianttypeconfiguration.InvariantTypeConfiguration;
-//import org.eclipse.papyrus.infra.elementtypesconfigurations.invarianttypeconfiguration.NotInvariantRuleConfiguration;
-//import org.eclipse.papyrus.infra.elementtypesconfigurations.invarianttypeconfiguration.OrInvariantRuleConfiguration;
-//import org.eclipse.papyrus.infra.elementtypesconfigurations.invarianttypes.invarianttypeconfiguration.IInvariantRule;
-//import org.eclipse.papyrus.infra.elementtypesconfigurations.invarianttypes.invarianttypeconfiguration.InvariantRuleConfigurationTypeRegistry;
-import org.eclipse.papyrus.training.library.elementtypes.Activator;
+import org.eclipse.papyrus.training.library.newchild.Activator;
 //import org.eclipse.papyrus.uml.tools.elementtypesconfigurations.invariantstereotyperuleconfiguration.InvariantStereotypeRuleConfiguration;
 import org.eclipse.uml2.uml.Element;
 import org.eclipse.uml2.uml.Package;

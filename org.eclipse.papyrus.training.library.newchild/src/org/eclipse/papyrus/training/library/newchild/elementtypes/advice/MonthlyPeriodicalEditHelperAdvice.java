@@ -9,7 +9,7 @@
  * Contributors:
  *  CEA LIST - Initial API and implementation
  *****************************************************************************/
-package org.eclipse.papyrus.training.library.elementtypes.types.advice;
+package org.eclipse.papyrus.training.library.newchild.elementtypes.advice;
 
 import org.eclipse.core.commands.ExecutionException;
 import org.eclipse.core.runtime.IAdaptable;

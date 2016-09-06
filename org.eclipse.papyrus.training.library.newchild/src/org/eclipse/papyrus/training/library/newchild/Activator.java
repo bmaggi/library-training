@@ -9,7 +9,7 @@
  * Contributors:
  *  CEA LIST - Initial API and implementation
  *****************************************************************************/
-package org.eclipse.papyrus.training.library.elementtypes;
+package org.eclipse.papyrus.training.library.newchild;
 
 import org.eclipse.papyrus.infra.core.log.LogHelper;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
