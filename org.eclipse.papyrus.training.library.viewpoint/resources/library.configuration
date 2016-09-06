@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration:PapyrusConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="http://www.eclipse.org/papyrus/infra/viewpoints/configuration" xmi:id="_ko07IErbEeSdQKzSRatBjg">
   <viewpoints xsi:type="configuration:PapyrusViewpoint" xmi:id="_xogdoErbEeSdQKzSRatBjg" name="Default Papyrus Viewpoint">
-    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_ZrBf4JaBEeS8eNvSwD0lgA" name="ClassTrainingLibrary" icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/library.gif" implementationID="PapyrusUMLClassDiagram" categories="_4DzMcHKlEeaVyqhV8kmQOA" customPalette="platform:/plugin/org.eclipse.papyrus.training.library.ui/resources/extlibrary.classdiagram.paletteconfiguration" customStyle="platform:/plugin/org.eclipse.papyrus.training.library.ui/resources/library.css">
+    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_ZrBf4JaBEeS8eNvSwD0lgA" name="ClassTrainingLibrary" icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/library.gif" implementationID="PapyrusUMLClassDiagram" categories="_4DzMcHKlEeaVyqhV8kmQOA" customPalette="platform:/plugin/org.eclipse.papyrus.training.library.palette/resources/extlibrary.classdiagram.paletteconfiguration" customStyle="platform:/plugin/org.eclipse.papyrus.training.library.viewpoit/resources/library.css">
       <modelRules xmi:id="_ZrBf4ZaBEeS8eNvSwD0lgA">
         <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
       </modelRules>

@@ -50,13 +50,6 @@
       <menuCreationModel model="resources/libraryNodes.creationmenumodel"></menuCreationModel>
    </extension>    
  
-    <extension point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
-      <elementTypeSet
-            clientContextID="org.eclipse.papyrus.infra.services.edit.TypeContext"
-            path="resources/extlibrarydi.typesconfigurations">
-      </elementTypeSet>
-   </extension>
- 
  <!-- <extension point="org.eclipse.papyrus.emf.facet.util.emf.core.modeldeclaration">
   	<modeldeclaration file="resources/custom/OperationalSysML.custom"/>
 </extension> 

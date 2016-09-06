@@ -39,7 +39,7 @@ public class MonthlyPeriodicalMatcher implements IElementMatcher {
 		}
 		
 		// retrieve stereotype
-		return TWELVE.equals(((Class) eObject).getValue(st, "issuesPerYear")); // //$NON-NLS-1$
+		return TWELVE.equals(((Class) eObject).getValue(st, "issuesPerYear"));  //$NON-NLS-1$
 	}
 
 }
