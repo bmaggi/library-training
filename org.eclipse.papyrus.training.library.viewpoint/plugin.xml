@@ -46,10 +46,7 @@
       </contribution>
    </extension>
  
-    <extension point="org.eclipse.papyrus.infra.newchild">
-      <menuCreationModel model="resources/libraryNodes.creationmenumodel"></menuCreationModel>
-   </extension>    
- 
+
  <!-- <extension point="org.eclipse.papyrus.emf.facet.util.emf.core.modeldeclaration">
   	<modeldeclaration file="resources/custom/OperationalSysML.custom"/>
 </extension> 
