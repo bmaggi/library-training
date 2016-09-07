@@ -15,6 +15,7 @@ Codeship [ ![Codeship Status for bmaggi/library-training](https://codeship.com/p
 	- ui element should probably be grouped in the same plugin
  - Built against Eclipse Neon (This example is only tested against Eclipse Neon release train)
 
+0. How to create a DSML
 1. How to create a profile 
 2. How to create a new child menu
 3. How to create custom properties
