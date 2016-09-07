@@ -21,7 +21,7 @@ import org.junit.Test;
  */
 public class NewChildTest extends AbstractEMFResourceTest {
 
-	public static final String PATH = org.eclipse.papyrus.training.library.newchild.Activator.PLUGIN_ID + "/resources/extLibrary.creationmenumodel"; // $NON-NLS-0$
+	public static final String PATH = org.eclipse.papyrus.training.library.newchild.Activator.PLUGIN_ID + "/resources/libraryNodes.creationmenumodel"; // $NON-NLS-0$
 
 	/**
 	 * {@inheritDoc}
