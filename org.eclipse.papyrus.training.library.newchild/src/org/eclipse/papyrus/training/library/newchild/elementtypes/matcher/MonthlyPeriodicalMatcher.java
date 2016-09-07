@@ -21,6 +21,8 @@ import org.eclipse.uml2.uml.Stereotype;
  */
 public class MonthlyPeriodicalMatcher implements IElementMatcher {
 
+	private static final String ISSUES_PER_YEAR = "issuesPerYear";
+
 	private static final String EXTLIBRARY_PERIODICAL = "extlibrary::Periodical";
 	
 	protected static final Integer TWELVE = new Integer(12);
@@ -39,7 +41,7 @@ public class MonthlyPeriodicalMatcher implements IElementMatcher {
 		}
 		
 		// retrieve stereotype
-		return TWELVE.equals(((Class) eObject).getValue(st, "issuesPerYear"));  //$NON-NLS-1$
+		return TWELVE.equals(((Class) eObject).getValue(st, ISSUES_PER_YEAR));  //$NON-NLS-1$
 	}
 
 }

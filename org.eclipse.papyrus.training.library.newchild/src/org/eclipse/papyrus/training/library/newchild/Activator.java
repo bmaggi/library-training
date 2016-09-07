@@ -12,6 +12,7 @@
 package org.eclipse.papyrus.training.library.newchild;
 
 import org.eclipse.papyrus.infra.core.log.LogHelper;
+import org.eclipse.papyrus.training.library.newchild.internal.HideNewChildEdgeUtil;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
 
@@ -42,6 +43,7 @@ public class Activator extends AbstractUIPlugin {
 		super.start(context);
 		plugin = this;
 		log = new LogHelper(this);
+		HideNewChildEdgeUtil.clean();
 	}
 
 	/*
