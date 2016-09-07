@@ -30,7 +30,7 @@ import org.eclipse.uml2.uml.PackageImport;
  */
 public class ImportLibraryTemplateInModel implements IGenerator {
 
-	public static final String EXAMPLE_PATH = "platform:/plugin/org.eclipse.papyrus.training.library.wizard/resources/LibraryTemplateModel.uml"; //$NON-NLS-1$	
+	public static final String EXAMPLE_PATH = "platform:/plugin/"+Activator.PLUGIN_ID+"/resources/LibraryTemplateModel.uml"; //$NON-NLS-1$ //$NON-NLS-2$	
 	
 	public static final String EXAMPLE_ROOT_ID = "_RCL_gFOeEeSxY9vSiiRRZQ";//$NON-NLS-1$
 	
@@ -38,7 +38,7 @@ public class ImportLibraryTemplateInModel implements IGenerator {
 
 	private org.eclipse.uml2.uml.Package root;
 
-	private org.eclipse.uml2.uml.Package qudv;
+	private org.eclipse.uml2.uml.Package libraryPackage;
 
 	public void execute() {
 
@@ -48,15 +48,15 @@ public class ImportLibraryTemplateInModel implements IGenerator {
 		// Select the root element to add the wanted imports
 		root = (org.eclipse.uml2.uml.Package) umlResource.getContents().get(0);
 			
-		URI qudvURI = URI.createURI(EXAMPLE_PATH).appendFragment(EXAMPLE_ROOT_ID);
-		qudv = (org.eclipse.uml2.uml.Package) modelSet.getEObject(qudvURI, true);
+		URI templatelibraryURI = URI.createURI(EXAMPLE_PATH).appendFragment(EXAMPLE_ROOT_ID);
+		libraryPackage = (org.eclipse.uml2.uml.Package) modelSet.getEObject(templatelibraryURI, true);
 
 		// Creates the import packages at the root of the model (elements of type packageImport)
 		this.getCommandStack(modelSet).execute(new RecordingCommand(modelSet.getTransactionalEditingDomain()) {
 
 			@Override
 			protected void doExecute() {
-				PackageImport importPrimitivePack = root.createPackageImport(qudv);
+				PackageImport importPrimitivePack = root.createPackageImport(libraryPackage);
 				if (!root.getPackageImports().contains(importPrimitivePack)) {
 					root.getPackageImports().add(importPrimitivePack);
 				}
