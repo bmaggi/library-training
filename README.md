@@ -15,30 +15,13 @@ Codeship [ ![Codeship Status for bmaggi/library-training](https://codeship.com/p
 	- ui element should probably be grouped in the same plugin
  - Built against Eclipse Neon (This example is only tested against Eclipse Neon release train)
 
+0. How to create a DSML
 1. How to create a profile 
 2. How to create a new child menu
-3. How to create a css theme
-4. How to contribute to new model wizard
-5. How to create a palette
-6. How to create a viewpoint
-
-
-profile
- - no Papyrus dependencies (Some problemen with ???? integration)
-
- - profile ui facility to integrate a profile in Papyrus
- 
-elementtype
-
-
-new child
- -> create 2 childs menu nodes edges
- -> Hide the UML menus
-
-properties
- -> create new property view
- -> hide advanced property tabs  (How????)
- 
-set priority to 5 to be first 
+3. How to create custom properties
+4. How to create a css theme
+5. How to contribute to new model wizard
+6. How to create a palette
+7. How to create a viewpoint
  
  
