@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-SymbolicName: org.eclipse.papyrus.training.library.tests
 Export-Package: org.eclipse.papyrus.training.library.tests,
  org.eclipse.papyrus.training.library.tests.elementtypes,
- org.eclipse.papyrus.training.library.tests.modelexplorer,
+ org.eclipse.papyrus.training.library.tests.newchild,
  org.eclipse.papyrus.training.library.tests.palette,
  org.eclipse.papyrus.training.library.tests.properties
 Bundle-Name: %Bundle-Name

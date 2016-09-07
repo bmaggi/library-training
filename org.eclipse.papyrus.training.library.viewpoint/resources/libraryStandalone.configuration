@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration:PapyrusConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="http://www.eclipse.org/papyrus/infra/viewpoints/configuration" xmi:id="_ko07IErbEeSdQKzSRatBjg" defaultStakeholder="_hgu1sHT2EeahLIcVyEJ0NA">
+  <stakeholders xmi:id="_hgu1sHT2EeahLIcVyEJ0NA" name="Librarian" viewpoints="_zb9XEHT0EeaHHtpD26seXQ"/>
+  <viewpoints xsi:type="configuration:PapyrusViewpoint" xmi:id="_zb9XEHT0EeaHHtpD26seXQ" name="Training Library ViewPoint">
+    <modelKinds xsi:type="configuration:PapyrusDiagram" xmi:id="_ZrBf4JaBEeS8eNvSwD0lgA" name="StandaloneTrainingLibrary" icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/library.gif" implementationID="PapyrusUMLClassDiagram" categories="_4DzMcHKlEeaVyqhV8kmQOA" customPalette="platform:/plugin/org.eclipse.papyrus.training.library.palette/resources/extlibrary.classdiagram.paletteconfiguration" customStyle="platform:/plugin/org.eclipse.papyrus.training.library.viewpoint/resources/library.css">
+      <modelRules xmi:id="_ZrBf4ZaBEeS8eNvSwD0lgA">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_ZrBf45aBEeS8eNvSwD0lgA">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:id="_ZrBf5ZaBEeS8eNvSwD0lgA"/>
+      <paletteRules xmi:id="_N4GzIKFQEeSx6MYdei1rKA" permit="false" element="clazz.group.*"/>
+    </modelKinds>
+  </viewpoints>
+  <metamodel href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  <categories xmi:id="_4DzMcHKlEeaVyqhV8kmQOA" name="TrainingLibrary"/>
+</configuration:PapyrusConfiguration>

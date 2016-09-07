@@ -15,13 +15,22 @@
 <plugin>
  
  	<!-- Register the viewpoint to the default papyrus viewpoint -->
-    <extension
-         point="org.eclipse.papyrus.infra.viewpoints.policy.custom">
+    <extension point="org.eclipse.papyrus.infra.viewpoints.policy.custom">
       <contribution
-            file="resources/library.configuration"
+            file="resources/libraryContribution.configuration"
             original="platform:/plugin/org.eclipse.papyrus.infra.viewpoints.policy/builtin/default.configuration">
       </contribution>
    </extension>
+ 
+ 
+   <!-- Register the viewpoint as an independant contribution 
+   <extension point="org.eclipse.papyrus.infra.viewpoints.policy.custom">
+      <configuration
+            file="resources/libraryStandalone.configuration"
+            priority="10">
+      </configuration>
+   </extension>-->
+ 
  
 
  <!-- <extension point="org.eclipse.papyrus.emf.facet.util.emf.core.modeldeclaration">

@@ -9,7 +9,7 @@
  * Contributors:
  *  CEA LIST - Initial API and implementation
  *****************************************************************************/
-package org.eclipse.papyrus.training.library.tests.modelexplorer;
+package org.eclipse.papyrus.training.library.tests.newchild;
 
 
 import org.eclipse.papyrus.training.library.tests.AbstractEMFResourceTest;
