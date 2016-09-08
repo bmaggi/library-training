@@ -114,3 +114,55 @@ Class[appliedStereotypes~=Borrower] > Label[kind="FloatingLabel"]{
 Class[appliedStereotypes~=Borrower] >  Label[type=StereotypeLabel] {
 	visible: false;
 }
+
+
+Class[appliedStereotypes~=Book] > Compartment{
+	visible: false;
+}
+
+Class[appliedStereotypes~=Book] > Compartment[kind=symbol]{
+	visible: true;
+}
+
+Class[appliedStereotypes~=Book] {
+	transparency: 100;
+	displayName: false;
+	displayBorder: false;
+	maintainSymbolRatio: true;
+	elementIcon: false;
+	isFloatingLabelConstrained:true;
+}
+
+Class[appliedStereotypes~=Book] > Label[kind="FloatingLabel"]{
+	visible:true;
+}
+
+Class[appliedStereotypes~=Book] >  Label[type=StereotypeLabel] {
+	visible: false;
+}
+
+
+Class[appliedStereotypes~=Periodical] > Compartment{
+	visible: false;
+}
+
+Class[appliedStereotypes~=Periodical] > Compartment[kind=symbol]{
+	visible: true;
+}
+
+Class[appliedStereotypes~=Periodical] {
+	transparency: 100;
+	displayName: false;
+	displayBorder: false;
+	maintainSymbolRatio: true;
+	elementIcon: false;
+	isFloatingLabelConstrained:true;
+}
+
+Class[appliedStereotypes~=Periodical] > Label[kind="FloatingLabel"]{
+	visible:true;
+}
+
+Class[appliedStereotypes~=Periodical] >  Label[type=StereotypeLabel] {
+	visible: false;
+}
