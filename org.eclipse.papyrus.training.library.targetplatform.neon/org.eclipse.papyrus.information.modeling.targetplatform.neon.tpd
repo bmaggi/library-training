@@ -2,14 +2,6 @@ target "Papyrus Neon" with source requirements
 
 location "http://download.eclipse.org/releases/neon/" eclipse-neon {
  org.eclipse.draw2d.feature.group lazy
- org.eclipse.jgit.feature.group lazy
- org.eclipse.egit.feature.group lazy
- org.eclipse.emf.compare.diagram.gmf.feature.group lazy
- org.eclipse.emf.compare.diagram.papyrus.feature.group lazy
- org.eclipse.emf.compare.egit.feature.group lazy
- org.eclipse.emf.compare.feature.group lazy
- org.eclipse.emf.compare.ide.ui.feature.group lazy
- org.eclipse.emf.compare.uml2.feature.group lazy
  org.eclipse.emf.feature.group lazy
  org.eclipse.emf.mwe2.language.sdk.feature.group lazy
  org.eclipse.emf.mwe2.runtime.sdk.feature.group lazy
@@ -27,7 +19,7 @@ location "http://download.eclipse.org/releases/neon/" eclipse-neon {
  org.eclipse.ocl.all.feature.group lazy // no feature group for ocl.ecore alone
  org.eclipse.ocl.common.ui lazy // no feature group or feature
  org.eclipse.ocl.core.sdk.feature.group lazy // necessary?
- org.eclipse.ocl.examples.feature.group lazy 
+ org.eclipse.ocl.examples.feature.group lazy
  org.eclipse.ocl.uml.feature.group lazy
  org.eclipse.papyrus.sdk.feature.feature.group lazy
  org.eclipse.pde.feature.group lazy
@@ -46,6 +38,20 @@ location "http://download.eclipse.org/releases/neon/" eclipse-neon {
  org.eclipse.xtext.xbase.feature.group lazy
  org.eclipse.xtext.xbase.lib.feature.group lazy
  org.eclipse.xwt.feature.feature.group lazy
+}
+
+location "http://download.eclipse.org/modeling/emf/compare/updates/logical/emf.compare/nightly/latest/" collaborative-modeling-emfcompare-nightly {
+ org.eclipse.emf.compare.diagram.gmf.feature.group lazy
+ org.eclipse.emf.compare.diagram.papyrus.feature.group lazy
+ org.eclipse.emf.compare.egit.feature.group lazy
+ org.eclipse.emf.compare.feature.group lazy
+ org.eclipse.emf.compare.ide.ui.feature.group lazy
+ org.eclipse.emf.compare.uml2.feature.group lazy
+}
+
+location "http://download.eclipse.org/modeling/emf/compare/updates/egit-logical/nightly/" collaborative-modeling-egit-nightly {
+ org.eclipse.egit.feature.group lazy
+ org.eclipse.jgit.feature.group lazy
 }
 
 // Only for testing!
@@ -69,7 +75,7 @@ location "http://download.eclipse.org/tools/orbit/downloads/drops/R2016022119215
 
 /**
  * Dependencies of EMF Compare with logical model support for EGit
- 
+
 location "http://download.eclipse.org/cbi/updates/license" {
 	org.eclipse.license.feature.group [1.0.1,1.1.0)
 }
