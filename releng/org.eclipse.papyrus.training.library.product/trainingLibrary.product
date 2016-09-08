@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Papyrus Information Modeling" uid="org.eclipse.papyrus.training.library.product" id="org.eclipse.papyrus.training.library.rcp.product" application="org.eclipse.ui.ide.workbench" version="0.7.1.qualifier" useFeatures="true" includeLaunchers="true">
+<product name="Papyrus Training Library" uid="org.eclipse.papyrus.training.library.product" id="org.eclipse.papyrus.training.library.rcp.product" application="org.eclipse.ui.ide.workbench" version="0.7.1.qualifier" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
-      <image path="/org.eclipse.papyrus.training.library.rcp/icons/PapyrusIM.png"/>
+      <image path="/org.eclipse.papyrus.training.library.rcp/icons/papyrus_lg.png"/>
       <text>
-         Papyrus Information Modeling
+         Papyrus Training Library
 
 (c) Copyright Eclipse contributors and others 2000, 2016.  All rights reserved.
 Visit http://www.eclipse.org/platform
@@ -28,23 +28,23 @@ Apache Software Foundation http://www.apache.org/
       </vmArgs>
       <vmArgsLin>-Dorg.eclipse.swt.internal.gtk.cairoGraphics=false
       </vmArgsLin>
-      <vmArgsMac>-Xdock:icon=../Resources/PapyrusIM.icns -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      <vmArgsMac>-Xdock:icon=../Resources/papyrus.icns -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>
    </launcherArgs>
 
-   <windowImages i16="/org.eclipse.papyrus.training.library.rcp/icons/PapyrusIM16.png" i32="/org.eclipse.papyrus.training.library.rcp/icons/PapyrusIM32.png" i48="/org.eclipse.papyrus.training.library.rcp/icons/PapyrusIM48.png" i64="/org.eclipse.papyrus.training.library.rcp/icons/PapyrusIM64.png" i128="/org.eclipse.papyrus.training.library.rcp/icons/PapyrusIM128.png"/>
+   <windowImages i16="/org.eclipse.papyrus.training.library.rcp/icons/papyrus16.png" i32="/org.eclipse.papyrus.training.library.rcp/icons/papyrus32.png" i48="/org.eclipse.papyrus.training.library.rcp/icons/papyrus48.png" i64="/org.eclipse.papyrus.training.library.rcp/icons/papyrus64.png" i128="/org.eclipse.papyrus.training.library.rcp/icons/papyrus128.png"/>
 
    <splash
       location="org.eclipse.papyrus.training.library.rcp"
       startupProgressRect="0,330,460,20"
       startupMessageRect="7,4,445,16"
       startupForegroundColor="9C9E9F" />
-   <launcher name="papyrus-im">
-      <linux icon="../org.eclipse.papyrus.training.library.rcp/icons/PapyrusIM.xpm"/>
-      <macosx icon="../org.eclipse.papyrus.training.library.rcp/icons/PapyrusIM.icns"/>
+   <launcher name="papyrus-library">
+      <linux icon="../org.eclipse.papyrus.training.library.rcp/icons/icon.xpm"/>
+      <macosx icon="../org.eclipse.papyrus.training.library.rcp/icons/papyrus.icns"/>
       <solaris/>
       <win useIco="true">
-         <ico path="../org.eclipse.papyrus.training.library.rcp/icons/PapyrusIM.ico"/>
+         <ico path="../org.eclipse.papyrus.training.library.rcp/icons/papyrus.ico"/>
          <bmp/>
       </win>
    </launcher>
@@ -170,7 +170,6 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
    </configurations>
 
    <repositories>
-      <repository location="http://download.eclipse.org/modeling/mdt/papyrus/components/information.modeling/" enabled="true" />
       <repository location="http://download.eclipse.org/modeling/mdt/papyrus/updates/releases/neon" enabled="true" />
    </repositories>
 
