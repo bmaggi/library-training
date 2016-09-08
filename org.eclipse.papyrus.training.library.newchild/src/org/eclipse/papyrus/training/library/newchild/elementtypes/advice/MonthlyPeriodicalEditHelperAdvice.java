@@ -45,13 +45,13 @@ public class MonthlyPeriodicalEditHelperAdvice extends AbstractEditHelperAdvice 
 			protected CommandResult doExecuteWithResult(IProgressMonitor monitor, IAdaptable info) throws ExecutionException {
 				EObject elementToConfigure = request.getElementToConfigure();
 				if (!(elementToConfigure instanceof Class)) {
-					return CommandResult.newErrorCommandResult("Element to configure was not a Class: " + elementToConfigure);
+					return CommandResult.newErrorCommandResult("Element to configure was not a Class: " + elementToConfigure);//$NON-NLS-1$
 				}
 				
 				// retrieve stereotype 
 				Stereotype st = ((Class)elementToConfigure).getAppliedStereotype(EXTLIBRARY_PERIODICAL);
 				if (st == null) {
-					return CommandResult.newErrorCommandResult("Element to configure did not have required stereotype");
+					return CommandResult.newErrorCommandResult("Element to configure did not have required stereotype"); //$NON-NLS-1$
 				}
 				((Class) elementToConfigure).setValue(st, ISSUES_PER_YEAR, 12);
 
