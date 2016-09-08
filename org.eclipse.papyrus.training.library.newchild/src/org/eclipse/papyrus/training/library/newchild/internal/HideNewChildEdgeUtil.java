@@ -19,7 +19,7 @@ import org.eclipse.papyrus.infra.newchild.elementcreationmenumodel.Folder;
  */
 public final class HideNewChildEdgeUtil {
 	
-	private static final String UML_NEW_RELATIONSHIP_MENU = "/resource/UMLEdges.creationmenumodel";
+	private static final String UML_NEW_RELATIONSHIP_MENU = "/resource/UMLEdges.creationmenumodel"; //$NON-NLS-1$
 
 	private static final String[] DEACTIVATED_CHILD_MENUS = new String[] {
 		UML_NEW_RELATIONSHIP_MENU

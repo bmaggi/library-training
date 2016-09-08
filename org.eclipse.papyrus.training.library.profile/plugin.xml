@@ -66,6 +66,7 @@
          point="org.eclipse.papyrus.uml.extensionpoints.UMLLibrary">
       <library
             description="Library for ExtLibrary example"
+            iconpath="icons/library.gif"
             name="Library"
             path="pathmap://EXTLIBRARY_LIBRARY/extlibrary.profile.uml"
             provider="CEA LIST">

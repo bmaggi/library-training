@@ -19,9 +19,10 @@ import org.junit.Test;
  * Test the palette model :
  * - validate the model
  */
+@SuppressWarnings("nls")
 public class PaletteTest extends AbstractEMFResourceTest {
 
-	public static final String PALETTE_PATH = org.eclipse.papyrus.training.library.palette.Activator.PLUGIN_ID+"/resources/extlibrary.classdiagram.paletteconfiguration"; // $NON-NLS-0$
+	public static final String PALETTE_PATH = org.eclipse.papyrus.training.library.palette.Activator.PLUGIN_ID+"/resources/extlibrary.classdiagram.paletteconfiguration";
 
 	/**
 	 * {@inheritDoc}

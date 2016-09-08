@@ -25,6 +25,7 @@ import org.junit.Assert;
 /**
  * Abstract test class for all EMF-based configuration models (property view, palettes, etc.)
  */
+@SuppressWarnings("nls")
 public abstract class AbstractEMFResourceTest{
 
 	/**

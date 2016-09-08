@@ -19,9 +19,10 @@ import org.junit.Test;
  * Test the element types model :
  * - validate the model
  */
+@SuppressWarnings("nls")
 public class GraphicalElementTypesTest extends AbstractEMFResourceTest {
 
-	public static final String PATH = org.eclipse.papyrus.training.library.palette.Activator.PLUGIN_ID+"/resources/extlibrarydi.elementtypesconfigurations"; // $NON-NLS-0$
+	public static final String PATH = org.eclipse.papyrus.training.library.palette.Activator.PLUGIN_ID+"/resources/extlibrarydi.elementtypesconfigurations";
 
 	/**
 	 * {@inheritDoc}
