@@ -13,5 +13,26 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 	<modules>
 		<module>org.eclipse.papyrus.training.library.feature</module>
 		<module>org.eclipse.papyrus.training.library.p2</module>
+		<module>org.eclipse.papyrus.training.library.product</module>
+		<module>org.eclipse.papyrus.training.library.rcp.feature</module>
+		<module>org.eclipse.papyrus.training.library.rcp</module>
 	</modules>
+
+	<profiles>
+			<profile>
+				<id>product</id>
+				<activation>
+					<activeByDefault>false</activeByDefault>
+				</activation>
+				<modules>
+					<module>org.eclipse.papyrus.training.library.p2</module>
+					<module>org.eclipse.papyrus.training.library.rcp</module>
+					<module>org.eclipse.papyrus.training.library.rcp.feature</module>
+					<module>org.eclipse.papyrus.training.library.product</module>
+					<module>org.eclipse.papyrus.training.library.feature</module>
+					<module>org.eclipse.papyrus.training.library.dependency.feature</module>
+				</modules>
+			</profile>
+		</profiles>
+
 </project>
