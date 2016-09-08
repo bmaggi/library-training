@@ -34,4 +34,20 @@
       </wizard>
    </extension>
 
+   <extension
+         point="org.eclipse.papyrus.infra.gmfdiag.css.theme">
+      <themeDefinition
+            icon="icons/library.gif"
+            id="org.eclipse.papyrus.training.library.theme"
+            label="Training Library Theme">
+      </themeDefinition>
+      <themeContribution
+            id="org.eclipse.papyrus.training.library.theme">
+         <stylesheet
+               stylesheetPath="sample/style/library.css">
+         </stylesheet>
+      </themeContribution>
+   </extension>
+
+
 </plugin>
