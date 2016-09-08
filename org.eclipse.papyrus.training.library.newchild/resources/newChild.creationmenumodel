@@ -33,6 +33,10 @@
         label="Periodical - Monthly "
         icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/periodical.gif"
         elementTypeIdRef="org.eclipse.papyrus.training.library.profile.extlibrary.Periodical.Monthly"/>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu"
+        label="Periodical - Weekly"
+        icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/periodical.gif"
+        elementTypeIdRef="org.eclipse.papyrus.training.library.profile.extlibrary.Periodical.Weekly"/>
   </menu>
   <menu xsi:type="ElementCreationMenuModel:CreationMenu"
       label="Borrower"

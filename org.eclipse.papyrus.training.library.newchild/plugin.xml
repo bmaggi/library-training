@@ -12,7 +12,7 @@
 
     <!-- Reister new chil menu in Model explorer -->
     <extension point="org.eclipse.papyrus.infra.newchild">
-      <menuCreationModel model="resources/libraryNodes.creationmenumodel"></menuCreationModel>
+      <menuCreationModel model="resources/newChild.creationmenumodel"></menuCreationModel>
    </extension>    
     
 </plugin>

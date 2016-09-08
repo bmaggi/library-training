@@ -99,6 +99,9 @@
   <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_yO7zQHREEeaJzcuPUIZkPw" identifier="org.eclipse.papyrus.training.library.profile.extlibrary.Book.RestrictedAccess" name="Book Restricted Access">
     <specializedTypesID>org.eclipse.papyrus.training.library.profile.extlibrary.Book</specializedTypesID>
   </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_MISgUHXZEeaLG7z7K8l04Q" identifier="org.eclipse.papyrus.training.library.profile.extlibrary.Periodical.Weekly" name="Periodical Weekly">
+    <specializedTypesID>org.eclipse.papyrus.uml.Class</specializedTypesID>
+  </elementTypeConfigurations>
   <adviceBindingsConfigurations xsi:type="setvaluesadvice:SetValuesAdviceConfiguration" xmi:id="_P2bckHRFEeaJzcuPUIZkPw" identifier="org.eclipse.papyrus.training.library.profile.extlibrary.Book.RestrictedAccess.protected" description="" target="_yO7zQHREEeaJzcuPUIZkPw">
     <featuresToSet xmi:id="_TwQN0HRFEeaJzcuPUIZkPw" featureName="visibility">
       <value xsi:type="setvaluesadvice:ConstantValue" xmi:id="_7H5bMHRIEeaJzcuPUIZkPw">
@@ -172,6 +175,16 @@
   <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_m7dPfnM9EeaEb_X9ewiatg" identifier="org.eclipse.papyrus.training.library.profile.extlibrary.writer" target="_m7dPY3M9EeaEb_X9ewiatg">
     <stereotypesToApply xmi:id="_m7dPf3M9EeaEb_X9ewiatg" stereotypeQualifiedName="extlibrary::Writer" updateName="true">
       <requiredProfiles>extlibrary</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_QGI18HXZEeaLG7z7K8l04Q" identifier="org.eclipse.papyrus.training.library.profile.extlibrary.weekly" description="Set Periodical Stereotype with Weekly (52 issues per year)" target="_MISgUHXZEeaLG7z7K8l04Q">
+    <stereotypesToApply xmi:id="_QGJdAHXZEeaLG7z7K8l04Q" stereotypeQualifiedName="extlibrary::Periodical" updateName="true">
+      <requiredProfiles>extlibrary</requiredProfiles>
+      <featuresToSet xmi:id="_XYAhEHXZEeaLG7z7K8l04Q" featureName="issuesPerYear">
+        <value xsi:type="applystereotypeadvice:ConstantValue" xmi:id="_gKr3oHXZEeaLG7z7K8l04Q">
+          <valueInstance xsi:type="uml:LiteralInteger" xmi:id="_hKtKMHXZEeaLG7z7K8l04Q" value="52"/>
+        </value>
+      </featuresToSet>
     </stereotypesToApply>
   </adviceBindingsConfigurations>
 </elementtypesconfigurations:ElementTypeSetConfiguration>

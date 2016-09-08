@@ -22,7 +22,7 @@ import org.junit.Test;
 @SuppressWarnings("nls")
 public class NewChildTest extends AbstractEMFResourceTest {
 
-	public static final String PATH = org.eclipse.papyrus.training.library.newchild.Activator.PLUGIN_ID + "/resources/libraryNodes.creationmenumodel";
+	public static final String PATH = org.eclipse.papyrus.training.library.newchild.Activator.PLUGIN_ID + "/resources/newChild.creationmenumodel";
 
 	/**
 	 * {@inheritDoc}
