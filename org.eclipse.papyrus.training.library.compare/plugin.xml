@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.emf.compare.rcp.ui.filters">
+      <filter
+            activeByDefault="true"
+            class="org.eclipse.papyrus.training.library.compare.filters.InvisibleShapesAndConnectorsFilter"
+            description="Filters changes of invisible shapes and connectors"
+            label="Invisible Shapes and Connectors">
+      </filter>
+   </extension>
+   <extension
+         point="org.eclipse.emf.compare.edit.adapterFactory">
+      <factory
+            class="org.eclipse.papyrus.training.library.compare.AdapterFactory"
+            label="Custom Library Provider"
+            optional="true"
+            ranking="1000"
+            supportedTypes="org.eclipse.emf.edit.provider.IEditingDomainItemProvider
+               org.eclipse.emf.edit.provider.IStructuredItemContentProvider
+               org.eclipse.emf.edit.provider.ITreeItemContentProvider
+               org.eclipse.emf.edit.provider.IItemLabelProvider
+               org.eclipse.emf.edit.provider.IItemPropertySource
+               org.eclipse.emf.compare.provider.IItemStyledLabelProvider
+               org.eclipse.emf.compare.provider.IItemDescriptionProvider"
+            uri="http://www.eclipse.org/uml2/5.0.0/UML">
+      </factory>
+      <factory
+            class="org.eclipse.papyrus.training.library.compare.BookTheftItemProviderAdapterFactory"
+            label="Custom Library Adapter Factory"
+            ranking="65"
+            supportedTypes="org.eclipse.emf.compare.provider.IItemStyledLabelProvider"
+            uri="http://www.eclipse.org/emf/compare/uml2/library/1.0">
+      </factory>
+   </extension>
+   <extension
+         point="org.eclipse.emf.compare.rcp.ui.groups">
+      <group
+            class="org.eclipse.papyrus.training.library.compare.groups.BookChangesByCategory"
+            description="Groups the changes of books by category"
+            label="By Book Category"
+            type="BOTH">
+      </group>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated librarycompare -->
+      <package
+            uri="http://www.eclipse.org/emf/compare/uml2/library/1.0"
+            class="org.eclipse.papyrus.training.library.compare.library.LibraryComparePackage"
+            genModel="model/librarycompare.genmodel"/>
+   </extension>
+   <extension
+         point="org.eclipse.emf.compare.rcp.postProcessor">
+      <processor
+            class="org.eclipse.papyrus.training.library.compare.postprocessor.BookTheftDiffPostProcessor"
+            description="Introduces BookTheftDiffs"
+            label="Book Theft Postprocessor"
+            ordinal="30">
+         <nsURI
+               value="http://Papyrus/ExtLibraryProfile">
+         </nsURI>
+      </processor>
+   </extension>
+
+</plugin>
