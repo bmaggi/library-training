@@ -19,6 +19,9 @@
 		<module>org.eclipse.papyrus.training.library.tests</module>
 		<module>org.eclipse.papyrus.training.library.targetplatform.neon</module>
 
+		<!-- Papyrus Fix : Missing editor -->
+		<module>org.eclipse.papyrus.infra.newchild.editor</module>
+		
 	</modules>
 	<properties>
 		<tycho-version>0.26.0</tycho-version>
