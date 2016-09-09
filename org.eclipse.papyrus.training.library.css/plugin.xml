@@ -43,8 +43,7 @@
       </themeDefinition>
       <themeContribution
             id="org.eclipse.papyrus.training.library.theme">
-         <stylesheet
-               stylesheetPath="sample/style/library.css">
+         <stylesheet stylesheetPath="theme/theme_library.css">
          </stylesheet>
       </themeContribution>
    </extension>

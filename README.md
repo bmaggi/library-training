@@ -13,6 +13,7 @@ Codeship [ ![Codeship Status for bmaggi/library-training](https://codeship.com/p
 	- tests should be done using one fragment for each plugin
 	- elementtype should be hosted in an independant plugin
 	- ui element should probably be grouped in the same plugin
+	- css files are duplicated to demonstrate local css capabilities
  - Built against Eclipse Neon (This example is only tested against Eclipse Neon release train)
 
 0. How to create a DSML

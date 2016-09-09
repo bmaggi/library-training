@@ -14,3 +14,5 @@ Require-Bundle: org.eclipse.papyrus.uml.diagram.wizards,
 Export-Package: org.eclipse.papyrus.training.library.wizard
 Bundle-Vendor: %Bundle-Vendor
 Bundle-Localization: plugin
+Eclipse-BundleShape: dir
+
