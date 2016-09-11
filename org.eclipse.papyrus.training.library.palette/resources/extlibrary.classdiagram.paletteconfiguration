@@ -10,6 +10,17 @@
       description="Library">
     <ownedConfigurations
         xsi:type="paletteconfiguration:ToolConfiguration"
+        id="org.eclipse.papyrus.training.library.node.library"
+        label="Library"
+        description="Create a Library">
+      <icon
+          pluginID="org.eclipse.papyrus.training.library.profile"
+          iconPath="icons/library.gif"/>
+      <elementDescriptors elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.Library_Package_Shape"/>
+      <elementDescriptors elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.Library_Package_Shape_CN"/>
+    </ownedConfigurations>
+    <ownedConfigurations
+        xsi:type="paletteconfiguration:ToolConfiguration"
         id="org.eclipse.papyrus.training.library.node.book"
         label="Book"
         description="Create a book">
@@ -39,8 +50,8 @@
         <icon
             pluginID="org.eclipse.papyrus.training.library.profile"
             iconPath="icons/periodical.gif"/>
-        <elementDescriptors
-            elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.Periodical_Class_Shape"/>
+        <elementDescriptors elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.Periodical_Class_Shape"/>
+        <elementDescriptors elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.Periodical_Class_Shape_CN"/>
       </ownedConfigurations>
       <ownedConfigurations
           xsi:type="paletteconfiguration:ToolConfiguration"
@@ -50,8 +61,8 @@
         <icon
             pluginID="org.eclipse.papyrus.training.library.profile"
             iconPath="icons/periodical.gif"/>
-        <elementDescriptors
-            elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.Periodical.Monthly_Class_Shape"/>
+        <elementDescriptors elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.Periodical.Monthly_Class_Shape"/>
+        <elementDescriptors elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.Periodical.Monthly_Class_Shape_CN"/>
       </ownedConfigurations>
     </ownedConfigurations>
     <ownedConfigurations
@@ -62,8 +73,8 @@
       <icon
           pluginID="org.eclipse.papyrus.training.library.profile"
           iconPath="icons/borrower.png"/>
-      <elementDescriptors
-          elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.Borrower_Class_Shape"/>
+      <elementDescriptors elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.Borrower_Class_Shape"/>
+       <elementDescriptors elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.Borrower_Class_Shape_CN"/>
     </ownedConfigurations>
     <ownedConfigurations
         xsi:type="paletteconfiguration:ToolConfiguration"
@@ -74,8 +85,7 @@
       <icon
           pluginID="org.eclipse.papyrus.training.library.profile"
           iconPath="icons/borrows.png"/>
-      <elementDescriptors
-          elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.Borrows_Dependency_Edge"/>
+      <elementDescriptors elementTypeId="org.eclipse.papyrus.training.library.profile.extlibrarydi.Borrows_Dependency_Edge"/>
     </ownedConfigurations>
   </drawerConfigurations>
   <requiredProfiles>extlibrary</requiredProfiles>

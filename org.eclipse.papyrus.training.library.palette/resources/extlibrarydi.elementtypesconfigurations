@@ -374,6 +374,11 @@
     <specializedTypesID>org.eclipse.papyrus.training.library.profile.extlibrary.Periodical.Monthly</specializedTypesID>
     <specializedTypesID>org.eclipse.papyrus.umldi.Class_Shape</specializedTypesID>
   </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_wLVhUHgJEeaqwpKeIYKd-g" identifier="org.eclipse.papyrus.training.library.profile.extlibrarydi.Periodical.Monthly_Class_Shape_CN" name="Periodical Monthly (Class_Shape_CN)" hint="Class_Shape_CN">
+    <iconEntry xmi:id="_wLVhUXgJEeaqwpKeIYKd-g" iconPath="/icons/periodical.gif" bundleId="org.eclipse.papyrus.training.library.profile"/>
+    <specializedTypesID>org.eclipse.papyrus.training.library.profile.extlibrary.Periodical.Monthly</specializedTypesID>
+    <specializedTypesID>org.eclipse.papyrus.umldi.Class_Shape_CN</specializedTypesID>
+  </elementTypeConfigurations>
   <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_iQX7a3Q4EeaJzcuPUIZkPw" identifier="org.eclipse.papyrus.training.library.profile.extlibrarydi.library_CompositeStructure" target="_iQXUQnQ4EeaJzcuPUIZkPw">
     <stereotypesToApply xmi:id="_iQX7bHQ4EeaJzcuPUIZkPw" stereotypeQualifiedName="extlibrary::Library" updateName="true">
       <requiredProfiles>extlibrary</requiredProfiles>
