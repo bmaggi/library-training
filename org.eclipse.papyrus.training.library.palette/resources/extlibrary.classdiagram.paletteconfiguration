@@ -5,12 +5,12 @@
     id="librarypalettemodel"
     label="Library">
   <drawerConfigurations
-      id="Library"
+      id="org.eclipse.papyrus.training.library.node.Library"
       label="Library"
       description="Library">
     <ownedConfigurations
         xsi:type="paletteconfiguration:ToolConfiguration"
-        id="extlibrary.classdiagram.book"
+        id="org.eclipse.papyrus.training.library.node.book"
         label="Book"
         description="Create a book">
       <icon
@@ -29,11 +29,11 @@
     </ownedConfigurations>
     <ownedConfigurations
         xsi:type="paletteconfiguration:StackConfiguration"
-        id="extlibrary.classdiagram.stack.periodical"
+        id="org.eclipse.papyrus.training.library.node.stack.periodical"
         label="periodical">
       <ownedConfigurations
           xsi:type="paletteconfiguration:ToolConfiguration"
-          id="extlibrary.classdiagram.periodical"
+          id="org.eclipse.papyrus.training.library.node.periodical"
           label="Periodical"
           description="Create a Periodical">
         <icon
@@ -44,7 +44,7 @@
       </ownedConfigurations>
       <ownedConfigurations
           xsi:type="paletteconfiguration:ToolConfiguration"
-          id="extlibrary.classdiagram.monthlyperiodical"
+          id="org.eclipse.papyrus.training.library.node.monthlyperiodical"
           label="Monthly Periodical"
           description="Create a Monthly Periodical">
         <icon
@@ -56,7 +56,7 @@
     </ownedConfigurations>
     <ownedConfigurations
         xsi:type="paletteconfiguration:ToolConfiguration"
-        id="extlibrary.classdiagram.borrower"
+        id="org.eclipse.papyrus.training.library.node.borrower"
         label="Borrower"
         description="Create a borrower">
       <icon
@@ -67,7 +67,7 @@
     </ownedConfigurations>
     <ownedConfigurations
         xsi:type="paletteconfiguration:ToolConfiguration"
-        id="extlibrary.classdiagram.borrows"
+        id="org.eclipse.papyrus.training.library.edge.borrows"
         label="Borrows"
         description="Create a borrow relationship"
         kind="ConnectionTool">
