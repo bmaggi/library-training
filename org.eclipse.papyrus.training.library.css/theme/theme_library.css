@@ -166,3 +166,7 @@ Class[appliedStereotypes~=Periodical] > Label[kind="FloatingLabel"]{
 Class[appliedStereotypes~=Periodical] >  Label[type=StereotypeLabel] {
 	visible: false;
 }
+
+Dependency[appliedStereotypes~=Borrows] >  Label:name {
+	visible: false;
+}

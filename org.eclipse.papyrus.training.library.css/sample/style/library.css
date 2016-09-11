@@ -114,3 +114,7 @@ Class[appliedStereotypes~=Borrower] > Label[kind="FloatingLabel"]{
 Class[appliedStereotypes~=Borrower] >  Label[type=StereotypeLabel] {
 	visible: false;
 }
+
+Dependency[appliedStereotypes~=Borrows] >  Label:name {
+	visible: false;
+}
