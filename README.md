@@ -8,13 +8,14 @@ License [![License](https://img.shields.io/badge/license-EPL-blue.svg)](https://
 Codeship [ ![Codeship Status for bmaggi/library-training](https://codeship.com/projects/93c25b50-55af-0134-4ca0-1e6b697efd61/status?branch=master)](https://codeship.com/projects/172132)
 
 :warning: 
+The official version of the training material is available in [Papyrus repository](https://git.eclipse.org/c/papyrus/org.eclipse.papyrus.git/tree/examples/library?h=streams/2.0-maintenance)
+ - Built against Eclipse Neon (This example is only tested against Eclipse Neon release train)
  - This is material used for training and example, it shouldn't be taken as an architectural reference:
 	- profile plugin shouldn't have any dependencies to Papyrus
 	- tests should be done using one fragment for each plugin
 	- elementtype should be hosted in an independant plugin
 	- ui element should probably be grouped in the same plugin
 	- css files are duplicated to demonstrate local css capabilities
- - Built against Eclipse Neon (This example is only tested against Eclipse Neon release train)
 
 0. How to create a DSML
 1. How to create a profile 
