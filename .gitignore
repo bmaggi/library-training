@@ -8,3 +8,5 @@ target/
 # Workspace metadata folder created by Oomph when launching tests.
 tests/**/.metadata/
 **/src/site/resources/images/rcptt-screenshots
+# sonarlint temporary directory
+sonarlint/

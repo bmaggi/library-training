@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+	<extension name="org.eclipse.papyrus.training.library.constraintProviders" point="org.eclipse.emf.validation.constraintProviders">
+      <category id="org.eclipse.papyrus.training.library.category" mandatory="false" name="Library Example Validation Category"/>
+	  <constraintProvider cache="false" mode="Batch">
+         <package namespaceUri="http://Papyrus/ExtLibraryProfile"/>
+         <constraints categories="org.eclipse.papyrus.training.library.category">   
+            <constraint id="constraint.minimum.books"  isEnabledByDefault="true" lang="Java" mode="Batch" severity="WARNING" statusCode="3" name="minimum.books"
+            class="org.eclipse.papyrus.training.library.validation.MinimumBooksInLibraryModelConstraint">
+               <message>This library {0} is missing the minimum numbers of book</message>
+            </constraint>  
+            <constraint id="constraint.minimum.pages"  isEnabledByDefault="true" lang="OCLpivot" mode="Batch" severity="WARNING" statusCode="1" name="minimum.pages">
+               <message>This book {0} has 0 pages</message>
+               <![CDATA[pages > 0]]>
+            </constraint>                                                                                                                         
+         </constraints>
+      </constraintProvider>   
+  </extension>     
+  <extension name="org.eclipse.papyrus.training.library.constraintBindings" point="org.eclipse.emf.validation.constraintBindings">  
+      <clientContext id="LibraryContext">
+         <selector class="org.eclipse.papyrus.training.library.validation.LibrarySelector"/>
+      </clientContext>
+      <binding context="LibraryContext">
+         <constraint ref="org.eclipse.papyrus.training.library.validation.constraint.minimum.books"/>
+      </binding>  
+      <clientContext id="BookAContext">
+         <selector class="org.eclipse.papyrus.training.library.validation.BookSelector"/>
+      </clientContext>
+      <binding context="BookAContext">
+         <constraint ref="org.eclipse.papyrus.training.library.validation.constraint.minimum.pages"/>
+      </binding>       
+ 	</extension>
+
+</plugin>

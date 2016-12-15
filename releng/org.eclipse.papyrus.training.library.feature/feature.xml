@@ -7,7 +7,7 @@
       plugin="org.eclipse.papyrus.training.library.core">
 
    <description url="https://eclipse.org/papyrus/">
-      
+      This is the official tutorial from Papyrus Project to show how to build a DSML
    </description>
 
    <copyright url="http://www.eclipse.org/legal/epl-v10.html">
@@ -29,10 +29,8 @@ http://www.eclipse.org/legal/epl-v10.html
    <plugin id="org.eclipse.papyrus.training.library.css" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
    <plugin id="org.eclipse.papyrus.training.library.viewpoint" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
    <plugin id="org.eclipse.papyrus.training.library.wizard" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
-  
-   <!-- New Child editor fix -->
-   <plugin id="org.eclipse.papyrus.infra.newchild.editor" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
-   
+   <plugin id="org.eclipse.papyrus.training.library.validation" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
+
    <!-- Compare customizations -->
    <plugin id="org.eclipse.papyrus.training.library.compare" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
    <plugin id="org.eclipse.papyrus.training.library.compare.edit" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
