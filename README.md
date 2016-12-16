@@ -1,5 +1,7 @@
-org.eclipse.papyrus.training.library
+org.eclipse.papyrus.training.library 
 =======================================
+
+
 
 # Status
 
@@ -17,7 +19,7 @@ The official version of the training material is available in [Papyrus repositor
 	- ui element should probably be grouped in the same plugin
 	- css files are duplicated to demonstrate local css capabilities
 
-0. How to create a DSML
+0. How to create a ![Libraryergt Gif][LibraryLogo] DSML 
 1. How to create a profile 
 2. How to create a new child menu
 3. How to create custom properties
@@ -25,5 +27,7 @@ The official version of the training material is available in [Papyrus repositor
 5. How to contribute to new model wizard
 6. How to create a palette
 7. How to create a viewpoint
+8. How to create a [validation rule](/org.eclipse.papyrus.training.library.validation/README.md) 
  
  
+[LibraryLogo]: /org.eclipse.papyrus.training.library.profile/icons/library.gif?raw=true "Library training logo"
