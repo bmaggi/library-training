@@ -17,4 +17,7 @@ public class TrainingLibraryResources {
 	
 	public static final String PROFILE_PATH = PROFILES_PATHMAP+"extlibrary.profile.uml"; //$NON-NLS-1$
 	
+	private TrainingLibraryResources() {
+	}
+		
 }

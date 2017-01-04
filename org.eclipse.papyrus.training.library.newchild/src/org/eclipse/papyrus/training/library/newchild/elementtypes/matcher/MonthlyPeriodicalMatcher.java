@@ -25,7 +25,7 @@ public class MonthlyPeriodicalMatcher implements IElementMatcher {
 
 	private static final String EXTLIBRARY_PERIODICAL = "extlibrary::Periodical";
 	
-	protected static final Integer TWELVE = new Integer(12);
+	protected static final Integer TWELVE = 12;
 
 	/**
 	 * {@inheritDoc}
@@ -37,7 +37,7 @@ public class MonthlyPeriodicalMatcher implements IElementMatcher {
 		}
 		Stereotype st = ((Class) eObject).getAppliedStereotype(EXTLIBRARY_PERIODICAL);
 		if (st == null) {
-			return false; // a periodical shoud have a stereotype 
+			return false; // a periodical should have a stereotype 
 		}
 		
 		// retrieve stereotype

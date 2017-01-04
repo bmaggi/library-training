@@ -40,6 +40,7 @@ public class ImportLibraryTemplateInModel implements IGenerator {
 
 	private org.eclipse.uml2.uml.Package libraryPackage;
 
+	@Override
 	public void execute() {
 
 		// Get its resource
@@ -62,7 +63,7 @@ public class ImportLibraryTemplateInModel implements IGenerator {
 				}
 
 				try {
-					root.eResource().save(Collections.EMPTY_MAP);
+					root.eResource().save(Collections.emptyMap());
 				} catch (IOException e) {
 					//TODO : log error
 				}
@@ -76,6 +77,7 @@ public class ImportLibraryTemplateInModel implements IGenerator {
 	 *
 	 * @param modelSet
 	 */
+	@Override
 	public void setModelSet(ModelSet modelSet) {
 		this.modelSet = modelSet;
 	}
