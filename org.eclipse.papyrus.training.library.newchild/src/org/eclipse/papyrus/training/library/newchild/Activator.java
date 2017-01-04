@@ -11,7 +11,6 @@
  *****************************************************************************/
 package org.eclipse.papyrus.training.library.newchild;
 
-import org.eclipse.papyrus.infra.core.log.LogHelper;
 import org.eclipse.papyrus.training.library.newchild.internal.HideNewChildEdgeUtil;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
@@ -27,13 +26,6 @@ public class Activator extends AbstractUIPlugin {
 	// The shared instance
 	private static Activator plugin;
 
-	public static LogHelper log;
-	
-	/**
-	 * The constructor
-	 */
-	public Activator() {
-	}
 
 	/*
 	 * (non-Javadoc)
@@ -42,7 +34,6 @@ public class Activator extends AbstractUIPlugin {
 	public void start(BundleContext context) throws Exception {
 		super.start(context);
 		plugin = this;
-		log = new LogHelper(this);
 		HideNewChildEdgeUtil.clean();
 	}
 
@@ -51,7 +42,6 @@ public class Activator extends AbstractUIPlugin {
 	 * @see org.eclipse.ui.plugin.AbstractUIPlugin#stop(org.osgi.framework.BundleContext)
 	 */
 	public void stop(BundleContext context) throws Exception {
-		log = null;
 		plugin = null;
 		super.stop(context);
 	}

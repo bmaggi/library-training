@@ -11,7 +11,6 @@
  *****************************************************************************/
 package org.eclipse.papyrus.training.library.properties;
 
-import org.eclipse.papyrus.infra.core.log.LogHelper;
 import org.eclipse.papyrus.training.library.properties.internal.ContextConfigurator;
 import org.eclipse.papyrus.training.library.properties.internal.ContextConfigurator.Context;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
@@ -28,22 +27,15 @@ public class Activator extends AbstractUIPlugin {
 	// The shared instance
 	private static Activator plugin;
 
-	public static LogHelper log;
-	
-	/**
-	 * The constructor
-	 */
-	public Activator() {
-	}
 
 	/*
 	 * (non-Javadoc)
 	 * @see org.eclipse.ui.plugin.AbstractUIPlugin#start(org.osgi.framework.BundleContext)
 	 */
+	@Override
 	public void start(BundleContext context) throws Exception {
 		super.start(context);
 		plugin = this;
-		log = new LogHelper(this);
 		ContextConfigurator.disableContext(Context.ADVANCE_STYLE);
 		ContextConfigurator.disableContext(Context.UML);
 	}
@@ -53,7 +45,6 @@ public class Activator extends AbstractUIPlugin {
 	 * @see org.eclipse.ui.plugin.AbstractUIPlugin#stop(org.osgi.framework.BundleContext)
 	 */
 	public void stop(BundleContext context) throws Exception {
-		log = null;
 		plugin = null;
 		super.stop(context);
 	}

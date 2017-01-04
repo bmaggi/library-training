@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+<extension
+         point="org.eclipse.papyrus.infra.hyperlink.hyperlinkContributor">
+      <contributor
+            contributor="org.eclipse.papyrus.training.library.hyperlink.BookToBorrowerHyperlinkContributor"
+            description="Got to borrower"
+            id="org.eclipse.papyrus.training.library.hyperlink.contributor.book2borrower"
+            label="Go to borrower">
+      </contributor>
+   </extension>
+
+</plugin>
