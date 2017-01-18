@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.papyrus.infra.services.navigation.navigationContributor">
+      <contributor
+            contributor="org.eclipse.papyrus.training.library.navigation.SameCategoryNavigationContributor"
+            description="xxxxxxxxxxxxx"
+            id="xxxxxxxxorg.eclipse.papyrus.uml.navigation.typedElement"
+            label="xxxxxxxxxxxx">
+      </contributor>
+   </extension>
+</plugin>
