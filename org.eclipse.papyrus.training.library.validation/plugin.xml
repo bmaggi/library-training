@@ -6,16 +6,21 @@
 	  <constraintProvider cache="false" mode="Batch">
          <package namespaceUri="http://Papyrus/ExtLibraryProfile"/>
          <constraints categories="org.eclipse.papyrus.training.library.category">   
-            <constraint id="constraint.minimum.books"  isEnabledByDefault="true" lang="Java" mode="Batch" severity="WARNING" statusCode="3" name="minimum.books"
-            class="org.eclipse.papyrus.training.library.validation.MinimumBooksInLibraryModelConstraint">
-               <message>This library {0} is missing the minimum numbers of book</message>
-            </constraint>  
-            <constraint id="constraint.minimum.pages"  isEnabledByDefault="true" lang="OCLpivot" mode="Batch" severity="WARNING" statusCode="1" name="minimum.pages">
-               <message>This book {0} has 0 pages</message>
-               <![CDATA[pages > 0]]>
-            </constraint>                                                                                                                         
+            <constraint id="constraint.twice.books"  isEnabledByDefault="true" lang="Java" mode="Batch" severity="WARNING" statusCode="3" name="twice.books"
+            class="org.eclipse.papyrus.training.library.validation.NoBookTwiceOneShellModelConstraint">
+               <message>This shell show duplicated books</message>
+            </constraint>                                                                                                                                       
          </constraints>
-      </constraintProvider>   
+      </constraintProvider> 
+	  <constraintProvider cache="false" mode="Batch">
+         <package namespaceUri="http://www.eclipse.org/uml2/5.0.0/UML"/>
+         <constraints categories="org.eclipse.papyrus.training.library.category">   
+            <constraint id="constraint.twice.books"  isEnabledByDefault="true" lang="Java" mode="Batch" severity="WARNING" statusCode="3" name="twice.books"
+            class="org.eclipse.papyrus.training.library.validation.NoBookTwiceOneShellModelConstraint">
+               <message>This shell show duplicated books</message>
+            </constraint>                                                                                                                                     
+         </constraints>
+      </constraintProvider>        
   </extension>     
   <extension name="org.eclipse.papyrus.training.library.constraintBindings" point="org.eclipse.emf.validation.constraintBindings">  
       <clientContext id="LibraryContext">
@@ -29,7 +34,13 @@
       </clientContext>
       <binding context="BookAContext">
          <constraint ref="org.eclipse.papyrus.training.library.validation.constraint.minimum.pages"/>
-      </binding>       
+      </binding>   
+      <clientContext id="AAATrueSelector">
+         <selector class="org.eclipse.papyrus.training.library.validation.TrueSelector"/>
+      </clientContext>  
+      <binding context="AAATrueSelector">
+         <constraint ref="org.eclipse.papyrus.training.library.validation.constraint.twice.books"/>
+      </binding>               
  	</extension>
 
 </plugin>

@@ -15,7 +15,8 @@ Require-Bundle: org.eclipse.core.resources;bundle-version="[3.9.0,4.0.0)",
  org.eclipse.papyrus.uml.oclconstraintevaluation;bundle-version="[1.2.0,2.0.0)",
  org.eclipse.papyrus.uml.xtext.integration.validation;bundle-version="[1.2.0,2.0.0)",
  org.eclipse.papyrus.uml.textedit.constraintwithessentialocl.xtext;bundle-version="[1.2.0,2.0.0)",
- org.eclipse.papyrus.training.library.profile
+ org.eclipse.papyrus.training.library.profile,
+ org.eclipse.gmf.runtime.notation;bundle-version="1.8.0"
 Export-Package: org.eclipse.papyrus.training.library.validation
 Bundle-Vendor: %Bundle-Vendor
 Bundle-Localization: plugin
