@@ -20,14 +20,15 @@ The official version of the training material is available in [Papyrus repositor
 	- css files are duplicated to demonstrate local css capabilities
 
 0. How to create a ![Libraryergt Gif][LibraryLogo] DSML 
-1. How to create a profile 
-2. How to create a new child menu
-3. How to create custom properties
-4. How to create a css theme
-5. How to contribute to new model wizard
-6. How to create a palette
-7. How to create a viewpoint
+1. How to create a [profile](/org.eclipse.papyrus.training.library.profile/README.md) 
+2. How to create a [new child menu](/org.eclipse.papyrus.training.library.newchild/README.md)
+3. How to create custom [properties](/org.eclipse.papyrus.training.library.properties/README.md)
+4. How to create a [css theme] (/org.eclipse.papyrus.training.library.css/README.md)
+5. How to contribute to new model [wizard](/org.eclipse.papyrus.training.library.wizard/README.md)
+6. How to create a [palette] (/org.eclipse.papyrus.training.library.palette/README.md)
+7. How to create a [Viewpoint] (/org.eclipse.papyrus.training.library.viewpoint/README.md)
 8. How to create a [validation rule](/org.eclipse.papyrus.training.library.validation/README.md) 
- 
+9. How to create a [hyperlink strategy](/org.eclipse.papyrus.training.library.hyperlink/README.md) 
+10. How to create a [navigation strategy](/org.eclipse.papyrus.training.library.navigation/README.md) 
  
 [LibraryLogo]: /org.eclipse.papyrus.training.library.profile/icons/library.gif?raw=true "Library training logo"
