@@ -1,0 +1,23 @@
+language: java
+sudo: false
+install: true
+
+addons:
+  sonarqube:
+    token:
+      secure: "todo"
+
+jdk:
+  - oraclejdk8
+
+script:
+  # JaCoCo is used to have code coverage, the agent has to be activated
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
+
+cache:
+  directories:
+    - '$HOME/.m2/repository'
+    - '$HOME/.sonar/cache'
+
+notifications:
+  email: false
