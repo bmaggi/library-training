@@ -1,5 +1,7 @@
 
 
+Behold the library profile ![Libraryergt jpg][LibraryProfileDiagram]  
+
 //TODO
 
 Create a profile with Papyrus
@@ -31,3 +33,6 @@ Path: Path to the UML model
 Iconpath, description, provider: icon that will be displayed in popup and other ui elements
 
 // display runtime
+
+
+[LibraryProfileDiagram]: /org.eclipse.papyrus.training.library.profile/doc/LibraryProfile.jpg?raw=true "Library Profile Diagram"
