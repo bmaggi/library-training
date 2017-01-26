@@ -9,6 +9,12 @@ License [![License](https://img.shields.io/badge/license-EPL-blue.svg)](https://
 
 Codeship [ ![Codeship Status for bmaggi/library-training](https://codeship.com/projects/93c25b50-55af-0134-4ca0-1e6b697efd61/status?branch=master)](https://codeship.com/projects/172132)
 
+Travis [![Build Status](https://travis-ci.org/bmaggi/library-training.svg?branch=master)](https://travis-ci.org/bmaggi/library-training)
+
+Sonarqube:  
+[![Quality Gate](https://sonarqube.com/api/badges/gate?key=org.eclipse.papyrus.training:org.eclipse.papyrus.training)](https://sonarqube.com/dashboard/index/org.eclipse.papyrus.training:org.eclipse.papyrus.training)  
+[![Technical debt ratio](https://sonarqube.com/api/badges/measure?key=org.eclipse.papyrus.training:org.eclipse.papyrus.training&metric=sqale_debt_ratio)](https://sonarqube.com/dashboard/index/org.eclipse.papyrus.training:org.eclipse.papyrus.training)  
+
 :warning: 
 The official version of the training material is available in [Papyrus repository](https://git.eclipse.org/c/papyrus/org.eclipse.papyrus.git/tree/examples/library?h=streams/2.0-maintenance)
  - Built against Eclipse Neon (This example is only tested against Eclipse Neon release train)
