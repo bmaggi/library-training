@@ -27,6 +27,7 @@
 	</modules>
 	<properties>
 		<tycho-version>0.26.0</tycho-version>
+		<sonar.exclusions>**/src-gen/**</sonar.exclusions>	
 	</properties>
 	<build>
 <pluginManagement>
