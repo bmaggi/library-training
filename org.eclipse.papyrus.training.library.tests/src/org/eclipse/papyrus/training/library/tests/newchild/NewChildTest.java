@@ -68,7 +68,7 @@ public class NewChildTest extends AbstractEMFResourceTest {
 
 		TreeIterator<EObject> allContents = resource.getAllContents();
 		while (allContents.hasNext()) {
-			EObject eObject = (EObject) allContents.next();
+			EObject eObject = allContents.next();
 
 			if (eObject instanceof CreationMenu) {
 				CreationMenu p = (CreationMenu) eObject;

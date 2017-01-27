@@ -88,7 +88,7 @@ public class PaletteTest extends AbstractEMFResourceTest {
 
 		TreeIterator<EObject> allContents = resource.getAllContents();
 		while (allContents.hasNext()) {
-			EObject eObject = (EObject) allContents.next();
+			EObject eObject = allContents.next();
 
 			if (eObject instanceof PaletteConfiguration) {
 				PaletteConfiguration p = (PaletteConfiguration) eObject;

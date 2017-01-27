@@ -21,16 +21,4 @@ public class Activator extends AbstractUIPlugin {
 	// The plug-in ID
 	public static final String PLUGIN_ID = "org.eclipse.papyrus.training.library.css"; //$NON-NLS-1$
 
-	// The shared instance
-	private static Activator plugin;
-
-	/**
-	 * Returns the shared instance
-	 *
-	 * @return the shared instance
-	 */
-	public static Activator getDefault() {
-		return plugin;
-	}
-
 }
