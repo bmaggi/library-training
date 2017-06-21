@@ -22,49 +22,32 @@ import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.resource.Resource;
 import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
-import org.eclipse.papyrus.infra.services.edit.service.ElementEditServiceUtils;
+import org.eclipse.papyrus.infra.gmfdiag.paletteconfiguration.ChildConfiguration;
+import org.eclipse.papyrus.infra.gmfdiag.paletteconfiguration.DrawerConfiguration;
+import org.eclipse.papyrus.infra.gmfdiag.paletteconfiguration.IconDescriptor;
+import org.eclipse.papyrus.infra.gmfdiag.paletteconfiguration.PaletteConfiguration;
+import org.eclipse.papyrus.infra.gmfdiag.paletteconfiguration.ToolConfiguration;
+import org.eclipse.papyrus.infra.gmfdiag.paletteconfiguration.ToolKind;
 import org.eclipse.papyrus.infra.types.core.registries.ElementTypeSetConfigurationRegistry;
-import org.eclipse.papyrus.training.library.tests.AbstractEMFResourceTest;
-import org.eclipse.papyrus.uml.diagram.paletteconfiguration.ChildConfiguration;
-import org.eclipse.papyrus.uml.diagram.paletteconfiguration.DrawerConfiguration;
-import org.eclipse.papyrus.uml.diagram.paletteconfiguration.ElementDescriptor;
-import org.eclipse.papyrus.uml.diagram.paletteconfiguration.IconDescriptor;
-import org.eclipse.papyrus.uml.diagram.paletteconfiguration.PaletteConfiguration;
-import org.eclipse.papyrus.uml.diagram.paletteconfiguration.ToolConfiguration;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 /**
  * Test the palette model :
- * - validate the model
+ * - validate that ids are following the pattern
  */
 @SuppressWarnings("nls")
-public class PaletteTest extends AbstractEMFResourceTest {
+public class PaletteTest {
 
 	public static final String PALETTE_PATH = org.eclipse.papyrus.training.library.palette.Activator.PLUGIN_ID+"/resources/extlibrary.classdiagram.paletteconfiguration";
-
+	
 
 	public static final String NODE = "node"; 
 
 	public static final String EDGE = "edge"; 
 
 	private String rootPath = "org.eclipse.papyrus.training.library"; 
-
-
-	
-	/**
-	 * {@inheritDoc}
-	 */
-	@Override
-	public String getFileUri() {
-		return PALETTE_PATH;
-	}
-
-	@Test
-	public void validateResource() {
-		doValidateResource();
-	}
 	
 	@Before
 	public void loadElementTypeRegistry(){
@@ -85,10 +68,9 @@ public class PaletteTest extends AbstractEMFResourceTest {
 		ResourceSetImpl resourceSetImpl = new ResourceSetImpl();
 		Resource resource = resourceSetImpl.getResource(createPlatformPluginURI, true);
 
-
 		TreeIterator<EObject> allContents = resource.getAllContents();
 		while (allContents.hasNext()) {
-			EObject eObject = allContents.next();
+			EObject eObject = (EObject) allContents.next();
 
 			if (eObject instanceof PaletteConfiguration) {
 				PaletteConfiguration p = (PaletteConfiguration) eObject;
@@ -103,26 +85,32 @@ public class PaletteTest extends AbstractEMFResourceTest {
 
 						if (childConfiguration instanceof ToolConfiguration) {
 							ToolConfiguration toolConfiguration = (ToolConfiguration) childConfiguration;
-							
-							// check that the referenced elementtype exist
-							EList<ElementDescriptor> elementDescriptors = toolConfiguration.getElementDescriptors();
-							for (ElementDescriptor elementDescriptor : elementDescriptors) {
-								String elementTypeId = elementDescriptor.getElementTypeId();
-								Assert.assertTrue("Unregistred element id : " + elementTypeId, ElementEditServiceUtils.getEditServiceProvider().isKnownElementType(elementTypeId));
-							}
-							
+
 							// check icon file
 							IconDescriptor icon = toolConfiguration.getIcon();
-							String iconPath = "platform:/plugin/"+ icon.getPluginID()+"/"+  icon.getIconPath();
-							 if (iconPath != null && !"".equals(iconPath)){
-									try {
-										URL url = new URL(iconPath);
-										Assert.assertNotNull("The icon "+iconPath+"(for : "+toolConfiguration.getId()+") can't be found", FileLocator.find(url));
-									} catch (MalformedURLException e) {
-										Assert.fail("The new child menu is refering to a malformed url "+iconPath);
-									}
-							 }	
-							 
+							String iconPath = "platform:/plugin/" + icon.getPluginID() + "/" + icon.getIconPath();
+							if (iconPath != null && !"".equals(iconPath)) {
+								try {
+									URL url = new URL(iconPath);
+									Assert.assertNotNull("The icon " + iconPath + "(for : " + toolConfiguration.getId()
+											+ ") can't be found", FileLocator.find(url));
+								} catch (MalformedURLException e) {
+									Assert.fail("The new child menu is refering to a malformed url " + iconPath);
+								}
+							}
+
+							ToolKind kind = toolConfiguration.getKind();
+							if (ToolKind.CONNECTION_TOOL.equals(kind)) {
+								Assert.assertTrue(
+										"An edge element " + toolConfiguration.getId()
+												+ " should always be in an edge Drawer " + drawerConfiguration.getId(),
+										drawerConfiguration.getId().contains(EDGE));
+							} else {
+								Assert.assertTrue(
+										"An node element " + toolConfiguration.getId()
+												+ " should always be in an node Drawer " + drawerConfiguration.getId(),
+										drawerConfiguration.getId().contains(NODE));
+							}
 						}
 					}
 				}

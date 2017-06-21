@@ -5,7 +5,7 @@ Export-Package: org.eclipse.papyrus.training.library.newchild,
  org.eclipse.papyrus.training.library.newchild.elementtypes.matcher,
  org.eclipse.papyrus.training.library.newchild.internal
 Bundle-Name: %Bundle-Name
-Bundle-Version: 2.0.0.qualifier
+Bundle-Version: 3.0.0.qualifier
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.eclipse.papyrus.training.library.profile,
@@ -20,7 +20,7 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.uml2.uml.resources;bundle-version="5.2.0"
 Bundle-ManifestVersion: 2
 Bundle-Activator: org.eclipse.papyrus.training.library.newchild.Activator
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Bundle-Vendor: %Bundle-Vendor
 Bundle-Localization: plugin

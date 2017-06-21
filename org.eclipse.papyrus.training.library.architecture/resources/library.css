@@ -1,0 +1,172 @@
+* {
+	svgCssFile: 'platform:/plugin/org.eclipse.papyrus.training.library.architecture/resources/svg.css'; /* The stylesheet to apply to all SVG Images */
+}
+
+[appliedStereotypes~=Book] {
+	svgFile: 'platform:/plugin/org.eclipse.papyrus.training.library.css/icons/book.svg';
+}
+
+[appliedStereotypes~=Borrower] {
+	svgFile: 'platform:/plugin/org.eclipse.papyrus.training.library.css/icons/borrower.svg';
+}
+
+[appliedStereotypes~=Borrows] {
+	svgFile: 'platform:/plugin/org.eclipse.papyrus.training.library.css/icons/borrows.svg';
+}
+
+[appliedStereotypes~=Periodical] {
+	svgFile: 'platform:/plugin/org.eclipse.papyrus.training.library.css/icons/periodical.svg';
+}
+
+[appliedStereotypes~=Library] {
+	elementIcon: false;
+	shapeVisibility: true;
+	svgFile: 'platform:/plugin/org.eclipse.papyrus.training.library.css/icons/library.svg';
+	canonical:true;
+}
+
+
+Package {
+	shapeDirection: 2; /* Top-Right to avoid overlapping with Name */ /* FIXME: Use true enumerations instead of an integer-based enumeration */
+}
+
+.showSymbol Compartment{
+	visible: false;
+}
+
+.showSymbol Compartment[kind=symbol]{
+	visible: true;
+}
+
+.showSymbol, .showSymbol * {
+	transparency: 100;
+	displayName: false;
+	displayBorder: false;
+	maintainSymbolRatio: false;
+	followSVGSymbol: true;
+	elementIcon: false;
+}
+
+/** Specific settings for Packages (Libraries), because they should display their internal contents */
+
+Package.showSymbol > Compartment[kind=symbol]{
+	visible: false;
+}
+
+.showSymbol > Label[type=StereotypeLabel] {
+	visible: false;
+}
+
+Package.showSymbol {
+	displayBorder:true;
+	transparency: 0;
+	lineWidth:2;
+}
+
+.showSymbol > Label[kind="FloatingLabel"]{
+	visible:true;
+}
+
+
+[category=ScienceFiction]{
+	fillColor: #006400; /* HTML Code for Dark Green */
+	svgCssClass: scifi;
+}
+
+[category=Mystery]{
+	fillColor: rgb(105, 105, 105); /* RGB Function for Dim Grey */
+	svgCssClass: mystery;
+}
+
+[category=Biography]{
+	fillColor: DodgerBlue; /* All CSS Color Names: http://www.w3schools.com/cssref/css_colornames.asp */
+	svgCssClass: bio;
+}
+
+[videoCassete], [bookOnTape1]{
+	fillColor: red;
+}
+
+
+
+
+Class[appliedStereotypes~=Borrower] > Compartment{
+	visible: false;
+}
+
+Class[appliedStereotypes~=Borrower] > Compartment[kind=symbol]{
+	visible: true;
+}
+
+Class[appliedStereotypes~=Borrower] {
+	transparency: 100;
+	displayName: false;
+	displayBorder: false;
+	maintainSymbolRatio: true;
+	elementIcon: false;
+	isFloatingLabelConstrained:true;
+}
+
+Class[appliedStereotypes~=Borrower] > Label[kind="FloatingLabel"]{
+	visible:true;
+}
+
+Class[appliedStereotypes~=Borrower] >  Label[type=StereotypeLabel] {
+	visible: false;
+}
+
+
+Class[appliedStereotypes~=Book] > Compartment{
+	visible: false;
+}
+
+Class[appliedStereotypes~=Book] > Compartment[kind=symbol]{
+	visible: true;
+}
+
+Class[appliedStereotypes~=Book] {
+	transparency: 100;
+	displayName: false;
+	displayBorder: false;
+	maintainSymbolRatio: true;
+	elementIcon: false;
+	isFloatingLabelConstrained:true;
+}
+
+Class[appliedStereotypes~=Book] > Label[kind="FloatingLabel"]{
+	visible:true;
+}
+
+Class[appliedStereotypes~=Book] >  Label[type=StereotypeLabel] {
+	visible: false;
+}
+
+
+Class[appliedStereotypes~=Periodical] > Compartment{
+	visible: false;
+}
+
+Class[appliedStereotypes~=Periodical] > Compartment[kind=symbol]{
+	visible: true;
+}
+
+Class[appliedStereotypes~=Periodical] {
+	transparency: 100;
+	displayName: false;
+	displayBorder: false;
+	maintainSymbolRatio: true;
+	elementIcon: false;
+	isFloatingLabelConstrained:true;
+}
+
+Class[appliedStereotypes~=Periodical] > Label[kind="FloatingLabel"]{
+	visible:true;
+}
+
+Class[appliedStereotypes~=Periodical] >  Label[type=StereotypeLabel] {
+	visible: false;
+}
+
+Dependency[appliedStereotypes~=Borrows] >  Label:name {
+	visible: false;
+}

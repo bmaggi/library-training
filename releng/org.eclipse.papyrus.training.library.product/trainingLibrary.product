@@ -52,7 +52,7 @@ Apache Software Foundation http://www.apache.org/
    <intro introId="org.eclipse.ui.intro.universal"/>
 
    <vm>
-      <windows include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7</windows>
+      <windows include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8</windows>
    </vm>
 
    <license>
@@ -116,7 +116,6 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
       <feature id="org.eclipse.papyrus.training.library.feature"/>
       <feature id="org.eclipse.papyrus.training.library.rcp.feature"/>
       <feature id="org.eclipse.rcp"/>
-      <feature id="org.eclipse.papyrus.customization.feature"/>
       <feature id="org.eclipse.papyrus.editor.feature"/>
       <feature id="org.eclipse.papyrus.infra.core.feature"/>
       <feature id="org.eclipse.papyrus.infra.feature"/>
@@ -141,15 +140,8 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
       <feature id="org.eclipse.papyrus.infra.gmfdiag.css.feature"/>
       <feature id="org.eclipse.papyrus.uml.diagram.css.feature"/>
       <feature id="org.eclipse.papyrus.emf.facet.feature"/>
-      <feature id="org.eclipse.papyrus.infra.viewpoints.feature"/>
       <feature id="org.eclipse.papyrus.uml.decoratormodel.feature"/>
       <feature id="org.eclipse.papyrus.uml.assistants.feature"/>
-      <feature id="org.eclipse.emf.compare"/>
-      <feature id="org.eclipse.emf.compare.diagram.gmf"/>
-      <feature id="org.eclipse.emf.compare.diagram.papyrus"/>
-      <feature id="org.eclipse.emf.compare.egit"/>
-      <feature id="org.eclipse.emf.compare.ide.ui"/>
-      <feature id="org.eclipse.emf.compare.uml2"/>
       <feature id="org.eclipse.egit"/>
       <feature id="org.eclipse.jgit"/>
       <feature id="org.eclipse.papyrus.infra.ui.feature"/>
@@ -170,7 +162,7 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
    </configurations>
 
    <repositories>
-      <repository location="http://download.eclipse.org/modeling/mdt/papyrus/updates/releases/neon" enabled="true" />
+      <repository location="http://download.eclipse.org/modeling/mdt/papyrus/updates/releases/oxygen" enabled="true" />
    </repositories>
 
    <preferencesInfo>

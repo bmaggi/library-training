@@ -22,9 +22,7 @@ import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.resource.Resource;
 import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
 import org.eclipse.papyrus.infra.newchild.elementcreationmenumodel.CreationMenu;
-import org.eclipse.papyrus.infra.services.edit.service.ElementEditServiceUtils;
 import org.eclipse.papyrus.infra.types.core.registries.ElementTypeSetConfigurationRegistry;
-import org.eclipse.papyrus.training.library.tests.AbstractEMFResourceTest;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -34,27 +32,13 @@ import org.junit.Test;
  * - validate the model
  */
 @SuppressWarnings("nls")
-public class NewChildTest extends AbstractEMFResourceTest {
+public class NewChildTest {
 
-	public static final String PATH = org.eclipse.papyrus.training.library.newchild.Activator.PLUGIN_ID + "/resources/newChild.creationmenumodel";
+	public static final String NEW_CHILD_MENU_PATH = org.eclipse.papyrus.training.library.newchild.Activator.PLUGIN_ID + "/resources/newChild.creationmenumodel";
 
 	@BeforeClass
 	public static void loadElementTypeSet(){
 		ElementTypeSetConfigurationRegistry.getInstance();
-	}
-	
-	
-	/**
-	 * {@inheritDoc}
-	 */
-	@Override
-	public String getFileUri() {
-		return PATH;
-	}
-
-	@Test
-	public void validateResource() {
-		doValidateResource();
 	}
 
 	/**
@@ -62,24 +46,18 @@ public class NewChildTest extends AbstractEMFResourceTest {
 	 */
 	@Test
 	public void checkMenuNewChildElementTypeIdRefs() {
-		URI createPlatformPluginURI = URI.createPlatformPluginURI(PATH, true);
+		URI createPlatformPluginURI = URI.createPlatformPluginURI(NEW_CHILD_MENU_PATH, true);
 		ResourceSetImpl resourceSetImpl = new ResourceSetImpl();
 		Resource resource = resourceSetImpl.getResource(createPlatformPluginURI, true);
 
 		TreeIterator<EObject> allContents = resource.getAllContents();
 		while (allContents.hasNext()) {
-			EObject eObject = allContents.next();
-
+			EObject eObject = (EObject) allContents.next();
 			if (eObject instanceof CreationMenu) {
-				CreationMenu p = (CreationMenu) eObject;
-				String elementTypeIdRef = p.getElementTypeIdRef();
-				Assert.assertTrue("Unregistred element type id : " + elementTypeIdRef, ElementEditServiceUtils.getEditServiceProvider().isKnownElementType(elementTypeIdRef));
-
-				String iconPath = p.getIcon();
+				String iconPath = ((CreationMenu) eObject).getIcon();
 				 if (iconPath != null && !"".equals(iconPath)){
 						try {
-							URL url = new URL(iconPath);
-							Assert.assertNotNull("The icon "+iconPath+"(for : "+elementTypeIdRef+") can't be found", FileLocator.find(url));
+							Assert.assertNotNull("The icon "+iconPath+" can't be found", FileLocator.find(new URL(iconPath)));
 						} catch (MalformedURLException e) {
 							Assert.fail("The new child menu is refering to a malformed url "+iconPath);
 						}

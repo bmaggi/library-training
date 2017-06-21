@@ -1,49 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ElementCreationMenuModel:Folder
-    xmi:version="2.0"
-    xmlns:xmi="http://www.omg.org/XMI"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:ElementCreationMenuModel="http://www.eclipse.org/papyrus/infra/newchild/elementcreationmenumodel"
-    xmi:id="_-5Z5sN90EeOzMY8AIRUeqQ"
-    label="Library"
-    icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/library.gif">
-  <menu xsi:type="ElementCreationMenuModel:CreationMenu"
-      label="Library"
-      icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/library.gif"
-      elementTypeIdRef="org.eclipse.papyrus.training.library.profile.extlibrary.Library"/>
-  <menu xsi:type="ElementCreationMenuModel:CreationMenu"
-      xmi:id="_496okF3tEeSTX8qNvjL72Q"
-      label="Book"
-      icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/book.png"
-      elementTypeIdRef="org.eclipse.papyrus.training.library.profile.extlibrary.Book"/>
-  <menu xsi:type="ElementCreationMenuModel:CreationMenu"
-      label="Book Restricted Access"
-      icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/book.png"
-      elementTypeIdRef="org.eclipse.papyrus.training.library.profile.extlibrary.Book.RestrictedAccess"/>
-  <menu xsi:type="ElementCreationMenuModel:CreationMenu"
-      xmi:id="_jxZ_0F3zEeSTX8qNvjL72Q"
-      label="Periodical"
-      icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/periodical.gif"
-      elementTypeIdRef="org.eclipse.papyrus.training.library.profile.extlibrary.Periodical"/>
-  <menu xsi:type="ElementCreationMenuModel:Folder"
-      xmi:id="_tPDmAF3zEeSTX8qNvjL72Q"
-      label="Periodical - Predefined">
-    <menu xsi:type="ElementCreationMenuModel:CreationMenu"
-        xmi:id="_kK-9cF3zEeSTX8qNvjL72Q"
-        label="Periodical - Monthly "
-        icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/periodical.gif"
-        elementTypeIdRef="org.eclipse.papyrus.training.library.profile.extlibrary.Periodical.Monthly"/>
-    <menu xsi:type="ElementCreationMenuModel:CreationMenu"
-        label="Periodical - Weekly"
-        icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/periodical.gif"
-        elementTypeIdRef="org.eclipse.papyrus.training.library.profile.extlibrary.Periodical.Weekly"/>
+<ElementCreationMenuModel:Folder xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ElementCreationMenuModel="http://www.eclipse.org/papyrus/infra/newchild/elementcreationmenumodel" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmi:id="org.eclipse.papyrus.training.library.menu" label="Menu Library" icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/library.gif">
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Library" icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/library.gif">
+    <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="extLibrary.elementtypesconfigurations#org.eclipse.papyrus.training.library.profile.extlibrary.Library"/>
   </menu>
-  <menu xsi:type="ElementCreationMenuModel:CreationMenu"
-      label="Borrower"
-      icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/borrower.png"
-      elementTypeIdRef="org.eclipse.papyrus.training.library.profile.extlibrary.Borrower"/>
-  <menu xsi:type="ElementCreationMenuModel:CreateRelationshipMenu"
-      label="Borrows"
-      icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/borrows.png"
-      elementTypeIdRef="org.eclipse.papyrus.training.library.profile.extlibrary.Borrows"/>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" xmi:id="_496okF3tEeSTX8qNvjL72Q" label="Book" icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/book.png">
+    <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.training.library.newchild/resources/extLibrary.elementtypesconfigurations#org.eclipse.papyrus.training.library.profile.extlibrary.Book"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Book Restricted Access" icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/book.png">
+    <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="extLibrary.elementtypesconfigurations#org.eclipse.papyrus.training.library.profile.extlibrary.Book.RestrictedAccess"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" xmi:id="_jxZ_0F3zEeSTX8qNvjL72Q" label="Periodical" icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/periodical.gif">
+    <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.training.library.newchild/resources/extLibrary.elementtypesconfigurations#org.eclipse.papyrus.training.library.profile.extlibrary.Periodical"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:Folder" xmi:id="_tPDmAF3zEeSTX8qNvjL72Q" label="Periodical - Predefined">
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" xmi:id="_kK-9cF3zEeSTX8qNvjL72Q" label="Periodical - Monthly " icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/periodical.gif">
+      <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="extLibrary.elementtypesconfigurations#org.eclipse.papyrus.training.library.profile.extlibrary.Periodical.Monthly"/>
+    </menu>
+    <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Periodical - Weekly" icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/periodical.gif">
+      <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.training.library.newchild/resources/extLibrary.elementtypesconfigurations#org.eclipse.papyrus.training.library.profile.extlibrary.Periodical.Weekly"/>
+    </menu>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Borrower" icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/borrower.png">
+    <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.training.library.newchild/resources/extLibrary.elementtypesconfigurations#org.eclipse.papyrus.training.library.profile.extlibrary.Borrower"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:CreateRelationshipMenu" label="Borrows" icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/borrows.png">
+    <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="extLibrary.elementtypesconfigurations#org.eclipse.papyrus.training.library.profile.extlibrary.Borrows"/>
+  </menu>
 </ElementCreationMenuModel:Folder>

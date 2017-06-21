@@ -17,7 +17,7 @@ Sonarqube:
 
 :warning: 
 The official version of the training material is available in [Papyrus repository](https://git.eclipse.org/c/papyrus/org.eclipse.papyrus.git/tree/examples/library?h=streams/2.0-maintenance)
- - Built against Eclipse Neon (This example is only tested against Eclipse Neon release train)
+ - Built against Eclipse Oxygen (This example is only tested against Eclipse Oxygen release train)
  - This is material used for training and example, it shouldn't be taken as an architectural reference:
 	- profile plugin shouldn't have any dependencies to Papyrus
 	- tests should be done using one fragment for each plugin
@@ -32,7 +32,7 @@ The official version of the training material is available in [Papyrus repositor
 4. How to create a [css theme] (/org.eclipse.papyrus.training.library.css/README.md)
 5. How to contribute to new model [wizard](/org.eclipse.papyrus.training.library.wizard/README.md)
 6. How to create a [palette] (/org.eclipse.papyrus.training.library.palette/README.md)
-7. How to create a [Viewpoint] (/org.eclipse.papyrus.training.library.viewpoint/README.md)
+7. How to create an [architecture] (/org.eclipse.papyrus.training.library.architecture/README.md)
 8. How to create a [validation rule](/org.eclipse.papyrus.training.library.validation/README.md) 
 9. How to create a [hyperlink strategy](/org.eclipse.papyrus.training.library.hyperlink/README.md) 
 10. How to create a [navigation strategy](/org.eclipse.papyrus.training.library.navigation/README.md) 

@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: org.eclipse.papyrus.training.library.validation;singleton:=true
-Bundle-Version: 2.0.0.qualifier
+Bundle-Version: 3.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Require-Bundle: org.eclipse.core.resources;bundle-version="[3.9.0,4.0.0)",
  org.eclipse.emf.validation.ocl;bundle-version="[1.4.0,2.0.0)",
@@ -11,9 +11,9 @@ Require-Bundle: org.eclipse.core.resources;bundle-version="[3.9.0,4.0.0)",
  org.eclipse.ocl.uml;bundle-version="[5.2.0,6.0.0)",
  org.eclipse.ocl.ecore;bundle-version="[3.6.0,4.0.0)",
  org.eclipse.uml2.uml.validation;bundle-version="[5.0.0,6.0.0)",
- org.eclipse.papyrus.infra.services.validation;bundle-version="[2.0.0,3.0.0)",
+ org.eclipse.papyrus.infra.services.validation;bundle-version="[3.0.0,4.0.0)",
  org.eclipse.papyrus.uml.oclconstraintevaluation;bundle-version="[1.2.0,2.0.0)",
- org.eclipse.papyrus.uml.xtext.integration.validation;bundle-version="[1.2.0,2.0.0)",
+ org.eclipse.papyrus.uml.xtext.integration.validation;bundle-version="[2.0.0,3.0.0)",
  org.eclipse.papyrus.uml.textedit.constraintwithessentialocl.xtext;bundle-version="[1.2.0,2.0.0)",
  org.eclipse.papyrus.training.library.profile,
  org.eclipse.gmf.runtime.notation;bundle-version="1.8.0"

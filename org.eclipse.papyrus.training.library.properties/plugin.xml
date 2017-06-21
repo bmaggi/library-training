@@ -13,6 +13,6 @@
 -->
 <plugin>
 	<extension point="org.eclipse.papyrus.infra.properties.contexts">
-      <context contextModel="/propertyView/extlibrary/extlibrary.ctx" isCustomizable="true"/>
+      <context contextModel="/resources/extlibrary/extlibrary.ctx" isCustomizable="true"/>
    </extension>
 </plugin>

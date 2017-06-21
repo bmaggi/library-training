@@ -1,0 +1,41 @@
+target "Papyrus Oxygen" with source requirements
+
+location "http://download.eclipse.org/releases/oxygen/" eclipse-oxygen {
+ org.eclipse.draw2d.feature.group lazy
+ org.eclipse.emf.feature.group lazy
+ org.eclipse.emf.mwe2.language.sdk.feature.group lazy
+ org.eclipse.emf.mwe2.runtime.sdk.feature.group lazy
+ org.eclipse.emf.mwe.core.feature.feature.group lazy
+ org.eclipse.emf.mwe.sdk.feature.group lazy
+ org.eclipse.emf.mwe.ui.feature.feature.group lazy // remove?
+ org.eclipse.emf.validation.ocl.feature.group lazy
+ org.eclipse.equinox.executable.feature.group lazy
+ org.eclipse.equinox.p2.discovery.feature.feature.group lazy
+ org.eclipse.gmf.feature.group lazy
+ org.eclipse.jdt.feature.group lazy
+ org.eclipse.m2m.qvt.oml.feature.group lazy
+ org.eclipse.m2m.qvt.oml.project lazy // no feature
+ org.eclipse.ocl.all.feature.group lazy // no feature group for ocl.ecore alone
+ org.eclipse.ocl.common.ui lazy // no feature group or feature
+ org.eclipse.ocl.core.sdk.feature.group lazy // necessary?
+ org.eclipse.ocl.examples.feature.group lazy
+ org.eclipse.ocl.uml.feature.group lazy
+ org.eclipse.papyrus.sdk.feature.feature.group lazy
+ org.eclipse.pde.feature.group lazy
+ org.eclipse.platform.feature.group lazy
+ org.eclipse.rcp.feature.group lazy
+ org.eclipse.uml2.feature.group lazy
+ org.eclipse.wst.common_core.feature.feature.group lazy
+ org.eclipse.wst.xml_core.feature.feature.group lazy
+ org.eclipse.xpand.feature.group lazy
+ org.eclipse.xsd.feature.group lazy
+ org.eclipse.xtend.feature.group lazy
+ org.eclipse.xtend.sdk.feature.group lazy
+ org.eclipse.xtext.runtime.feature.group lazy
+ org.eclipse.xtext.sdk.feature.group lazy
+ org.eclipse.xtext.ui.feature.group lazy
+ org.eclipse.xtext.xbase.feature.group lazy
+ org.eclipse.xtext.xbase.lib.feature.group lazy
+ org.eclipse.xwt.feature.feature.group lazy
+ org.eclipse.egit.feature.group lazy
+}

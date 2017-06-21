@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.eclipse.papyrus.training</groupId>
 	<artifactId>org.eclipse.papyrus.training</artifactId>
-	<version>2.0.0-SNAPSHOT</version>
+	<version>3.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<modules>
 		<module>org.eclipse.papyrus.training.library.profile</module>
@@ -12,21 +13,17 @@
 		<module>org.eclipse.papyrus.training.library.wizard</module>
 		<module>org.eclipse.papyrus.training.library.palette</module>
 		<module>org.eclipse.papyrus.training.library.properties</module>
-		<module>org.eclipse.papyrus.training.library.viewpoint</module>
+		<module>org.eclipse.papyrus.training.library.architecture</module>
 		<module>org.eclipse.papyrus.training.library.validation</module>
-
-		<!-- Diff/merge customization -->
-		<module>org.eclipse.papyrus.training.library.compare</module>
-		<module>org.eclipse.papyrus.training.library.compare.edit</module>
 
 		<!-- Plugin not used a material training -->
 		<module>releng</module>
 		<module>org.eclipse.papyrus.training.library.tests</module>
-		<module>org.eclipse.papyrus.training.library.targetplatform.neon</module>
+		<module>org.eclipse.papyrus.training.library.targetplatform</module>
 		
 	</modules>
 	<properties>
-		<tycho-version>0.26.0</tycho-version>
+		<tycho-version>1.0.0</tycho-version>
 		<sonar.exclusions>**/src-gen/**</sonar.exclusions>	
 	</properties>
 	<build>
@@ -150,7 +147,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
-				<version>2.6</version>
 				<configuration>
 					<encoding>UTF-8</encoding>
 				</configuration>
@@ -158,10 +154,9 @@
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-compiler-plugin</artifactId>
-				<version>${tycho-version}</version>
 				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
+					<source>1.8</source>
+					<target>1.8</target>
 					<optimize>true</optimize>
 					<showWarnings>true</showWarnings>
 				</configuration>
@@ -170,18 +165,15 @@
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-maven-plugin</artifactId>
-				<version>${tycho-version}</version>
 				<extensions>true</extensions>
 			</plugin>
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-p2-repository-plugin</artifactId>
-				<version>${tycho-version}</version>
 			</plugin>
 			<plugin><!-- enable source bundle generation -->
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-source-plugin</artifactId>
-				<version>${tycho-version}</version>
 				<executions>
 					<execution>
 						<id>plugin-source</id>
@@ -194,7 +186,6 @@
 			<plugin>
 				<groupId>org.eclipse.tycho.extras</groupId>
 				<artifactId>tycho-source-feature-plugin</artifactId>
-				<version>${tycho-version}</version>
 				<executions>
 					<execution>
 						<id>source-feature</id>
@@ -204,12 +195,8 @@
 						</goals>
 						<configuration>
 							<excludes>
-								<plugin id="org.eclipse.papyrus.information.modeling.rcp" />
 								<plugin id="org.apache.batik.pdf" />
 								<plugin id="org.eclipse.wst.common.project.facet.core" />
-								<plugin id="org.eclipse.emf.compare.rcp" />
-								<plugin id="org.eclipse.emf.compare.rcp.ui" />
-								<plugin id="org.eclipse.papyrus.information.modeling.examples" />
 								<plugin id="org.apache.batik.bridge" />
 								<plugin id="org.apache.batik.css" />
 								<plugin id="org.apache.batik.dom" />
@@ -233,7 +220,6 @@
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-p2-plugin</artifactId>
-				<version>${tycho-version}</version>
 				<executions>
 					<execution>
 						<id>attach-p2-metadata</id>
@@ -247,12 +233,10 @@
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-versions-plugin</artifactId>
-				<version>${tycho-version}</version>
 			</plugin>
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-surefire-plugin</artifactId>
-				<version>${tycho-version}</version>
 				<configuration>
 					<failIfNoTests>false</failIfNoTests>
 					<useUIHarness>true</useUIHarness>
@@ -263,11 +247,6 @@
 						<args>${ui.test.vmargs}</args>
 					</jvmArgs>
 					<bundleStartLevel>
-						<bundle>
-							<id>org.eclipse.papyrus.information.modeling.service.types</id>
-							<level>6</level>
-							<autoStart>true</autoStart>
-						</bundle>
 						<bundle>
 							<id>org.eclipse.equinox.launcher</id>
 							<level>4</level>
@@ -289,7 +268,6 @@
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>target-platform-configuration</artifactId>
-				<version>${tycho-version}</version>
 				<configuration>
 					<environments>
 						<environment>
@@ -322,8 +300,8 @@
 					<target>
 						<artifact>
 							<groupId>org.eclipse.papyrus.training</groupId>
-							<artifactId>org.eclipse.papyrus.training.library.targetplatform.neon</artifactId>
-							<version>2.0.0-SNAPSHOT</version>
+							<artifactId>org.eclipse.papyrus.training.library.targetplatform</artifactId>
+							<version>3.0.0-SNAPSHOT</version>
 						</artifact>
 					</target>
 				</configuration>
