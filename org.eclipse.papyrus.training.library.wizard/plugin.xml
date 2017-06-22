@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?eclipse version="3.4"?>
 <plugin>
-
-   	<!-- creation of a "library model" -->
-     <extension point="org.eclipse.papyrus.infra.ui.papyrusDiagram">
-	     <diagramCategory
-	     		id="org.eclipse.papyrus.training.library.architecture"
-	            class="org.eclipse.papyrus.training.library.wizard.TrainingLibraryModelCreationCommand"
-	            icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/library.gif"
-	            label="Training Library" description="Training Library diagrams"><!-- id is an important key that should be matched by viewpoint category -->
-	     </diagramCategory>
-    </extension>  
  
  	<!-- add a "transformation" to the new model wizard -->
     <extension
@@ -19,7 +9,7 @@
             Transformation="org.eclipse.papyrus.training.library.wizard.ImportLibraryTemplateInModel"
          	id="org.eclipse.papyrus.training.library.wizard.templaterepository.ImportLibraryExampleInModel"
             language="org.eclipse.papyrus.training.library.architecture" 
-            name="An example of Transformation Library Model"><!-- Language is an important key that should be matched by diagramCategory id and viewpoint category -->
+            name="An example of Transformation Library Model"><!-- Language is an important key that should be matched by architecture id -->
       </transformation>           
   </extension>
  
@@ -32,7 +22,7 @@
             name="An example of Template of Library Model"
             file="resources\LibraryTemplateModel.uml"      
             notation_file="resources\LibraryTemplateModel.notation"
-            di_file="resources\LibraryTemplateModel.di"><!-- Language is an important key that should be matched by diagramCategory id and viewpoint category -->
+            di_file="resources\LibraryTemplateModel.di"><!-- Language is an important key that should be matched by architecture id -->
       </template>            
   </extension>
 </plugin>
