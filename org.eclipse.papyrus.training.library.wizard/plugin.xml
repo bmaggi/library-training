@@ -5,7 +5,7 @@
    	<!-- creation of a "library model" -->
      <extension point="org.eclipse.papyrus.infra.ui.papyrusDiagram">
 	     <diagramCategory
-	     		id="TrainingLibrary"
+	     		id="org.eclipse.papyrus.training.library.architecture"
 	            class="org.eclipse.papyrus.training.library.wizard.TrainingLibraryModelCreationCommand"
 	            icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/library.gif"
 	            label="Training Library" description="Training Library diagrams"><!-- id is an important key that should be matched by viewpoint category -->
@@ -18,7 +18,7 @@
       <transformation
             Transformation="org.eclipse.papyrus.training.library.wizard.ImportLibraryTemplateInModel"
          	id="org.eclipse.papyrus.training.library.wizard.templaterepository.ImportLibraryExampleInModel"
-            language="TrainingLibrary" 
+            language="org.eclipse.papyrus.training.library.architecture" 
             name="An example of Transformation Library Model"><!-- Language is an important key that should be matched by diagramCategory id and viewpoint category -->
       </transformation>           
   </extension>
@@ -28,7 +28,7 @@
          point="org.eclipse.papyrus.uml.diagram.wizards.templates"> 
       <template
      		id="org.eclipse.papyrus.training.library.wizard.templaterepository.TemplateExampleModel"
-     		language="TrainingLibrary"
+     		language="org.eclipse.papyrus.training.library.architecture"
             name="An example of Template of Library Model"
             file="resources\LibraryTemplateModel.uml"      
             notation_file="resources\LibraryTemplateModel.notation"

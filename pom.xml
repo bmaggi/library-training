@@ -17,10 +17,9 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 		<module>org.eclipse.papyrus.training.library.validation</module>
 
 		<!-- Plugin not used a material training -->
-		<module>releng</module>
 		<module>org.eclipse.papyrus.training.library.tests</module>
+		<module>releng</module>
 		<module>org.eclipse.papyrus.training.library.targetplatform</module>
-		
 	</modules>
 	<properties>
 		<tycho-version>1.0.0</tycho-version>

@@ -6,7 +6,7 @@
     <concerns href="platform:/plugin/org.eclipse.papyrus.uml.architecture/model/uml.architecture#_HQhf5MSYEeaKZJ_pGfaSiA"/>
   </stakeholders>
   <concerns xmi:id="org.eclipse.papyrus.training.concern.requirements" id="org.eclipse.papyrus.training.concern.requirements" name="Education" description="The concern of developing the system's requirements"/>
-  <contexts xsi:type="architecture:ArchitectureDescriptionLanguage" xmi:id="org.eclipse.papyrus.training.architecture" id="org.eclipse.papyrus.training.library.architecture" name="Library" description="The Library Modeling Language" icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/library.gif" extensionPrefix="">
+  <contexts xsi:type="architecture:ArchitectureDescriptionLanguage" xmi:id="org.eclipse.papyrus.training.library.architecture" id="org.eclipse.papyrus.training.library.architecture" name="Library" description="The Library Modeling Language" icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/library.gif" extensionPrefix="" creationCommandClass="org.eclipse.papyrus.training.library.architecture.TrainingLibraryModelCreationCommand">
     <viewpoints xmi:id="org.eclipse.papyrus.training.analysis" id="org.eclipse.papyrus.training.analysis" name="Training Analysis" description="A viewpoint allowing library analysis for training" representationKinds="org.eclipse.papyrus.training.diagram"/>
     <elementTypes href="platform:/plugin/org.eclipse.papyrus.infra.emf/model/infra-emf.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
     <elementTypes href="platform:/plugin/org.eclipse.papyrus.infra.gmfdiag.common/model/gmfdiag-common.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>

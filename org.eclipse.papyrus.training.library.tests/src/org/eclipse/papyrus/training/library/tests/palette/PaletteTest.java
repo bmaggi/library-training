@@ -27,7 +27,6 @@ import org.eclipse.papyrus.infra.gmfdiag.paletteconfiguration.DrawerConfiguratio
 import org.eclipse.papyrus.infra.gmfdiag.paletteconfiguration.IconDescriptor;
 import org.eclipse.papyrus.infra.gmfdiag.paletteconfiguration.PaletteConfiguration;
 import org.eclipse.papyrus.infra.gmfdiag.paletteconfiguration.ToolConfiguration;
-import org.eclipse.papyrus.infra.gmfdiag.paletteconfiguration.ToolKind;
 import org.eclipse.papyrus.infra.types.core.registries.ElementTypeSetConfigurationRegistry;
 import org.junit.Assert;
 import org.junit.Before;
@@ -40,9 +39,8 @@ import org.junit.Test;
 @SuppressWarnings("nls")
 public class PaletteTest {
 
-	public static final String PALETTE_PATH = org.eclipse.papyrus.training.library.palette.Activator.PLUGIN_ID+"/resources/extlibrary.classdiagram.paletteconfiguration";
+	public static final String PALETTE_PATH = org.eclipse.papyrus.training.library.palette.Activator.PLUGIN_ID+"/resources/library.paletteconfiguration";
 	
-
 	public static final String NODE = "node"; 
 
 	public static final String EDGE = "edge"; 
@@ -97,19 +95,6 @@ public class PaletteTest {
 								} catch (MalformedURLException e) {
 									Assert.fail("The new child menu is refering to a malformed url " + iconPath);
 								}
-							}
-
-							ToolKind kind = toolConfiguration.getKind();
-							if (ToolKind.CONNECTION_TOOL.equals(kind)) {
-								Assert.assertTrue(
-										"An edge element " + toolConfiguration.getId()
-												+ " should always be in an edge Drawer " + drawerConfiguration.getId(),
-										drawerConfiguration.getId().contains(EDGE));
-							} else {
-								Assert.assertTrue(
-										"An node element " + toolConfiguration.getId()
-												+ " should always be in an node Drawer " + drawerConfiguration.getId(),
-										drawerConfiguration.getId().contains(NODE));
 							}
 						}
 					}

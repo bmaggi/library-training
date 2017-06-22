@@ -8,11 +8,10 @@ Bundle-Localization: plugin
 Require-Bundle: org.eclipse.papyrus.uml.diagram.common,
  org.eclipse.papyrus.uml.tools,
  org.eclipse.papyrus.uml.diagram.wizards;bundle-version="2.0.0",
+ org.eclipse.papyrus.uml.architecture;bundle-version="1.0.0",
  org.eclipse.papyrus.training.library.profile,
  org.eclipse.papyrus.training.library.newchild;bundle-version="2.0.0",
  org.eclipse.papyrus.training.library.css;bundle-version="2.0.0",
- org.eclipse.papyrus.training.library.properties;bundle-version="2.0.0",
- org.eclipse.papyrus.training.library.wizard;bundle-version="3.0.0",
- org.eclipse.papyrus.uml.architecture;bundle-version="1.0.0"
+ org.eclipse.papyrus.training.library.properties;bundle-version="2.0.0"
 Bundle-Vendor: %Bundle-Vendor
 Export-Package: org.eclipse.papyrus.training.library.architecture
