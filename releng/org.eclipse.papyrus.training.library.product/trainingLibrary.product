@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Papyrus Training Library" uid="org.eclipse.papyrus.training.library.product" id="org.eclipse.papyrus.training.library.rcp.product" application="org.eclipse.ui.ide.workbench" version="2.0.0.qualifier" useFeatures="true" includeLaunchers="true">
+<product name="Papyrus Training Library" uid="org.eclipse.papyrus.training.library.product" id="org.eclipse.papyrus.training.library.rcp.product" application="org.eclipse.ui.ide.workbench" version="3.0.0.qualifier" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/org.eclipse.papyrus.training.library.rcp/icons/papyrus_lg.png"/>
@@ -42,7 +42,6 @@ Apache Software Foundation http://www.apache.org/
    <launcher name="papyrus-library">
       <linux icon="../org.eclipse.papyrus.training.library.rcp/icons/icon.xpm"/>
       <macosx icon="../org.eclipse.papyrus.training.library.rcp/icons/papyrus.icns"/>
-      <solaris/>
       <win useIco="true">
          <ico path="../org.eclipse.papyrus.training.library.rcp/icons/papyrus.ico"/>
          <bmp/>
@@ -116,35 +115,10 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
       <feature id="org.eclipse.papyrus.training.library.feature"/>
       <feature id="org.eclipse.papyrus.training.library.rcp.feature"/>
       <feature id="org.eclipse.rcp"/>
-      <feature id="org.eclipse.papyrus.editor.feature"/>
-      <feature id="org.eclipse.papyrus.infra.core.feature"/>
-      <feature id="org.eclipse.papyrus.infra.feature"/>
-      <feature id="org.eclipse.papyrus.infra.gmfdiag.feature"/>
-      <feature id="org.eclipse.papyrus.infra.services.feature"/>
-      <feature id="org.eclipse.papyrus.infra.widget.feature"/>
-      <feature id="org.eclipse.papyrus.uml.feature"/>
-      <feature id="org.eclipse.papyrus.uml.modelexplorer.feature"/>
-      <feature id="org.eclipse.papyrus.uml.properties.feature"/>
-      <feature id="org.eclipse.papyrus.uml.tools.feature"/>
-      <feature id="org.eclipse.papyrus.views.modelexplorer.feature"/>
-      <feature id="org.eclipse.papyrus.views.properties.feature"/>
-      <feature id="org.eclipse.papyrus.uml.diagram.feature"/>
-      <feature id="org.eclipse.papyrus.infra.emf.feature"/>
-      <feature id="org.eclipse.papyrus.uml.textedit.feature"/>
-      <feature id="org.eclipse.papyrus.infra.discovery.feature"/>
-      <feature id="org.eclipse.papyrus.views.validation.feature"/>
-      <feature id="org.eclipse.papyrus.doc.feature"/>
-      <feature id="org.eclipse.papyrus.views.search.feature"/>
-      <feature id="org.eclipse.papyrus.uml.search.feature"/>
-      <feature id="org.eclipse.papyrus.uml.xtext.integration.feature"/>
-      <feature id="org.eclipse.papyrus.infra.gmfdiag.css.feature"/>
-      <feature id="org.eclipse.papyrus.uml.diagram.css.feature"/>
-      <feature id="org.eclipse.papyrus.emf.facet.feature"/>
-      <feature id="org.eclipse.papyrus.uml.decoratormodel.feature"/>
-      <feature id="org.eclipse.papyrus.uml.assistants.feature"/>
       <feature id="org.eclipse.egit"/>
       <feature id="org.eclipse.jgit"/>
-      <feature id="org.eclipse.papyrus.infra.ui.feature"/>
+      <feature id="org.eclipse.papyrus.sdk.feature" />
+      <feature id="org.eclipse.papyrus.toolsmiths.feature"/>
    </features>
 
    <configurations>

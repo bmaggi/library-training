@@ -43,7 +43,7 @@ Behold the library profile ![Libraryergt jpg][LibraryProfileDiagram]
 [ApplyProfile2]: /org.eclipse.papyrus.training.library.profile/doc/ApplyProfile2.jpg?raw=true "Apply a Profile Step2"
 [ImportLibrary1]: /org.eclipse.papyrus.training.library.profile/doc/ImportLibrary1.jpg?raw=true "Import Library Step1"
 [ImportLibrary2]: /org.eclipse.papyrus.training.library.profile/doc/ImportLibrary2.jpg?raw=true "Import Library Step2"
-[FirstStereotype]: /org.eclipse.papyrus.training.library.profile/doc/FirstStereotype.jpg?raw=true "Creat First Stereotype"
+[FirstStereotype]: /org.eclipse.papyrus.training.library.profile/doc/FirstStereotype.jpg?raw=true "Create First Stereotype"
 [RegisterLibrary]: /org.eclipse.papyrus.training.library.profile/doc/RegisterLibrary.jpg?raw=true "Register a Library"
 [RegisterProfile]: /org.eclipse.papyrus.training.library.profile/doc/RegisterProfile.jpg?raw=true "Register a Profile"
 [ProfileDiagram]: /org.eclipse.papyrus.training.library.profile/doc/ProfileDiagram.jpg?raw=true "Add a Profile Diagram"

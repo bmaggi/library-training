@@ -83,13 +83,6 @@ Package.showSymbol {
 	svgCssClass: bio;
 }
 
-[videoCassete], [bookOnTape1]{
-	fillColor: red;
-}
-
-
-
-
 Class[appliedStereotypes~=Borrower] > Compartment{
 	visible: false;
 }

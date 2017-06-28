@@ -20,7 +20,6 @@ location "http://download.eclipse.org/releases/oxygen/" eclipse-oxygen {
  org.eclipse.ocl.core.sdk.feature.group lazy // necessary?
  org.eclipse.ocl.examples.feature.group lazy
  org.eclipse.ocl.uml.feature.group lazy
- org.eclipse.papyrus.sdk.feature.feature.group lazy
  org.eclipse.pde.feature.group lazy
  org.eclipse.platform.feature.group lazy
  org.eclipse.rcp.feature.group lazy
@@ -38,4 +37,9 @@ location "http://download.eclipse.org/releases/oxygen/" eclipse-oxygen {
  org.eclipse.xtext.xbase.lib.feature.group lazy
  org.eclipse.xwt.feature.feature.group lazy
  org.eclipse.egit.feature.group lazy
+}
+
+location "http://download.eclipse.org/modeling/mdt/papyrus/updates/releases/oxygen/" papyrus-oxygen {
+ org.eclipse.papyrus.sdk.feature.feature.group lazy
+ org.eclipse.papyrus.toolsmiths.feature.feature.group lazy	
 }

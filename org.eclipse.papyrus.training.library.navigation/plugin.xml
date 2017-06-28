@@ -5,9 +5,9 @@
          point="org.eclipse.papyrus.infra.services.navigation.navigationContributor">
       <contributor
             contributor="org.eclipse.papyrus.training.library.navigation.SameCategoryNavigationContributor"
-            description="xxxxxxxxxxxxx"
-            id="xxxxxxxxorg.eclipse.papyrus.uml.navigation.typedElement"
-            label="xxxxxxxxxxxx">
+            description="Allow to navigate to book from the same category"
+            id="org.eclipse.papyrus.training.library.navigation.samecategory"
+            label="Same category's books">
       </contributor>
    </extension>
 </plugin>

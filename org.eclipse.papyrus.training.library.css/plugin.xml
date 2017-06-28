@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?eclipse version="3.4"?>
 <plugin>
+
+
+   <extension
+         point="org.eclipse.papyrus.infra.gmfdiag.css.theme">
+      <themeDefinition
+            icon="icons/library.gif"
+            id="org.eclipse.papyrus.training.library.theme"
+            label="Training Library Theme">
+      </themeDefinition>
+      <themeContribution
+            id="org.eclipse.papyrus.training.library.theme">
+         <stylesheet stylesheetPath="theme/theme_library.css">
+         </stylesheet>
+      </themeContribution>
+   </extension>
+
+
+<!-- extensions that show a way to provide an example model (using EMF Tooling) -->
    <extension
          point="org.eclipse.emf.common.ui.examples">
       <example
@@ -33,20 +51,4 @@
          </description>
       </wizard>
    </extension>
-
-   <extension
-         point="org.eclipse.papyrus.infra.gmfdiag.css.theme">
-      <themeDefinition
-            icon="icons/library.gif"
-            id="org.eclipse.papyrus.training.library.theme"
-            label="Training Library Theme">
-      </themeDefinition>
-      <themeContribution
-            id="org.eclipse.papyrus.training.library.theme">
-         <stylesheet stylesheetPath="theme/theme_library.css">
-         </stylesheet>
-      </themeContribution>
-   </extension>
-
-
 </plugin>
