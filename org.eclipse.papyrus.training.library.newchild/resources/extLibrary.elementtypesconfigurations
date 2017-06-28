@@ -5,91 +5,91 @@
     <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_m7coU3M9EeaEb_X9ewiatg">
       <stereotypesQualifiedNames>extlibrary::AudioVisualItem</stereotypesQualifiedNames>
     </matcherConfiguration>
-    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
   </elementTypeConfigurations>
   <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.papyrus.training.library.profile.extlibrary.Book" identifier="org.eclipse.papyrus.training.library.profile.extlibrary.Book" name="Book" hint="UML::Class">
     <iconEntry xmi:id="_m7coVXM9EeaEb_X9ewiatg" iconPath="/icons/book_mystery.png" bundleId="org.eclipse.papyrus.training.library.profile"/>
     <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_m7coVnM9EeaEb_X9ewiatg">
       <stereotypesQualifiedNames>extlibrary::Book</stereotypesQualifiedNames>
     </matcherConfiguration>
-    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
   </elementTypeConfigurations>
   <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.papyrus.training.library.profile.extlibrary.BookOnTape" identifier="org.eclipse.papyrus.training.library.profile.extlibrary.BookOnTape" name="BookOnTape" hint="UML::Class">
     <iconEntry xmi:id="_m7coWHM9EeaEb_X9ewiatg" iconPath="/icons/bookontape.png" bundleId="org.eclipse.papyrus.training.library.profile"/>
     <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_m7coWXM9EeaEb_X9ewiatg">
       <stereotypesQualifiedNames>extlibrary::BookOnTape</stereotypesQualifiedNames>
     </matcherConfiguration>
-    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
   </elementTypeConfigurations>
   <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.papyrus.training.library.profile.extlibrary.Borrower" identifier="org.eclipse.papyrus.training.library.profile.extlibrary.Borrower" name="Borrower" hint="UML::Class">
     <iconEntry xmi:id="_m7coW3M9EeaEb_X9ewiatg" iconPath="/icons/borrower.png" bundleId="org.eclipse.papyrus.training.library.profile"/>
     <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_m7coXHM9EeaEb_X9ewiatg">
       <stereotypesQualifiedNames>extlibrary::Borrower</stereotypesQualifiedNames>
     </matcherConfiguration>
-    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
   </elementTypeConfigurations>
   <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.papyrus.training.library.profile.extlibrary.Borrows" identifier="org.eclipse.papyrus.training.library.profile.extlibrary.Borrows" name="Borrows" hint="UML::Dependency">
     <iconEntry xmi:id="_m7coXnM9EeaEb_X9ewiatg" iconPath="/icons/borrows.png" bundleId="org.eclipse.papyrus.training.library.profile"/>
     <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_m7coX3M9EeaEb_X9ewiatg">
       <stereotypesQualifiedNames>extlibrary::Borrows</stereotypesQualifiedNames>
     </matcherConfiguration>
-    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Dependency"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Dependency"/>
   </elementTypeConfigurations>
   <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.papyrus.training.library.profile.extlibrary.CirculatingItem" identifier="org.eclipse.papyrus.training.library.profile.extlibrary.CirculatingItem" name="CirculatingItem" hint="UML::Class">
     <iconEntry xmi:id="_m7coYXM9EeaEb_X9ewiatg" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
     <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_m7coYnM9EeaEb_X9ewiatg">
       <stereotypesQualifiedNames>extlibrary::CirculatingItem</stereotypesQualifiedNames>
     </matcherConfiguration>
-    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
   </elementTypeConfigurations>
   <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.papyrus.training.library.profile.extlibrary.Employee" identifier="org.eclipse.papyrus.training.library.profile.extlibrary.Employee" name="Employee" hint="UML::Class">
     <iconEntry xmi:id="_m7coZHM9EeaEb_X9ewiatg" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
     <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_m7coZXM9EeaEb_X9ewiatg">
       <stereotypesQualifiedNames>extlibrary::Employee</stereotypesQualifiedNames>
     </matcherConfiguration>
-    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
   </elementTypeConfigurations>
   <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.papyrus.training.library.profile.extlibrary.Item" identifier="org.eclipse.papyrus.training.library.profile.extlibrary.Item" name="Item" hint="UML::Class">
     <iconEntry xmi:id="_m7coZ3M9EeaEb_X9ewiatg" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
     <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_m7coaHM9EeaEb_X9ewiatg">
       <stereotypesQualifiedNames>extlibrary::Item</stereotypesQualifiedNames>
     </matcherConfiguration>
-    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
   </elementTypeConfigurations>
   <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.papyrus.training.library.profile.extlibrary.Library" identifier="org.eclipse.papyrus.training.library.profile.extlibrary.Library" name="Library" hint="UML::Package">
     <iconEntry xmi:id="_m7coanM9EeaEb_X9ewiatg" iconPath="/icons/library.gif" bundleId="org.eclipse.papyrus.training.library.profile"/>
     <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_m7coa3M9EeaEb_X9ewiatg">
       <stereotypesQualifiedNames>extlibrary::Library</stereotypesQualifiedNames>
     </matcherConfiguration>
-    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Package"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Package"/>
   </elementTypeConfigurations>
   <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.papyrus.training.library.profile.extlibrary.Periodical" identifier="org.eclipse.papyrus.training.library.profile.extlibrary.Periodical" name="Periodical" hint="UML::Class">
     <iconEntry xmi:id="_m7cobXM9EeaEb_X9ewiatg" iconPath="/icons/periodical.gif" bundleId="org.eclipse.papyrus.training.library.profile"/>
     <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_m7cobnM9EeaEb_X9ewiatg">
       <stereotypesQualifiedNames>extlibrary::Periodical</stereotypesQualifiedNames>
     </matcherConfiguration>
-    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
   </elementTypeConfigurations>
   <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.papyrus.training.library.profile.extlibrary.Person" identifier="org.eclipse.papyrus.training.library.profile.extlibrary.Person" name="Person" hint="UML::Class">
     <iconEntry xmi:id="_m7cocHM9EeaEb_X9ewiatg" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
     <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_m7cocXM9EeaEb_X9ewiatg">
       <stereotypesQualifiedNames>extlibrary::Person</stereotypesQualifiedNames>
     </matcherConfiguration>
-    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
   </elementTypeConfigurations>
   <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.papyrus.training.library.profile.extlibrary.VideoCassete" identifier="org.eclipse.papyrus.training.library.profile.extlibrary.VideoCassete" name="VideoCassete" hint="UML::Class">
     <iconEntry xmi:id="_m7dPYXM9EeaEb_X9ewiatg" iconPath="/icons/bookontape.png" bundleId="org.eclipse.papyrus.training.library.profile"/>
     <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_m7dPYnM9EeaEb_X9ewiatg">
       <stereotypesQualifiedNames>extlibrary::VideoCassete</stereotypesQualifiedNames>
     </matcherConfiguration>
-    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
   </elementTypeConfigurations>
   <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.papyrus.training.library.profile.extlibrary.Writer" identifier="org.eclipse.papyrus.training.library.profile.extlibrary.Writer" name="Writer" hint="UML::Class">
     <iconEntry xmi:id="_m7dPZHM9EeaEb_X9ewiatg" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
     <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_m7dPZXM9EeaEb_X9ewiatg">
       <stereotypesQualifiedNames>extlibrary::Writer</stereotypesQualifiedNames>
     </matcherConfiguration>
-    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
   </elementTypeConfigurations>
   <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.papyrus.training.library.profile.extlibrary.Periodical.Monthly" identifier="org.eclipse.papyrus.training.library.profile.extlibrary.Periodical.Monthly" name="Periodical Monthly">
     <editHelperAdviceConfiguration xsi:type="elementtypesconfigurations:EditHelperAdviceConfiguration" xmi:id="_RoRWAHQ3EeaJzcuPUIZkPw" editHelperAdviceClassName="org.eclipse.papyrus.training.library.newchild.elementtypes.advice.MonthlyPeriodicalEditHelperAdvice"/>
@@ -100,7 +100,7 @@
     <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="#org.eclipse.papyrus.training.library.profile.extlibrary.Book"/>
   </elementTypeConfigurations>
   <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="org.eclipse.papyrus.training.library.profile.extlibrary.Periodical.Weekly" description="A new book each week" identifier="org.eclipse.papyrus.training.library.profile.extlibrary.Periodical.Weekly" name="Periodical Weekly">
-    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
   </elementTypeConfigurations>
   <adviceBindingsConfigurations xsi:type="setvaluesadvice:SetValuesAdviceConfiguration" xmi:id="_P2bckHRFEeaJzcuPUIZkPw" description="" identifier="org.eclipse.papyrus.training.library.profile.extlibrary.Book.RestrictedAccess.protected" target="org.eclipse.papyrus.training.library.profile.extlibrary.Book.RestrictedAccess">
     <featuresToSet xmi:id="_TwQN0HRFEeaJzcuPUIZkPw" featureName="visibility">
