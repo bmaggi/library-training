@@ -35,10 +35,11 @@
          </fileToOpen>
       </example>
    </extension>
+   
    <extension
          point="org.eclipse.ui.newWizards">
       <wizard
-            category="org.eclipse.ui.Examples/org.eclipse.papyrus.examples.toolsmith.wizard.category"
+            category="org.eclipse.ui.Examples/org.eclipse.papyrus.examples"
             class="org.eclipse.emf.common.ui.wizard.ExampleInstallerWizard"
             finalPerspective="org.eclipse.papyrus.infra.core.perspective"
             icon="icons/library.gif"
