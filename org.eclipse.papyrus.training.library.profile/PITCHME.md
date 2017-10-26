@@ -4,11 +4,12 @@ org.eclipse.papyrus.training.library.profile
 
 ## New Project Papyrus
  Chose Diagram Language: Profile  
-![DiagramLanguage](/org.eclipse.papyrus.training.library.profile/doc/DiagramLanguage.jpg?raw=true "Select Diagram Language") 
-![DiagramLanguage2](/org.eclipse.papyrus.training.library.profile/doc/DiagramLanguage.jpg)  
-![DiagramLanguage3](/org.eclipse.papyrus.training.library.profile/doc/DiagramLanguage.jpg)  
+![DiagramLanguage3](/org.eclipse.papyrus.training.library.profile/doc/DiagramLanguage.jpg?raw=true "Select Diagram Language")   
 ![DiagramLanguage4](doc/DiagramLanguage.jpg)   
- 
+![DiagramLanguage]
+
+---
+
  Add a Profile Diagram   
 ![Libraryergt jpg][ProfileDiagram] 
 
