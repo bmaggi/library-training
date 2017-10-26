@@ -1,7 +1,6 @@
 org.eclipse.papyrus.training.library.profile
-=======================================
 
-#This plugin show how to create an UML profile
+---
 
 ## New Project Papyrus
  Chose Diagram Language: Profile  
