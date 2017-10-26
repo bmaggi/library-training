@@ -16,19 +16,19 @@
 Create a new Profile in Papyrus
 
 * New Project Papyrus
- Chose Architecture context: Profile  
+    * Chose Architecture context: Profile  
 ![DiagramLanguage](/org.eclipse.papyrus.training.library.profile/doc/DiagramLanguage.jpg?raw=true "Select Diagram Language")   
 
 ---
 
 * Add a Profile Diagram   
-![ProfileDiagram](doc/ProfileDiagram.jpg?raw=true "Add a Profile Diagram") 
+![ProfileDiagram](/doc/ProfileDiagram.jpg?raw=true "Add a Profile Diagram") 
 
 ---
 Create a Stereotype with the Palette
 
-* Import a <<Metaclass>> Class
-* Create a <<Stereotype>> Book 
+* Import a `<<Metaclass>>` Class
+* Create a `<<Stereotype>>` Book 
 ![FirstStereotype](doc/FirstStereotype.jpg?raw=true "Create First Stereotype")
  
 ---
