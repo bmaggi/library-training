@@ -42,8 +42,8 @@ Extension Point : org.eclipse.papyrus.uml.extensionpoints.UMLProfile
 ---
 
 // display runtime  
- ![ApplyProfile1](/org.eclipse.papyrus.training.library.profile/doc/ApplyProfile1.jpg?raw=true "Apply a Profile Step1")
- ![ApplyProfile2](/org.eclipse.papyrus.training.library.profile/doc/ApplyProfile2.jpg?raw=true "Apply a Profile Step2")
+![ApplyProfile1](/org.eclipse.papyrus.training.library.profile/doc/ApplyProfile1.jpg?raw=true "Apply a Profile Step1")
+![ApplyProfile2](/org.eclipse.papyrus.training.library.profile/doc/ApplyProfile2.jpg?raw=true "Apply a Profile Step2")
 
 ---
 
@@ -55,12 +55,13 @@ Extension Point : org.eclipse.papyrus.uml.extensionpoints.UMLLibrary
 ---
 
 // display runtime  
- ![ImportLibrary1](/org.eclipse.papyrus.training.library.profile/doc/ImportLibrary1.jpg?raw=true "Import Library Step1")
- ![ImportLibrary2](/org.eclipse.papyrus.training.library.profile/doc/ImportLibrary2.jpg?raw=true "Import Library Step2")
+![ImportLibrary1](/org.eclipse.papyrus.training.library.profile/doc/ImportLibrary1.jpg?raw=true "Import Library Step1")
+![ImportLibrary2](/org.eclipse.papyrus.training.library.profile/doc/ImportLibrary2.jpg?raw=true "Import Library Step2")
  
 ---
 
-Behold the library profile ![LibraryProfileDiagram](/org.eclipse.papyrus.training.library.profile/doc/LibraryProfile.jpg?raw=true "Library Profile Diagram") 
+Behold the library profile 
+![LibraryProfileDiagram](/org.eclipse.papyrus.training.library.profile/doc/LibraryProfile.jpg?raw=true "Library Profile Diagram") 
 
 
 
