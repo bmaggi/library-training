@@ -17,11 +17,7 @@ Create a new Profile in Papyrus
 
 * New Project Papyrus
  Chose Architecture context: Profile  
-![DiagramLanguage1](doc/DiagramLanguage.jpg)   
-![DiagramLanguage2](doc/DiagramLanguage.jpg?raw=true "Select Diagram Language")   
-![DiagramLanguage3](/org.eclipse.papyrus.training.library.profile/doc/DiagramLanguage.jpg?raw=true "Select Diagram Language")   
-
-[DiagramLanguage]: /org.eclipse.papyrus.training.library.profile/doc/DiagramLanguage.jpg?raw=true "Select Diagram Language"
+![DiagramLanguage](/org.eclipse.papyrus.training.library.profile/doc/DiagramLanguage.jpg?raw=true "Select Diagram Language")   
 
 ---
 
