@@ -1,5 +1,9 @@
 ## Training presentations
 
----?include=org.eclipse.papyrus.training.library.wizards
+---?include=org.eclipse.papyrus.training.library.profile/PITCHME.md
 
----?include=org.eclipse.papyrus.training.library.profile
+Test include wizard prez
+
+---?include=org.eclipse.papyrus.training.library.wizards/PITCHME.md
+
+
