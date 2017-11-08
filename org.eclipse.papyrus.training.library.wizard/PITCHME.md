@@ -12,20 +12,20 @@ Once your architecture defined,
 
 ```
 <extension point="org.eclipse.papyrus.uml.diagram.wizards.templates">
-      <transformation
-         	id="org.eclipse.papyrus.training.library.wizard.templaterepository.ImportLibraryExampleInModel"
-            language="org.eclipse.papyrus.training.library.architecture" 
-            name="An example of Transformation Library Model"
-            Transformation="org.eclipse.papyrus.training.library.wizard.ImportLibraryTemplateInModel">
-      </transformation>           
+   <transformation
+      id="org.eclipse.papyrus.training.library.wizard.templaterepository.ImportLibraryExampleInModel"
+      language="org.eclipse.papyrus.training.library.architecture" 
+      name="An example of Transformation Library Model"
+      Transformation="org.eclipse.papyrus.training.library.wizard.ImportLibraryTemplateInModel">
+   </transformation>           
 </extension>  
 ```
-@[1,8](extension point id)
-@[2,7](chose a transfomation)
-@[3](unique identifier of the transformation)
-@[4](key that link the template to an existing architecture)
-@[5](text displayed in the wizard)
-@[6](Your *transforamtion*) Java class that should implements **org.eclipse.papyrus.uml.diagram.wizards.transformation.IGenerator**)
+@[1,8](Extension point id)
+@[2,7](Chose a transfomation)
+@[3](Unique identifier of the transformation)
+@[4](Key that link the template to an existing architecture)
+@[5](Text displayed in the wizard)
+@[6](Your *transformation*, a java class that should implements **org.eclipse.papyrus.uml.diagram.wizards.transformation.IGenerator**)
 
 +++
 
