@@ -4,6 +4,6 @@
 
 Test include wizard prez
 
----?include=org.eclipse.papyrus.training.library.wizards/PITCHME.md
++++?include=org.eclipse.papyrus.training.library.wizards/PITCHME.md
 
 
