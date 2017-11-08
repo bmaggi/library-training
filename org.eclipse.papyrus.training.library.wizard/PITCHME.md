@@ -17,10 +17,11 @@ Once your architecture defined,
   - language*: key that link the template to an existing architecture (should be the same identifier as the one used in the architecture plugin)
   - Transformation* Java class that should implements **org.eclipse.papyrus.uml.diagram.wizards.transformation.IGenerator**
 ```
-
+@[1](Extension Point id)
 @[2](unique identifier of the transformation)
 @[3](text displayed in the wizard)
-@[4](Java class that should implements **org.eclipse.papyrus.uml.diagram.wizards.transformation.IGenerator**)
+@[4](key that link the template to an existing architecture)
+@[5](Java class that should implements **org.eclipse.papyrus.uml.diagram.wizards.transformation.IGenerator**)
 
 +++
 
