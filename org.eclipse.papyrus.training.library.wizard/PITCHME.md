@@ -11,17 +11,21 @@ Once your architecture defined,
 +++
 
 ```
-## Extension Point : org.eclipse.papyrus.uml.diagram.wizards.templates/transformation 
-  - id*: unique identifier of the transformation
-  - name*: text displayed in the wizard
-  - language*: key that link the template to an existing architecture (should be the same identifier as the one used in the architecture plugin)
-  - Transformation* Java class that should implements **org.eclipse.papyrus.uml.diagram.wizards.transformation.IGenerator**
+<extension point="org.eclipse.papyrus.uml.diagram.wizards.templates">
+      <transformation
+         	id="org.eclipse.papyrus.training.library.wizard.templaterepository.ImportLibraryExampleInModel"
+            language="org.eclipse.papyrus.training.library.architecture" 
+            name="An example of Transformation Library Model"
+            Transformation="org.eclipse.papyrus.training.library.wizard.ImportLibraryTemplateInModel">
+      </transformation>           
+</extension>  
 ```
-@[1](Extension Point id)
-@[2](unique identifier of the transformation)
-@[3](text displayed in the wizard)
+@[1,8](extension point id)
+@[2,7](chose a transfomation)
+@[3](unique identifier of the transformation)
 @[4](key that link the template to an existing architecture)
-@[5](Java class that should implements **org.eclipse.papyrus.uml.diagram.wizards.transformation.IGenerator**)
+@[5](text displayed in the wizard)
+@[6](Your *transforamtion*) Java class that should implements **org.eclipse.papyrus.uml.diagram.wizards.transformation.IGenerator**)
 
 +++
 
