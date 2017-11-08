@@ -10,13 +10,14 @@ Once your architecture defined,
 
 +++
 
-'''
+```
 ## Extension Point : org.eclipse.papyrus.uml.diagram.wizards.templates/transformation 
   - id*: unique identifier of the transformation
   - name*: text displayed in the wizard
   - language*: key that link the template to an existing architecture (should be the same identifier as the one used in the architecture plugin)
   - Transformation* Java class that should implements **org.eclipse.papyrus.uml.diagram.wizards.transformation.IGenerator**
-''' 
+```
+
 @[2](unique identifier of the transformation)
 @[3](text displayed in the wizard)
 @[4](Java class that should implements **org.eclipse.papyrus.uml.diagram.wizards.transformation.IGenerator**)
