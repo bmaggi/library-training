@@ -1,6 +1,10 @@
 ## Training presentations
 
 * Create a profile with Papyrus
+* Customize New Model wizard
+
+---
+* Create a profile with Papyrus
 
 ---?include=org.eclipse.papyrus.training.library.profile/PITCHME.md
 
