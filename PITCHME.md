@@ -29,14 +29,39 @@
   * Extension/Customization using stereotypes/profiles
 
 ---
+* Basic Eclipse Help
+
++++?include=doc/EclipseBasic.md
+
+---
 * Create a profile with Papyrus
 
 +++?include=org.eclipse.papyrus.training.library.profile/PITCHME.md
 
 ---
+
+* How to create an architecture
++++?include=org.eclipse.papyrus.training.library.architecture/PITCHME.md
+
+---
 * Customize New Child Menu
 
 +++?include=org.eclipse.papyrus.training.library.newchild/PITCHME.md
+
+---
+* How to create a palette
+
++++?include=org.eclipse.papyrus.training.library.palette/PITCHME.md
+
+---
+* How to create custom properties
+
++++?include=org.eclipse.papyrus.training.library.properties/PITCHME.md
+
+---
+* How to create a css theme
+
++++?include=org.eclipse.papyrus.training.library.css/PITCHME.md
 
 ---
 * Customize New Model wizard
