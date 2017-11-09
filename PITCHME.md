@@ -1,8 +1,32 @@
+# Papyrus DSML
+
+
+---
+
 ## Training presentations
 
-* Create a profile with Papyrus
-* Customize New Child Menu
-* Customize New Model wizard
+* DSML Introduction
+* Basic Eclipse Help
+* How to create a profile
+* How to create a new child menu
+* How to create custom properties
+* How to create a css theme
+* How to contribute to new model wizard
+* How to create a palette
+* How to create an architecture
+
+
+---
+## Definition
+* DSML Domain-Specific Modeling Languages
+
+* A profile in UML provides a generic extension mechanism for customizing models for particular domains
+  * A stereotype is an extensibility mechanisms in UML. They allow designers to extend the vocabulary of UML in order to create new model elements, derived from existing ones.
+	
+ * Papyrus
+  * An Eclipse Project: https://eclipse.org/papyrus/
+  * UML Editor
+  * Extension/Customization using stereotypes/profiles
 
 ---
 * Create a profile with Papyrus
