@@ -20,4 +20,24 @@
 +++?include=org.eclipse.papyrus.training.library.wizard/PITCHME.md
 
 ---
-* to be done...
+
+![ViewCustomization](/doc/ViewCustomization.png) 
+
+---
+
+![WizardCustomization](/doc/WizardCustomization.png)  
+
+---
+## More frameworks
+![NavigationCustomization](/doc/NavigationCustomization.png)  
+![AssistantCustomization](/doc/AssistantCustomization.png)  
+
+---
+##  Eclipse Papyrus : An open source Project
+
+* Website: https://eclipse.org/papyrus/
+* Download: https://eclipse.org/papyrus/download.html
+* Wiki: https://wiki.eclipse.org/Papyrus
+* Forum: http://www.eclipse.org/forums/eclipse.papyrus
+* Code base: https://git.eclipse.org/c/papyrus/org.eclipse.papyrus.git/
+* Tracker: https://bugs.eclipse.org/bugs/buglist.cgi?classification=Modeling&product=Papyrus
