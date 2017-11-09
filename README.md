@@ -35,4 +35,8 @@ The official version of the training material is available in [Papyrus repositor
 9. How to create a [hyperlink strategy](/org.eclipse.papyrus.training.library.hyperlink/README.md) 
 10. How to create a [navigation strategy](/org.eclipse.papyrus.training.library.navigation/README.md) 
  
+# Pitch (Work in progress)
+[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/bmaggi/library-training)
+
+
 [LibraryLogo]: /org.eclipse.papyrus.training.library.profile/icons/library.gif?raw=true "Library training logo"
