@@ -20,7 +20,7 @@
 
 +++
 
-```
+```java
 public interface HyperlinkContributor {
 	public List<HyperLinkObject> getHyperlinks(Object fromElement);
 }
