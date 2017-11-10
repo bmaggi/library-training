@@ -13,10 +13,10 @@
  </contributor>
 </extension>
 ```
-@[1]: hyperlink contribution extension point
-@[3]: unique id 
-@[4]: Provide a Java class to define the hyperlink (implements HyperlinkContributor)
-@[5,6]: Description for UI
+@[1]:(Hyperlink contribution extension point)
+@[3]:(Unique id) 
+@[4]:(Provide a Java class to define the hyperlink "implements HyperlinkContributor")
+@[5,6]:(Description for UI)
 
 +++
 
@@ -25,7 +25,7 @@ public interface HyperlinkContributor {
 	public List<HyperLinkObject> getHyperlinks(Object fromElement);
 }
 ```
-@[2]: code here your hyperlink strategy
+@[2]:(code here your hyperlink strategy)
 
 +++
 ### What's an "HyperLinkObject" ? 
@@ -36,9 +36,9 @@ HyperLinkDocument
 HyperLinkWeb
 HyperLinkSpecificObject
 ```
-@[1]: wrap a file reference
-@[2]: wrap a web hyperlink
-@[3]: wrap an EObject
+@[1]:(wrap a file reference)
+@[2]:(wrap a web hyperlink)
+@[3]:(wrap an EObject)
 
 
 +++
