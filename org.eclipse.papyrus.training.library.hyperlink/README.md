@@ -1,7 +1,8 @@
 org.eclipse.papyrus.training.library.hyperlink
 =======================================
 
-#This plugin show how to contribute a hyperlink rule
+#This plugin show how to contribute a hyperlink rule 
+[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/bmaggi/library-training?p=org.eclipse.papyrus.training.library.hyperlink)
 
 This example will provide an hyperlink contribution that will allow to *jump* from a book to its borrower
 (Hyperlink allows to redirect the user when double clicking on an element in a diagram)
