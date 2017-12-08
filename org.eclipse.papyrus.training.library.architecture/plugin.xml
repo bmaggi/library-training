@@ -36,4 +36,27 @@
 		</binding>
 	</extension>
    
+   <!-- Table definintion configuration -->
+   
+      <extension
+         point="org.eclipse.papyrus.infra.nattable.configuration">
+      <configuration
+            file="resources/book.nattableconfiguration"
+            type="PapyrusBookTable">
+      </configuration>
+   </extension>
+      <extension
+         point="org.eclipse.papyrus.infra.nattable.tester">
+      <tester
+            class="org.eclipse.papyrus.training.library.architecture.BookTableTester"
+            id="org.eclipse.papyrus.training.library.architecture.canCreateBookTable">
+      </tester>
+   </extension>
+      <extension
+         point="org.eclipse.papyrus.infra.nattable.axismanager">
+      <axisManager
+            id="org.eclipse.papyrus.training.library.architecture.book.axis.manager"
+            manager="org.eclipse.papyrus.training.library.architecture.BookAxisManager">
+      </axisManager>
+   </extension>
 </plugin>

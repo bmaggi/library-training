@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<architecture:ArchitectureDomain xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:architecture="http://www.eclipse.org/papyrus/infra/core/architecture" xmlns:gmfdiagrepresentation="http://www.eclipse.org/papyrus/infra/gmfdiag/representation" xmi:id="org.eclipse.papyrus.training.systemsEngineering" id="org.eclipse.papyrus.training.systemsEngineering" name="Training" description="The domain of training">
+<architecture:ArchitectureDomain xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:architecture="http://www.eclipse.org/papyrus/infra/core/architecture" xmlns:gmfdiagrepresentation="http://www.eclipse.org/papyrus/infra/gmfdiag/representation" xmlns:nattablerepresentation="http://www.eclipse.org/papyrus/infra/nattable/representation" xmi:id="org.eclipse.papyrus.training.systemsEngineering" id="org.eclipse.papyrus.training.systemsEngineering" name="Training" description="The domain of training">
   <stakeholders xmi:id="org.eclipse.papyrus.training.stackholder.systemsEngineer" id="org.eclipse.papyrus.training.stackholder.systemsEngineer" name="Systems Engineer" description="An engineer interested in system development">
     <concerns href="platform:/plugin/org.eclipse.papyrus.uml.architecture/model/uml.architecture#_HQhf4sSYEeaKZJ_pGfaSiA"/>
     <concerns href="platform:/plugin/org.eclipse.papyrus.uml.architecture/model/uml.architecture#_HQhf48SYEeaKZJ_pGfaSiA"/>
@@ -7,7 +7,7 @@
   </stakeholders>
   <concerns xmi:id="org.eclipse.papyrus.training.concern.requirements" id="org.eclipse.papyrus.training.concern.requirements" name="Education" description="The concern of developing the system's requirements"/>
   <contexts xsi:type="architecture:ArchitectureDescriptionLanguage" xmi:id="org.eclipse.papyrus.training.library.architecture" id="org.eclipse.papyrus.training.library.architecture" name="Library" description="The Library Modeling Language" icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/library.gif" extensionPrefix="" creationCommandClass="org.eclipse.papyrus.training.library.architecture.TrainingLibraryModelCreationCommand">
-    <viewpoints xmi:id="org.eclipse.papyrus.training.analysis" id="org.eclipse.papyrus.training.analysis" name="Training Analysis" description="A viewpoint allowing library analysis for training" representationKinds="org.eclipse.papyrus.training.diagram"/>
+    <viewpoints xmi:id="org.eclipse.papyrus.training.analysis" id="org.eclipse.papyrus.training.analysis" name="Training Analysis" description="A viewpoint allowing library analysis for training" representationKinds="org.eclipse.papyrus.training.diagram org.eclipse.papyrus.training.table"/>
     <elementTypes href="platform:/plugin/org.eclipse.papyrus.infra.emf/model/infra-emf.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
     <elementTypes href="platform:/plugin/org.eclipse.papyrus.infra.gmfdiag.common/model/gmfdiag-common.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
     <elementTypes href="platform:/plugin/org.eclipse.papyrus.infra.gmfdiag.common/model/notation.elementtypesconfigurations#_ScP1oFYCEeS0WsAAtVmToA"/>
@@ -42,6 +42,15 @@
       <childRules xmi:id="_ZrBf5ZaBEeS8eNvSwD0lgA"/>
       <paletteRules xmi:id="_N4GzIKFQEeSx6MYdei1rKA" permit="false" element="clazz.group.*"/>
       <palettes href="platform:/plugin/org.eclipse.papyrus.training.library.palette/resources/library.paletteconfiguration#/"/>
+    </representationKinds>
+    <representationKinds xsi:type="nattablerepresentation:PapyrusTable" xmi:id="org.eclipse.papyrus.training.table" id="org.eclipse.papyrus.training.table" name="Book Table" icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/book.png" implementationID="PapyrusBookTable">
+      <modelRules xmi:id="_UAnYoNwmEeeh3-x3yBDS6A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:id="_VEScINwmEeeh3-x3yBDS6A">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <configuration href="platform:/plugin/org.eclipse.papyrus.training.library.architecture/resources/book.nattableconfiguration#/"/>
     </representationKinds>
     <metamodel href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
   </contexts>

@@ -46,7 +46,8 @@ public class ModelValidationTest {
 			// {"org.eclipse.papyrus.training.library.properties/resources/extlibrary/extlibrary.ctx"},// FIXME missing org.eclipse.papyrus.customization.properties.model.xwt;bundle-version="[1.1.0,2.0.0)" dependency in oxygen
 			{"org.eclipse.papyrus.training.library.palette/resources/library.paletteconfiguration"},
 			{"org.eclipse.papyrus.training.library.palette/resources/extlibrarydi.elementtypesconfigurations"},
-			{"org.eclipse.papyrus.training.library.architecture/resources/library.architecture"}
+			{"org.eclipse.papyrus.training.library.architecture/resources/book.nattableconfiguration"},
+			{"org.eclipse.papyrus.training.library.architecture/resources/library.architecture"},
 		});
 	}
 
