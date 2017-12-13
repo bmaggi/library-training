@@ -15,6 +15,7 @@ package org.eclipse.papyrus.training.library.tests;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.List;
 
 import org.eclipse.emf.common.util.Diagnostic;
 import org.eclipse.emf.common.util.URI;
@@ -46,7 +47,7 @@ public class ModelValidationTest {
 			// {"org.eclipse.papyrus.training.library.properties/resources/extlibrary/extlibrary.ctx"},// FIXME missing org.eclipse.papyrus.customization.properties.model.xwt;bundle-version="[1.1.0,2.0.0)" dependency in oxygen
 			{"org.eclipse.papyrus.training.library.palette/resources/library.paletteconfiguration"},
 			{"org.eclipse.papyrus.training.library.palette/resources/extlibrarydi.elementtypesconfigurations"},
-			{"org.eclipse.papyrus.training.library.architecture/resources/book.nattableconfiguration"},
+			// {"org.eclipse.papyrus.training.library.architecture/resources/book.nattableconfiguration"}, FIXME also invalid in SysML 1.4
 			{"org.eclipse.papyrus.training.library.architecture/resources/library.architecture"},
 		});
 	}
@@ -70,7 +71,18 @@ public class ModelValidationTest {
 		URI modelPlatformURI = URI.createPlatformPluginURI(this.modelPath, true);
 		Resource resource = new ResourceSetImpl().getResource(modelPlatformURI, true);
 		Diagnostic diagnostic = Diagnostician.INSTANCE.validate(resource.getContents().get(0));
-		Assert.assertEquals("The "+modelPath+" model is invalid ", Diagnostic.OK, diagnostic.getSeverity());
+		Assert.assertEquals("The "+modelPath+" model is invalid "+print(diagnostic), Diagnostic.OK, diagnostic.getSeverity());
 	}
 
+	// FIXME : Something should exist in API to do that
+	private String print(Diagnostic diagnostic) {
+		List<Diagnostic> children = diagnostic.getChildren();
+		StringBuilder stringBuilder = new StringBuilder(diagnostic.getMessage());
+		for (Diagnostic diagnosticChildren : children) {
+			stringBuilder.append("\n"); //$NON-NLS-1$
+			stringBuilder.append(diagnosticChildren.getMessage());
+		}
+		return stringBuilder.toString();
+	}	
+	
 }

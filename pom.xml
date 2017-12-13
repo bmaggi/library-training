@@ -5,10 +5,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 	<groupId>org.eclipse.papyrus.training</groupId>
 	<artifactId>org.eclipse.papyrus.training</artifactId>
 	<version>3.0.0-SNAPSHOT</version>
-	<packaging>pom</packaging>
-	<prerequisites>
-		<maven>3.0</maven>
-    </prerequisites>	
+	<packaging>pom</packaging>	
 	<modules>
 		<module>org.eclipse.papyrus.training.library.profile</module>
 		<module>org.eclipse.papyrus.training.library.newchild</module>
