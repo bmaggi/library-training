@@ -24,6 +24,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 	<properties>
 		<tycho-version>1.0.0</tycho-version>
 		<sonar.exclusions>**/src-gen/**</sonar.exclusions>	
+		<env.ui.test>-Xms512m -Xmx2048m</env.ui.test>
 	</properties>
 	<build>
 		<pluginManagement>
@@ -244,6 +245,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 					<useUIThread>true</useUIThread>
 					<!--<showEclipseLog>true</showEclipseLog> -->
 					<!--<testFailureIgnore>true</testFailureIgnore> -->
+					<argLine>${ui.test.vmargs}</argLine>
 					<jvmArgs>
 						<args>${ui.test.vmargs}</args>
 					</jvmArgs>
@@ -285,7 +287,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 							<os>macosx</os>
 							<ws>cocoa</ws>
 							<arch>x86_64</arch>
-						</environment>						
+						</environment>					
 					</environments>
 					<target>
 						<artifact>
@@ -298,4 +300,43 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 			</plugin>
 		</plugins>
 	</build>
+<profiles>
+
+	
+	
+	
+	
+
+	
+
+		<!-- Profiles to manage the target eclipse platform environment end -->
+		<!-- Profiles to manage the OS environment -->
+		<profile>
+			<id>macosx</id>
+			<activation>
+				<os>
+					<name>mac os x</name>
+					<family>mac</family>
+				</os>
+			</activation>
+			<properties>
+				<ui.test.vmargs>${env.ui.test} -XstartOnFirstThread</ui.test.vmargs>
+			</properties>
+		</profile>
+		<profile>
+			<id>other-os</id>
+			<activation>
+				<os>
+					<family>!mac</family>
+				</os>
+			</activation>
+			<properties>
+				<ui.test.vmargs>${env.ui.test}</ui.test.vmargs>
+			</properties>
+		</profile>
+
+
+		
+
+	</profiles>
 </project>
