@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ElementCreationMenuModel:Folder xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ElementCreationMenuModel="http://www.eclipse.org/papyrus/infra/newchild/elementcreationmenumodel" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmi:id="org.eclipse.papyrus.training.library.menu" label="Menu Library" icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/library.gif">
+<ElementCreationMenuModel:Folder xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ElementCreationMenuModel="http://www.eclipse.org/papyrus/infra/newchild/elementcreationmenumodel" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:filters="http://www.eclipse.org/Papyrus/2014/common/filters" xmlns:umlfilters="http://www.eclipse.org/Papyrus/2014/uml/filters" xmi:id="org.eclipse.papyrus.training.library.menu" label="Menu Library" icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/library.gif">
+  <filter filter="//@filter/@ownedFilter.0" xsi:type="filters:CompoundFilter">
+    <ownedFilter name="isProfileApplied" profileQualifiedName="extlibrary" profileURI="pathmap://EXTLIBRARY_PROFILE/extlibrary.profile.uml#_LkNCUEomEeSz_ot9x6ZZgw" xsi:type="umlfilters:ProfileApplied"/>
+  </filter>
   <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Library" icon="platform:/plugin/org.eclipse.papyrus.training.library.profile/icons/library.gif">
     <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="extLibrary.elementtypesconfigurations#org.eclipse.papyrus.training.library.profile.extlibrary.Library"/>
   </menu>
