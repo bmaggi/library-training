@@ -88,6 +88,12 @@
 * Element Type Id Ref: Uniqueid of the elementtype that will be created
 * Icon, Label: Image, Text that will be displayed in the menu
 * Visible: if the element is visible in the menu 
++++
+
+* Add a CompoundFilter filter to hide the menu in pure UML model
+* Use the ProfileApplied from umlfilters
+** profileQualifiedName="extlibrary" 
+** profileURI="pathmap://EXTLIBRARY_PROFILE/extlibrary.profile.uml#_LkNCUEomEeSz_ot9x6ZZgw"
 
 +++
 # Extension Point : org.eclipse.papyrus.infra.newchild
