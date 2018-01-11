@@ -16,15 +16,18 @@ import org.eclipse.papyrus.infra.newchild.elementcreationmenumodel.Folder;
 
 /**
  * Cleans the creation edge menu.
+ * 
+ * The code in HideNewChildEdgeUtil is a _trick_ to hide the UML menu when
+ * creating an Enterprise Product. You may also hide the menus using the
+ * preferences, some people also used home made code to switch these preferences
+ * when changing viewpoints but nothing is currently integrated in Papyrus core.
  */
 public final class HideNewChildEdgeUtil {
-	
+
 	private static final String UML_NEW_RELATIONSHIP_MENU = "/resource/UMLEdges.creationmenumodel"; //$NON-NLS-1$
 
-	private static final String[] DEACTIVATED_CHILD_MENUS = new String[] {
-		UML_NEW_RELATIONSHIP_MENU
-	};
-	
+	private static final String[] DEACTIVATED_CHILD_MENUS = new String[] { UML_NEW_RELATIONSHIP_MENU };
+
 	private HideNewChildEdgeUtil() {
 		// hidden constructor.
 	}
