@@ -11,3 +11,4 @@ Require-Bundle:  org.eclipse.ui.workbench,
 Bundle-Vendor: %Bundle-Vendor
 Bundle-Localization: plugin
 Export-Package: org.eclipse.papyrus.training.library.palette
+Automatic-Module-Name: org.eclipse.papyrus.training.library.palette

@@ -22,7 +22,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 		<module>org.eclipse.papyrus.training.library.targetplatform</module>
 	</modules>
 	<properties>
-		<tycho-version>1.0.0</tycho-version>
+		<tycho-version>1.1.0</tycho-version>
 		<sonar.exclusions>**/src-gen/**</sonar.exclusions>	
 		<env.ui.test>-Xms512m -Xmx2048m</env.ui.test>
 	</properties>

@@ -37,3 +37,4 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Bundle-Vendor: %Bundle-Vendor
 Bundle-Localization: plugin
+Automatic-Module-Name: org.eclipse.papyrus.training.library.tests

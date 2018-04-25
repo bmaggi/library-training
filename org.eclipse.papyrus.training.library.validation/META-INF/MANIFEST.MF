@@ -21,4 +21,5 @@ Export-Package: org.eclipse.papyrus.training.library.validation
 Bundle-Vendor: %Bundle-Vendor
 Bundle-Localization: plugin
 Eclipse-BundleShape: dir
+Automatic-Module-Name: org.eclipse.papyrus.training.library.validation
 

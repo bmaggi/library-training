@@ -13,4 +13,5 @@ Export-Package: org.eclipse.papyrus.training.library.navigation
 Bundle-Vendor: %Bundle-Vendor
 Bundle-Localization: plugin
 Eclipse-BundleShape: dir
+Automatic-Module-Name: org.eclipse.papyrus.training.library.navigation
 

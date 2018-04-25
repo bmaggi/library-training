@@ -21,3 +21,4 @@ Bundle-Version: 3.0.0.qualifier
 Bundle-ClassPath: .
 Bundle-Localization: plugin
 Bundle-Activator: org.eclipse.papyrus.training.library.profile.Activator
+Automatic-Module-Name: org.eclipse.papyrus.training.library.profile
