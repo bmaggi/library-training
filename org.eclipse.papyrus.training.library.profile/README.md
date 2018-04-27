@@ -1,7 +1,6 @@
 org.eclipse.papyrus.training.library.profile
 =======================================
 This plugin show how to create an UML profile 
-
 [![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/bmaggi/library-training?p=org.eclipse.papyrus.training.library.profile)
 
 
