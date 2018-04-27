@@ -1,7 +1,6 @@
 org.eclipse.papyrus.training.library.architecture
 =======================================
-
-==Basic Concepts==
+## Basic Concepts
 
 The architecture metamodel in Papyrus is implemented as a realization and an extension to the ISO 42010 standard for architecture of systems. Hence many concepts present in the metamodel are derived from those presented in the ISO 42010 standard. However, the standard has been extended with Papyrus-specific concepts and properties.
 * A ''domain'' is the root of the architecture model. It can contains a collection of ''concerns'', ''stakeholders'', as well as ''contexts'' (which can be ''description languages'' and/or ''frameworks'').
@@ -13,5 +12,5 @@ The architecture metamodel in Papyrus is implemented as a realization and an ext
 * A ''diagram'' in this context does not represent a single instance (for example the diagram named X in model Y), but the specification (or prototype) of future diagrams of this kind. For example the ''UML Class Diagram''.
 * A ''table'' is another kind of view in Papyrus that enables the presentation of models in a tabular format.
 
-#Extension point: org.eclipse.papyrus.infra.architecture.models
+## Extension point: org.eclipse.papyrus.infra.architecture.models
  model: path to the architecture model
