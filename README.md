@@ -6,13 +6,15 @@
 
 :warning: 
 The official version of the training material is available in [Papyrus repository](https://git.eclipse.org/c/papyrus/org.eclipse.papyrus.git/tree/examples/library?h=streams/3.0-maintenance)
- - Built against Eclipse Oxygen (This example is only tested against Eclipse Oxygen release train)
+ - Built against [Eclipse Oxygen](https://www.eclipse.org/oxygen/) (This example is only tested against Eclipse Oxygen release train)
  - This is material used for training and example, it shouldn't be taken as an architectural reference:
 	- profile plugin shouldn't have any dependencies to Papyrus
 	- tests should be done using one fragment for each plugin
 	- elementtype should be hosted in an independent plugin
 	- ui element should probably be grouped in the same plugin
 	- css files are duplicated to demonstrate local css capabilities
+
+## Content
 
 0. How to create a ![Libraryergt Gif][LibraryLogo] DSML 
 1. How to create a [profile](/org.eclipse.papyrus.training.library.profile/README.md) 
