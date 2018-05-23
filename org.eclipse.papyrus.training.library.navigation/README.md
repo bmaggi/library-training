@@ -8,7 +8,7 @@ org.eclipse.papyrus.training.library.navigation
 
 ## How To test:
  - Navigation is available either in diagram or model explorer
- - create 2 books in the same category
+ - Create 2 books in the same category
  - Right Click on a Book > Navigate
 => You should have 1 entry "This book **** is in the same category" 
 
