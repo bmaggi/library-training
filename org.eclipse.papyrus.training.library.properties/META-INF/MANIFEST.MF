@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
 Bundle-SymbolicName: org.eclipse.papyrus.training.library.properties;singleton:=true
 Export-Package: org.eclipse.papyrus.training.library.properties,
- org.eclipse.papyrus.training.library.properties.internal
-Bundle-Version: 3.0.0.qualifier
+ org.eclipse.papyrus.training.library.properties.internal;x-internal:=true
+Bundle-Version: 4.0.0.qualifier
 Bundle-Name: %Bundle-Name
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,

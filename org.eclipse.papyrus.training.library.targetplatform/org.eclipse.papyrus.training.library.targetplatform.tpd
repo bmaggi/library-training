@@ -1,6 +1,6 @@
-target "Papyrus Oxygen" with source requirements
+target "Papyrus Photon" with source requirements
 
-location "http://download.eclipse.org/releases/oxygen/" eclipse-oxygen {
+location "http://download.eclipse.org/releases/photon/" eclipse-photon {
  org.eclipse.draw2d.feature.group lazy
  org.eclipse.emf.feature.group lazy
  org.eclipse.emf.mwe2.language.sdk.feature.group lazy
@@ -38,8 +38,9 @@ location "http://download.eclipse.org/releases/oxygen/" eclipse-oxygen {
  org.eclipse.xwt.feature.feature.group lazy
  org.eclipse.egit.feature.group lazy
 }
-
-location "http://download.eclipse.org/modeling/mdt/papyrus/updates/releases/oxygen/" papyrus-oxygen {
+location "http://download.eclipse.org/modeling/mdt/papyrus/updates/nightly/photon/" papyrus-photon {
  org.eclipse.papyrus.sdk.feature.feature.group lazy
- org.eclipse.papyrus.toolsmiths.feature.feature.group lazy	
+ org.eclipse.papyrus.views.properties.model.xwt lazy
+ org.eclipse.papyrus.toolsmiths.feature.feature.group lazy
 }
+

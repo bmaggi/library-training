@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.eclipse.papyrus.training.library.feature_3.0.0.qualifier.jar" id="org.eclipse.papyrus.training.library.feature" version="3.0.0.qualifier">
+   <feature url="features/org.eclipse.papyrus.training.library.feature_4.0.0.qualifier.jar" id="org.eclipse.papyrus.training.library.feature" version="4.0.0.qualifier">
       <category name="org.eclipse.papyrus.training.category"/>
    </feature>
-   <feature url="features/org.eclipse.papyrus.training.library.feature.source_3.0.0.qualifier.jar" id="org.eclipse.papyrus.training.library.feature.source" version="3.0.0.qualifier">
+   <feature url="features/org.eclipse.papyrus.training.library.feature.source_4.0.0.qualifier.jar" id="org.eclipse.papyrus.training.library.feature.source" version="4.0.0.qualifier">
       <category name="org.eclipse.papyrus.training.category"/>
    </feature>
    <category-def name="org.eclipse.papyrus.training.library.category" label="Papyrus Training Library">

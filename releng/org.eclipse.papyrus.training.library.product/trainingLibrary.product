@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Papyrus Training Library" uid="org.eclipse.papyrus.training.library.product" id="org.eclipse.papyrus.training.library.rcp.product" application="org.eclipse.ui.ide.workbench" version="3.0.0.qualifier" useFeatures="true" includeLaunchers="true">
+<product name="Papyrus Training Library" uid="org.eclipse.papyrus.training.library.product" id="org.eclipse.papyrus.training.library.rcp.product" application="org.eclipse.ui.ide.workbench" version="4.0.0.qualifier" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/org.eclipse.papyrus.training.library.rcp/icons/papyrus_lg.png"/>
@@ -136,7 +136,7 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
    </configurations>
 
    <repositories>
-      <repository location="http://download.eclipse.org/modeling/mdt/papyrus/updates/releases/oxygen" enabled="true" />
+      <repository location="http://download.eclipse.org/modeling/mdt/papyrus/updates/releases/photon" enabled="true" />
    </repositories>
 
    <preferencesInfo>

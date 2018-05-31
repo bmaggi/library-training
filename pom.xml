@@ -4,7 +4,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.eclipse.papyrus.training</groupId>
 	<artifactId>org.eclipse.papyrus.training</artifactId>
-	<version>3.0.0-SNAPSHOT</version>
+	<version>4.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>	
 	<modules>
 		<module>org.eclipse.papyrus.training.library.profile</module>
@@ -15,6 +15,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 		<module>org.eclipse.papyrus.training.library.properties</module>
 		<module>org.eclipse.papyrus.training.library.architecture</module>
 		<module>org.eclipse.papyrus.training.library.validation</module>
+		<module>org.eclipse.papyrus.training.library.hyperlink</module>
+		<module>org.eclipse.papyrus.training.library.navigation</module>
 
 		<!-- Releng not used as material training -->
 		<module>org.eclipse.papyrus.training.library.tests</module>
@@ -293,7 +295,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 						<artifact>
 							<groupId>org.eclipse.papyrus.training</groupId>
 							<artifactId>org.eclipse.papyrus.training.library.targetplatform</artifactId>
-							<version>3.0.0-SNAPSHOT</version>
+							<version>4.0.0-SNAPSHOT</version>
 						</artifact>
 					</target>
 				</configuration>

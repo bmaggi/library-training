@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.eclipse.papyrus.training</groupId>
 		<artifactId>org.eclipse.papyrus.training.library.releng</artifactId>
-		<version>3.0.0-SNAPSHOT</version>
+		<version>4.0.0-SNAPSHOT</version>
 	</parent>
 	<artifactId>org.eclipse.papyrus.training.library.rcp</artifactId>
 	<packaging>eclipse-plugin</packaging>

@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.papyrus.training.library.dependency.feature"
       label="%featureName"
-      version="3.0.0.qualifier"
+      version="4.0.0.qualifier"
       provider-name="%providerName">
 
    <description url="https://eclipse.org/papyrus/">

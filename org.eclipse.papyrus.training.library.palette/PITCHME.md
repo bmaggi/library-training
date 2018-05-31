@@ -8,8 +8,6 @@
 
 * Palette framework
   * Basic concepts
-  * New Editor will be available in Eclipse-Oxygen
-    * https://bugs.eclipse.org/bugs/show_bug.cgi?id=482669
 
  * Demo
 

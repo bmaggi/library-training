@@ -5,7 +5,7 @@ Export-Package: org.eclipse.papyrus.training.library.newchild,
  org.eclipse.papyrus.training.library.newchild.elementtypes.matcher,
  org.eclipse.papyrus.training.library.newchild.internal
 Bundle-Name: %Bundle-Name
-Bundle-Version: 3.0.0.qualifier
+Bundle-Version: 4.0.0.qualifier
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.eclipse.gmf.runtime.emf.type.core;bundle-version="1.9.0",

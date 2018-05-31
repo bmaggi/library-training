@@ -17,7 +17,7 @@ Export-Package: org.eclipse.papyrus.training.library.profile,
  org.eclipse.papyrus.training.library.profile.library,
  org.eclipse.papyrus.training.library.profile.library.impl
 Bundle-Name: %Bundle-Name
-Bundle-Version: 3.0.0.qualifier
+Bundle-Version: 4.0.0.qualifier
 Bundle-ClassPath: .
 Bundle-Localization: plugin
 Bundle-Activator: org.eclipse.papyrus.training.library.profile.Activator

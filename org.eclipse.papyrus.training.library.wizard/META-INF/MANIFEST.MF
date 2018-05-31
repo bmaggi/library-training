@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: org.eclipse.papyrus.training.library.wizard;singleton:=true
-Bundle-Version: 3.0.0.qualifier
+Bundle-Version: 4.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Require-Bundle: org.eclipse.papyrus.uml.diagram.wizards,
  org.eclipse.papyrus.infra.core,
@@ -11,7 +11,7 @@ Require-Bundle: org.eclipse.papyrus.uml.diagram.wizards,
  org.eclipse.papyrus.training.library.profile,
  org.eclipse.uml2;bundle-version="5.0.0";resolution:=optional,
  org.eclipse.uml2.uml.resources;bundle-version="5.2.0",
- org.eclipse.papyrus.training.library.architecture;bundle-version="3.0.0"
+ org.eclipse.papyrus.training.library.architecture
 Export-Package: org.eclipse.papyrus.training.library.wizard
 Bundle-Vendor: %Bundle-Vendor
 Bundle-Localization: plugin
