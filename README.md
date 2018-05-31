@@ -4,16 +4,15 @@
 [![Build Status](https://travis-ci.org/bmaggi/library-training.svg?branch=master)](https://travis-ci.org/bmaggi/library-training)
 [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=org.eclipse.papyrus.training%3Aorg.eclipse.papyrus.training&metric=alert_status)](https://sonarcloud.io/dashboard?id=org.eclipse.papyrus.training%3Aorg.eclipse.papyrus.training) 
 
-:warning: 
-  - the training in currently moving to Papyrus photon, there are several known bugs:
+:warning:  the training in currently moving to Papyrus photon, there are several known bugs: :warning:
      - svg aren't displayed
 	 - batik 1.9.1 is logging  dispose, fill in the console ...
 	 - opening a model without the correct installation will lead to a NullPointerException ....
      - some icons are lost in the new project/model wizard
 	 
 :warning: 
-The official version of the training material is available in [Papyrus repository](https://git.eclipse.org/c/papyrus/org.eclipse.papyrus.git/tree/examples/library?h=streams/3.0-maintenance)
- - Built against [Eclipse Oxygen](https://www.eclipse.org/oxygen/) (This example is only tested against Eclipse Oxygen release train)
+The official version of the training material is available in [Papyrus repository](https://git.eclipse.org/c/papyrus/org.eclipse.papyrus.git/tree/examples/library)
+ - Built against [Eclipse Photon](https://www.eclipse.org/photon/) (This example is only tested against Eclipse Photon release train)
  - This is material used for training and example, it shouldn't be taken as an architectural reference:
 	- profile plugin shouldn't have any dependencies to Papyrus
 	- tests should be done using one fragment for each plugin
