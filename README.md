@@ -11,8 +11,8 @@
   - some icons are lost in the new project/model wizard
 	 
 :warning: 
-The official version of the training material is available in [Papyrus repository](https://git.eclipse.org/c/papyrus/org.eclipse.papyrus.git/tree/examples/library)
- - Built against [Eclipse Photon](https://www.eclipse.org/photon/) (This example is only tested against Eclipse Photon release train)
+The official version of the training material is available in [Papyrus repository](https://git.eclipse.org/c/papyrus/org.eclipse.papyrus.git)
+ - Built against [Eclipse Photon](https://projects.eclipse.org/releases/photon) (This example is only tested against Eclipse Photon release train)
  - This is material used for training and example, it shouldn't be taken as an architectural reference:
 	- profile plugin shouldn't have any dependencies to Papyrus
 	- tests should be done using one fragment for each plugin
