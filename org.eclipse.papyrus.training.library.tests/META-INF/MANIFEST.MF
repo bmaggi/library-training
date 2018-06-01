@@ -5,21 +5,14 @@ Export-Package: org.eclipse.papyrus.training.library.tests,
  org.eclipse.papyrus.training.library.tests.palette
 Bundle-Name: %Bundle-Name
 Bundle-Version: 4.0.0.qualifier
-Require-Bundle: org.eclipse.ui,
+Require-Bundle: org.junit;bundle-version="4.12.0",
+ org.eclipse.ui,
  org.eclipse.core.runtime,
- org.junit;bundle-version="4.12.0",
- org.eclipse.papyrus.training.library.newchild,
- org.eclipse.papyrus.training.library.css,
- org.eclipse.papyrus.training.library.profile,
- org.eclipse.papyrus.training.library.properties,
- org.eclipse.papyrus.training.library.palette,
- org.eclipse.papyrus.training.library.wizard,
- org.eclipse.papyrus.training.library.architecture,
  org.eclipse.papyrus.infra.types.core,
  org.eclipse.papyrus.infra.newchild,
  org.eclipse.papyrus.infra.services.edit,
+ org.eclipse.papyrus.infra.gmfdiag.paletteconfiguration,
  org.eclipse.papyrus.uml.service.types,
- org.eclipse.papyrus.infra.emf.types,
  org.eclipse.papyrus.uml.diagram.clazz,
  org.eclipse.papyrus.uml.diagram.communication,
  org.eclipse.papyrus.uml.diagram.component,
@@ -30,7 +23,15 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.papyrus.uml.diagram.sequence,
  org.eclipse.papyrus.uml.diagram.statemachine,
  org.eclipse.papyrus.uml.diagram.timing,
- org.eclipse.papyrus.uml.diagram.usecase
+ org.eclipse.papyrus.uml.diagram.usecase,
+ org.eclipse.papyrus.infra.emf.types,
+ org.eclipse.papyrus.training.library.newchild,
+ org.eclipse.papyrus.training.library.css,
+ org.eclipse.papyrus.training.library.profile,
+ org.eclipse.papyrus.training.library.properties,
+ org.eclipse.papyrus.training.library.palette,
+ org.eclipse.papyrus.training.library.wizard,
+ org.eclipse.papyrus.training.library.architecture
 Bundle-ManifestVersion: 2
 Bundle-Activator: org.eclipse.papyrus.training.library.tests.Activator
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
