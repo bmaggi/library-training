@@ -18,7 +18,7 @@ before_script:
 
 script:
   # JaCoCo is used to have code coverage, the agent has to be activated
-  - awesome_bot *.md       --allow-dupe --allow-redirect --white-list $wl
+  - awesome_bot **.md       --allow-dupe --allow-redirect --white-list $wl
   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
   
 cache:
