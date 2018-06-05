@@ -17,6 +17,7 @@ import org.osgi.framework.BundleContext;
 
 /**
  * The activator class controls the plug-in life cycle
+ * (use <plugin id="..." autoStart="true" startLevel="0"/> to force the loading in product)
  */
 public class Activator extends AbstractUIPlugin {
 
@@ -27,20 +28,20 @@ public class Activator extends AbstractUIPlugin {
 	 * (non-Javadoc)
 	 * @see org.eclipse.ui.plugin.AbstractUIPlugin#start(org.osgi.framework.BundleContext)
 	 */
-    @Override
+        @Override
 	public void start(BundleContext context) throws Exception {
-		super.start(context);
-		HideNewChildEdgeUtil.clean();
+	    super.start(context);
+	    HideNewChildEdgeUtil.clean();
 	}
 
 	/*
 	 * (non-Javadoc)
 	 * @see org.eclipse.ui.plugin.AbstractUIPlugin#stop(org.osgi.framework.BundleContext)
 	 */
-    @Override
+        @Override
 	public void stop(BundleContext context) throws Exception {
-		// TODO restore the HideNewChildEdgeUtil
-    	super.stop(context);
+	     // TODO restore the HideNewChildEdgeUtil
+    	     super.stop(context);
 	}
 
 }
