@@ -454,9 +454,9 @@
       <element xsi:nil="true"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EdCRgldJEeelPJ74yewPrg" x="927" y="279"/>
     </children>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_X3EzsVOeEeSxY9vSiiRRZQ" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_X3EzsVOeEeSxY9vSiiRRZQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_X3EzslOeEeSxY9vSiiRRZQ"/>
-    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_ERrWEFdJEeelPJ74yewPrg" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_ERrWEFdJEeelPJ74yewPrg" diagramKindId="org.eclipse.papyrus.training.diagram">
       <owner xmi:type="uml:Model" href="LibraryTemplateModel.uml#_RCL_gFOeEeSxY9vSiiRRZQ"/>
     </styles>
     <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_MyacUGwcEeSNesmHU6-x5A" name="css_stylesheets"/>
@@ -882,9 +882,9 @@
       <element xsi:nil="true"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Kwpu9X5HEeWbGZZGkeMRXw" x="200"/>
     </children>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_KiXbUX5HEeWbGZZGkeMRXw" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_KiXbUX5HEeWbGZZGkeMRXw" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_KiXbUn5HEeWbGZZGkeMRXw"/>
-    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_FcLaUFdJEeelPJ74yewPrg" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_FcLaUFdJEeelPJ74yewPrg" diagramKindId="org.eclipse.papyrus.training.diagram">
       <owner xmi:type="uml:Model" href="LibraryTemplateModel.uml#_RCL_gFOeEeSxY9vSiiRRZQ"/>
     </styles>
     <element xmi:type="uml:Model" href="LibraryTemplateModel.uml#_RCL_gFOeEeSxY9vSiiRRZQ"/>
