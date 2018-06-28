@@ -38,7 +38,7 @@ location "http://download.eclipse.org/releases/photon/" eclipse-photon {
  org.eclipse.xwt.feature.feature.group lazy
  org.eclipse.egit.feature.group lazy
 }
-location "http://download.eclipse.org/modeling/mdt/papyrus/updates/nightly/photon/" papyrus-photon {
+location "http://download.eclipse.org/modeling/mdt/papyrus/updates/releases/photon" papyrus-photon {
  org.eclipse.papyrus.sdk.feature.feature.group lazy
  org.eclipse.papyrus.views.properties.model.xwt lazy
  org.eclipse.papyrus.toolsmiths.feature.feature.group lazy
