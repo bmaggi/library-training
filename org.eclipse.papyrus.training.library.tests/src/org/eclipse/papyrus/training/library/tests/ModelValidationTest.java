@@ -42,12 +42,12 @@ public class ModelValidationTest {
 	@Parameters
 	public static Collection<Object[]> data() {
 		return Arrays.asList(new Object[][] { 
-			//{"org.eclipse.papyrus.training.library.newchild/resources/extLibrary.elementtypesconfigurations"}, FIXME 2 warnings due to Periodical weekly with UML Literal		
+			//{"org.eclipse.papyrus.training.library.newchild/resources/extLibrary.elementtypesconfigurations"}, //FIXME 2 warnings due to Periodical weekly with UML Literal		
 			{"org.eclipse.papyrus.training.library.newchild/resources/newChild.creationmenumodel"},
-			// {"org.eclipse.papyrus.training.library.properties/resources/extlibrary/extlibrary.ctx"},// FIXME missing org.eclipse.papyrus.customization.properties.model.xwt;bundle-version="[1.1.0,2.0.0)" dependency in oxygen
+			{"org.eclipse.papyrus.training.library.properties/resources/extlibrary/extlibrary.ctx"},
 			{"org.eclipse.papyrus.training.library.palette/resources/library.paletteconfiguration"},
 			{"org.eclipse.papyrus.training.library.palette/resources/extlibrarydi.elementtypesconfigurations"},
-			// {"org.eclipse.papyrus.training.library.architecture/resources/book.nattableconfiguration"}, FIXME also invalid in SysML 1.4
+			{"org.eclipse.papyrus.training.library.architecture/resources/book.nattableconfiguration"},
 			{"org.eclipse.papyrus.training.library.architecture/resources/library.architecture"},
 		});
 	}
