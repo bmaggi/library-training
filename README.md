@@ -4,12 +4,6 @@
 [![Build Status](https://travis-ci.org/bmaggi/library-training.svg?branch=master)](https://travis-ci.org/bmaggi/library-training)
 [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=org.eclipse.papyrus.training%3Aorg.eclipse.papyrus.training&metric=alert_status)](https://sonarcloud.io/dashboard?id=org.eclipse.papyrus.training%3Aorg.eclipse.papyrus.training) 
 
-:warning:  the training in currently moving to Papyrus photon, there are several known bugs: :warning:
- - svg aren't displayed
-  - batik 1.9.1 is logging  dispose, fill... in the console
-  - opening a diagram without the correct installation will lead to a NullPointerException ....
-  - some icons are lost in the new project/model wizard
-	 
 :warning: 
 The official version of the training material is available in [Papyrus repository](https://git.eclipse.org/c/papyrus/org.eclipse.papyrus.git)
  - Built against [Eclipse Photon](https://projects.eclipse.org/releases/photon) (This example is only tested against Eclipse Photon release train)
